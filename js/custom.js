@@ -12,6 +12,36 @@ let player2CurrentScore = 0;
 let winningScore = 5;
 let gameOver = false;
 
+
+function PlayerWinner( currentBtnScore, winningValue ){
+    if( currentBtnScore === winningValue ){
+        if( player1CurrentScore === winningValue ){
+            player1score.classList.add("winner"); 
+             
+        }else{
+            player2score.classList.add("winner"); 
+        }
+
+        gameOver = true;
+        player1Btn.setAttribute('disabled', 'disabled');
+        player2Btn.setAttribute('disabled', 'disabled');
+    }
+}
+
+function myRset(){
+    player1CurrentScore = 0;
+    player2CurrentScore = 0;
+    gameOver = false;
+    player1score.textContent = 0;
+    player2score.textContent = 0;
+    
+    player1score.classList.remove("winner"); 
+    player2score.classList.remove("winner");
+    player1Btn.removeAttribute('disabled');
+    player2Btn.removeAttribute('disabled');
+}
+
+
 player1Btn.addEventListener('click', ()=>{
     // change data
 
@@ -38,27 +68,6 @@ player2Btn.addEventListener('click', ()=>{
     }
 });
 
-
-function PlayerWinner( currentBtnScore, winningValue ){
-    if( currentBtnScore === winningValue ){
-        gameOver = true;
-        player1Btn.setAttribute('disabled', 'disabled');
-        player2Btn.setAttribute('disabled', 'disabled');
-    }
-}
-
-reset.addEventListener('click', myRset);
-function myRset(){
-    player1CurrentScore = 0;
-    player2CurrentScore = 0;
-    gameOver = false;
-    player1score.textContent = 0;
-    player2score.textContent = 0;
-    player1Btn.removeAttribute('disabled');
-    player2Btn.removeAttribute('disabled');
-}
-
-
 inputScore.addEventListener('click', () => {
     console.log( typeof(inputScore.value));
     winningScoreDisplay.textContent = Number(inputScore.value);
@@ -66,3 +75,5 @@ inputScore.addEventListener('click', () => {
     inputScore.value = '';
     myRset();
 });
+
+reset.addEventListener('click', myRset);

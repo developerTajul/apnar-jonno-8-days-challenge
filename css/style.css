@@ -26,6 +26,10 @@
 }
 
 
+.winner{
+    color: green;
+}
+
 /**
 * footer-area
 */
@@ -37,3 +41,5 @@
     color: #fff;
     margin: 0;
 }
+
+
