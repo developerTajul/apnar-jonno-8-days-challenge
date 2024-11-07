@@ -1,0 +1,40 @@
+.video-popup-area {
+    @include sm {
+        padding: 80px 0 80px 0;
+    }
+
+    &-img {
+        width: 218px;
+        height: 224px;
+        margin: 0 auto;
+
+        @include sm {
+            width: 118px;
+            height: 124px;
+        }
+    }
+
+    &-text {
+        top: 50%;
+        left: 49%;
+        transform: translateY(-50%);
+
+        @include md {
+            left: 48%;
+        }
+
+        @include sm {
+            left: 47%;
+            top: 48%;
+        }
+
+        a {
+            color: #fff;
+            font-family: Gilroy-Regular;
+
+            @include sm {
+                font-size: 18px;
+            }
+        }
+    }
+}

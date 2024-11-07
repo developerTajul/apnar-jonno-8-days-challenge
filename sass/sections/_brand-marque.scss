@@ -1,0 +1,37 @@
+.brand-marque-area {
+    &.brand-marque-area-primary {
+        margin-bottom: -39px;
+        overflow: hidden;
+        position: relative;
+        z-index: 11;
+    }
+
+    & .brand-marque-wrapper {
+        &.first-text-marque {}
+
+        & .single-img-marque {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 430.75px;
+            height: 100px;
+            background: #1D1D1D;
+            margin: 0 20px;
+
+            @include lg {
+                width: 350px;
+                height: 80px;
+            }
+
+            @include md {
+                width: 300px;
+                height: 80px;
+            }
+
+            @include sm {
+                width: 200px;
+                height: 70px;
+            }
+        }
+    }
+}

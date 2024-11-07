@@ -1,0 +1,283 @@
+.pricing-area {
+  @include xl {
+    padding-bottom: 105px;
+    padding-top: 105px;
+  }
+
+  @include lg {
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+
+  @include md {
+    padding-bottom: 55px;
+    padding-top: 55px;
+  }
+
+  @include sm {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  &-bg-img {
+    top: -153px;
+
+    @include rmaxwd(991) {
+      top: 0;
+    }
+  }
+
+  &-card {
+    &:hover {
+      .pricing-area-card-wrapper {
+        @include md {
+          margin-top: 50px;
+        }
+
+        @include sm {
+          margin-top: 50px;
+        }
+      }
+
+      .pricing-area-card-icon {
+        span {
+          &::before {
+            color: $primary-color;
+          }
+        }
+      }
+
+      .pricing-area-cards-btn {
+        opacity: 1;
+        visibility: visible;
+        max-height: 100%;
+        margin-top: 10px;
+        @include transition;
+        transform: scaleY(1);
+      }
+
+      .pricing-area-card-wrapper {
+        &::before {
+          opacity: 1;
+          visibility: visible;
+          top: -3px;
+        }
+      }
+    }
+  }
+
+  &-card-wrapper {
+    padding: 74px 60px 52px 60px;
+    border-radius: 10px;
+    border: 1px solid #292929;
+    transition: all 0.3s ease 0s;
+    background: #1a1717;
+
+    @include xl {
+      padding: 40px 27px 40px 27px;
+    }
+
+    @include lg {
+      padding: 40px 17px 40px 17px;
+    }
+
+    @include md {
+      margin-top: 30px;
+      padding: 20px 60px 20px 100px;
+    }
+
+    @include sm {
+      margin-top: 30px;
+      padding: 20px 60px 20px 80px;
+    }
+
+    @include rmaxwd(480) {
+      padding: 15px 15px 15px 15px;
+    }
+
+    &.card-wrapper-visible {
+      &::before {
+        visibility: visible;
+        opacity: 1;
+        transform: scaleY(1);
+        top: -3px;
+        @include transition;
+      }
+    }
+
+    &.hidden-before::before {
+      visibility: hidden;
+      opacity: 0;
+      transform: scaleY(0);
+      top: -30px;
+      @include transition;
+    }
+
+    &::before {
+      content: 'Popular Package';
+      border-radius: 54px;
+      background: $primary-color;
+      padding: 5px 20px;
+      color: $black;
+      font-size: 14px;
+      display: inline-block;
+      left: 134px;
+      top: -30px;
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      margin-top: -16px;
+      @include transition;
+
+      @include xl {
+        left: 104px;
+      }
+
+      @include lg {
+        left: 74px;
+      }
+
+      @include md {
+        left: 278px;
+      }
+
+      @include sm {
+        left: 180px;
+      }
+
+      @include rmaxwd(480) {
+        left: 90px;
+      }
+    }
+  }
+
+  &-card-icon {
+    @include lg {
+      margin-bottom: 20px;
+    }
+
+    @include rmaxwd(480) {
+      margin-bottom: 15px;
+    }
+
+    span {
+      display: inline-block;
+      &::before {
+        color: $white;
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 900;
+        @include transition;
+      }
+    }
+  }
+
+  &-card-text {
+    @include lg {
+      padding-bottom: 22px;
+    }
+
+    @include rmaxwd(480) {
+      padding-bottom: 15px;
+    }
+
+    h5 {
+      color: #fff;
+      margin-bottom: 41px;
+
+      @include lg {
+        margin-bottom: 20px;
+      }
+
+      @include rmaxwd(480) {
+        margin-bottom: 20px;
+      }
+    }
+
+    h3 {
+      span {
+        color: #fff;
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &-cards-list {
+    ul {
+      li {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        @include lg {
+          font-size: 14px;
+        }
+
+        &.checkmark {
+          &::before {
+            content: '\e910';
+            font-size: 20px;
+            color: $primary-color;
+            font-family: 'icomoon';
+            margin: 0 20px 0 0;
+          }
+        }
+
+        &.closemark {
+          &::before {
+            content: '\e90c';
+            font-size: 20px;
+            color: $primary-color;
+            font-family: 'icomoon';
+            margin: 0 20px 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  &-cards-btn {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    transform: scaleY(0);
+    @include transition;
+
+    a {
+      font-size: 14px;
+      padding: 10px 20px;
+      border-radius: 65px;
+      border: 1px solid #3c3c3c;
+      display: inline-block;
+    }
+
+    img {
+      padding-left: 15px;
+    }
+  }
+
+  .visibles-card {
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    max-height: auto;
+    @include transition;
+
+    a {
+      font-size: 14px;
+      padding: 10px 20px;
+      border-radius: 65px;
+      border: 1px solid #3c3c3c;
+      display: inline-block;
+    }
+
+    img {
+      padding-left: 15px;
+    }
+  }
+}

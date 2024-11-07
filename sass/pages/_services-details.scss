@@ -1,0 +1,263 @@
+.service-details-page{
+    .service-details-wcu{
+        &-title {
+            width: 416px;
+            height: 383px;
+            background: $primary-color;
+            padding: 87px 38px 52px 42px;
+            border-radius: 10px;
+            margin-top: -274px;
+            margin-left: 282px;
+            position: relative;
+            @include xl{
+                width: 353px;
+                height: 383px;
+            }
+            @include lg{
+                margin-top: -151px;
+                margin-left: 205px;
+                width: 330px;
+                height: 290px;
+                padding: 47px 38px 52px 42px;
+            }
+            @include sm{
+                margin-top: -218px;
+                margin-left: 269px;
+                width: 250px;
+                height: 260px;
+                padding: 62px 31px 42px 27px;
+            }
+            @include rmaxwd (576){
+                margin-top: -65px;
+                margin-left: 197px;
+                width: 130px;
+                height: 130px;
+                padding: 10px 10px 10px 10px;
+            }
+            a{
+                span{
+                    margin-bottom: 17px;
+                    display: block;
+                    &::before{
+                        color: $black;
+                        font-size: 35px;
+                        width: 87px;
+                        height: 87px;
+                        background: $white;
+                        text-align: center;
+                        line-height: 87px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        transition: all 500ms ease;
+                        @include lg{
+                            width: 70px;
+                            height: 70px;
+                            line-height: 70px;
+                            font-size: 25px;
+                        }
+                        @include sm{
+                            width: 35px;
+                            height: 35px;
+                            line-height: 35px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                &:hover{
+                    span{
+                        &::before{
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+            h3{
+                color: $black;
+                @include xl{
+                    font-size: 30px;
+                }
+                @include lg{
+                    font-size: 28px;
+                }
+                @include sm{
+                    font-size: 22px;
+                }
+                @include rmaxwd (576){
+                    font-size: 16px;
+                }
+                span{
+                    font-family: Gilroy-Regular; 
+                }
+            }
+        }
+        .wcu-area-card-info-secondary{
+            .wcu-area-info-card-wrapper{
+                margin-bottom: 60px;
+            }
+        }
+    }
+    .our-work-step{
+        &-card-wrapper{
+            width: 306px;
+            height: 306px;
+            border-radius: 306px;
+            background: #1A1717;
+            box-shadow: 5px 5px 4px 0px #EDBC5A;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            @include xl{
+                width: 250px;
+                height: 250px;
+            }
+            @include lg{
+                width: 220px;
+                height: 220px;
+            }
+            @include md{
+                margin-bottom: 30px;
+            }
+            @include sm{
+                margin-bottom: 30px;
+                margin:20px auto;
+            }
+        }
+        &-card-title{
+            span{
+                font-family: Gilroy-Light;
+                margin-bottom: 12px;
+                display: block;
+                @include lg{
+                    margin-bottom: 8px;
+                }
+            }
+            h4{
+                margin-bottom: 24px;
+                @include lg{
+                    margin-bottom: 16px;
+                }
+            }
+            p{
+                font-size: 18px;
+                padding: 0 39px;
+                display: block;
+                @include lg{
+                    font-size: 16px;
+                    padding: 0 16px;
+                }
+            }
+        }
+    }
+    .wcu-area{
+        .wuc-area-side-img {
+            margin-top: -85px;
+            @include lg{
+                margin-top: 0;
+            }
+            @include md{
+                margin-top: 0;
+            }
+            img{
+                @include rmaxwd(1199){
+                    display: none;
+                }
+            }
+        }
+    }
+    .wuc-accordion {
+        @include padding-bottom-140;
+        .section-specing {
+            padding: 53px 97px 31px 105px;
+            border-radius: 20px;
+            background: #1A1717;
+            @include xl{
+                padding: 50px 37px 31px 46px;
+            }
+            @include lg{
+                padding: 27px 16px 21px 20px;
+            }
+            @include md{
+                padding: 10px 10px 10px 10px;
+            }
+            @include sm{
+                padding: 30px 10px 30px 10px;
+            }
+        }
+        &-bg-img {
+            right: 0;
+            bottom: 0;
+        }
+        &-wrapper {
+            margin-bottom: 25px;
+            @include rmaxwd (992){
+                margin-right: 0;
+            }
+            .wuc-accordion-pra {
+                p {
+                    font-size: 18px;
+                    margin-top: 30px;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: visibility 0.3s, opacity 0.3s ease-in-out;
+                    max-height: 0;
+                    @include sm{
+                        font-size: 15px;
+                    }
+                }
+                &.active p {
+                    visibility: visible;
+                    opacity: 1;
+                    max-height: 100%;
+                }
+            }
+        }
+        &-title {
+            position: relative;
+            cursor: pointer;
+            span {
+                &::before {
+                    font-size: 25px;
+                    padding: 15px;
+                }
+                &.bottom-arrow {
+                    display: none;
+                }
+                &.active + .bottom-arrow {
+                    display: inline-block;
+                }
+                &.active {
+                    display: none;
+                }
+            }
+            h4 {
+                font-family: Gilroy-SemiBold;
+                font-size: 18px;
+                margin-bottom: 30px;
+                @include sm{
+                    font-size: 16px;
+                }
+            }
+            &::after {
+                content: "";
+                background-color: rgba(255, 255, 255, 0.2);
+                width: 100%;
+                height: 1px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+        &-image-wrapper{
+            @include rmaxwd (992){
+                display: none;
+            }
+        }
+    }    
+    
+}
+
+
+
+
