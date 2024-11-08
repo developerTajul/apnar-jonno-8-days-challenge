@@ -1,0 +1,30 @@
+.art-gallery {
+  &-inner {
+    gap: 90px;
+  }
+  &-image {
+    width: 545px;
+    height: 676px;
+    background-color: azure;
+  }
+  &-border {
+    width: 1px;
+    height: 301px;
+    background-color: $white;
+    margin-left: 15px;
+  }
+  &-mouse-pointer {
+    width: 30px;
+    height: 30px;
+    background-color: $gray-100;
+  }
+  &-content-inner {
+    h5 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    h6 {
+      color: $secondary-color;
+    }
+  }
+}
