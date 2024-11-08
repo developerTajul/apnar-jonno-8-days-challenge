@@ -1,57 +1,78 @@
-.section-title{
-    @include md{
-        margin-bottom: 30px;
+.section-title {
+  @include md {
+    margin-bottom: 30px;
+  }
+  @include sm {
+    margin-bottom: 30px;
+  }
+  &.style-1 {
+    & h2 {
+      @include lg {
+        font-size: 35px;
+      }
+      @include md {
+        font-size: 30px;
+      }
+      @include sm {
+        font-size: 25px;
+      }
     }
-    @include sm{
-        margin-bottom: 30px;
+    span {
+      color: #edbc5a;
+      font-weight: 300;
+      letter-spacing: 3.52px;
+      text-transform: uppercase;
+      display: block;
+      @include sm {
+        font-size: 16px;
+      }
     }
-    &.style-1{
-        & h2{
-            @include lg{
-                font-size: 35px;
-            }
-            @include md{
-                font-size: 30px;
-            }
-            @include sm{
-                font-size: 25px;
-            }
-        }
-        span{
-            color:#EDBC5A;
-            font-weight: 300;
-            letter-spacing: 3.52px;
-            text-transform: uppercase;
-            display: block;
-            @include sm{
-                font-size: 16px;
-            }
-        }
+  }
+  &.style-2 {
+    text-align: center;
+    & h2 {
+      @include lg {
+        font-size: 35px;
+      }
+      @include md {
+        font-size: 30px;
+      }
+      @include sm {
+        font-size: 25px;
+      }
     }
-    &.style-2{
-        text-align: center;
-        & h2{
-            @include lg{
-                font-size: 35px;
-            }
-            @include md{
-                font-size: 30px;
-            }
-            @include sm{
-                font-size: 25px;
-            }
-        }
-        span{
-            color:#EDBC5A;
-            font-weight: 300;
-            letter-spacing: 3.52px;
-            text-transform: uppercase;
-            display: block;
-            @include sm{
-                font-size: 16px;
-            }
-        }
+    span {
+      color: #edbc5a;
+      font-weight: 300;
+      letter-spacing: 3.52px;
+      text-transform: uppercase;
+      display: block;
+      @include sm {
+        font-size: 16px;
+      }
     }
+  }
+  &-btn {
+    width: 259px;
+    height: 259px;
+    background-color: $white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 10%;
+    top: 124px;
+    z-index: 1;
+    a {
+      color: $black;
+      font-family: $heading-font;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 34.66px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
 }
-
-
