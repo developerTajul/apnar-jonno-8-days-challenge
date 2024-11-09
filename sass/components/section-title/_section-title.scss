@@ -7,6 +7,12 @@
   }
   &.style-1 {
     & h2 {
+      font-family: $heading-font;
+      font-size: 75px;
+      font-weight: 400;
+      line-height: 92.85px;
+      text-align: left;
+
       @include lg {
         font-size: 35px;
       }
@@ -61,7 +67,7 @@
     align-items: center;
     justify-content: center;
     right: 10%;
-    top: 124px;
+    top: 130px;
     z-index: 1;
     a {
       color: $black;

@@ -13076,6 +13076,13 @@ html {
     margin-bottom: 30px;
   }
 }
+.section-title.style-1 h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 92.85px;
+  text-align: left;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title.style-1 h2 {
     font-size: 35px;
@@ -13142,7 +13149,7 @@ html {
   align-items: center;
   justify-content: center;
   right: 10%;
-  top: 124px;
+  top: 130px;
   z-index: 1;
 }
 .section-title-btn a {
@@ -16054,7 +16061,7 @@ html {
   }
 }
 .portfolio-area-btnn a {
-  color: #EDBC5A !important;
+  color: #edbc5a !important;
   font-family: Gilroy-Medium;
   font-size: 28px;
   font-style: normal;
@@ -16121,13 +16128,13 @@ html {
 .portfolio-area-awards-img {
   width: 100px;
   height: 100px;
-  background: #EDBC5A;
+  background: #edbc5a;
   border-radius: 50%;
   line-height: 99px;
   text-align: center;
 }
 .portfolio-area-awards-img.style-2 {
-  background: #B0B0B0;
+  background: #b0b0b0;
 }
 .portfolio-area-awards-img.style-3 {
   background: #ffffff;
@@ -16248,6 +16255,36 @@ html {
   .portfolio-area-slider-wrapper {
     margin-left: 0;
   }
+}
+.portfolio-area.style-1 .portfolio-area-image-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 65px;
+}
+.portfolio-area.style-1 .portfolio-area-image-wrapper .portfolio-area-image-one {
+  width: 875px;
+  height: 971px;
+  background-color: gray;
+}
+.portfolio-area.style-1 .portfolio-area-image-wrapper .portfolio-area-image-two {
+  width: 948px;
+  height: 601px;
+  background-color: gray;
+  margin-top: 165px;
+  margin-left: 15px;
+}
+.portfolio-area.style-1 .portfolio-area-image-wrapper .portfolio-area-image-three {
+  width: 1015px;
+  height: 710px;
+  background-color: gray;
+  margin-top: 75px;
+}
+.portfolio-area.style-1 .portfolio-area-image-wrapper .portfolio-area-image-four {
+  width: 823px;
+  height: 956px;
+  background-color: gray;
+  margin-top: -170px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
