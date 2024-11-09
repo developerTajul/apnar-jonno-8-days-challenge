@@ -14831,6 +14831,44 @@ html {
     display: none;
   }
 }
+.wuc-accordion.style-2 .wuc-accordion-title h4 {
+  margin-bottom: 0;
+  font-family: Gilroy-Bold;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.24px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.wuc-accordion.style-2 .wuc-accordion-title:after {
+  display: none;
+}
+.wuc-accordion.style-2 .wuc-accordion-title span {
+  font-family: "Rubik", sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.3em;
+}
+.wuc-accordion.style-2 .wuc-accordion-title span:before {
+  display: none;
+}
+.wuc-accordion.style-2 .wuc-accordion-title span.right-arrow.active {
+  display: none;
+}
+.wuc-accordion.style-2 .wuc-accordion-wrapper {
+  margin-bottom: 30px;
+}
+.wuc-accordion.style-2 .wuc-accordion-pra.active {
+  border-bottom: 1px solid #ffffff;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.accordion-wrapper {
+  border-top: 1px solid #ffffff;
+  padding-top: 60px;
+}
 
 @media (max-width: 1399px) {
   .hero-area {
@@ -15766,6 +15804,10 @@ html {
   }
 }
 
+.gallery-area.style-1.gallery-area-image-1 {
+  width: 1720px;
+  height: 810px;
+}
 .gallery-area-bg-shape {
   top: -22px;
   left: 20px;
@@ -15815,7 +15857,7 @@ html {
 }
 .gallery-area-text h2 {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--Primary, #EDBC5A);
+  -webkit-text-stroke-color: var(--Primary, #edbc5a);
   font-size: 80px;
   letter-spacing: 16px;
   text-transform: uppercase;
@@ -17079,8 +17121,9 @@ html {
   justify-content: center;
   width: 430.75px;
   height: 100px;
-  background: #1D1D1D;
+  background: #1d1d1d;
   margin: 0 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .brand-marque-area .brand-marque-wrapper .single-img-marque {
@@ -17099,6 +17142,9 @@ html {
     width: 200px;
     height: 70px;
   }
+}
+.brand-marque-area .brand-marque-wrapper .single-img-marque:nth-child(even) {
+  margin-top: 50px;
 }
 
 .services-area-card-wrapper {
