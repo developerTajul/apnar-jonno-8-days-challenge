@@ -43,6 +43,32 @@
     // if ($('.testimonial-active-slider').hasClass('slick-initialized')) {
     //   $('.testimonial-active-slider').slick('unslick');
     // }
+    $('.testimonial-slider').slick({
+      slidesToShow: 1,
+      infinite: true,
+      centerMode: true,
+      centerPadding: '0',
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 768,
+        },
+      ],
+    });
+
+    let totalSlides = $('.testimonial-slider').slick('getSlick').slideCount;
+    $('#total-slides').text(totalSlides);
+
+    // Update current slide number after each change
+    $('.testimonial-slider').on(
+      'afterChange',
+      function (event, slick, currentSlide) {
+        $('#current-slide').text(currentSlide + 1);
+      }
+    );
     $('.testimonial-active-slider').slick({
       slidesToShow: 3,
       centerMode: true,

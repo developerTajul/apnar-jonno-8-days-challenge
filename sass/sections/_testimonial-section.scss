@@ -7,22 +7,40 @@
   }
 
   &.style-2 {
-    &::before {
-      content: '';
-      position: absolute;
-      width: 376px;
-      height: 376px;
-      left: 220px;
-      bottom: 0;
-      background: rgba(237, 188, 90, 0.7);
-      -webkit-filter: blur(200px);
-      filter: blur(200px);
-      z-index: -1;
-      -webkit-animation: zoomInOut 5s 2s infinite;
-      animation: zoomInOut 5s 2s infinite;
-
-      @include sm {
-        display: none;
+    .testimonial-slider-wrapper {
+      position: relative;
+      .slide-counter {
+        position: absolute;
+        bottom: 50px;
+        left: 100px;
+      }
+    }
+    .testimonial-area-main-slider {
+      .slick-list {
+        width: 1115px;
+        margin: 0 auto;
+      }
+      .slick-dots {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        li {
+          width: 25%;
+          border-bottom: 1px solid transparent;
+          @include transition;
+          &.slick-active {
+            border-bottom: 1px solid $white;
+            @include transition;
+          }
+          button {
+            width: 100%;
+            font-size: 0;
+          }
+        }
       }
     }
   }
@@ -44,8 +62,8 @@
   }
 
   &-main-slider {
-    margin-top: -130px;
-    margin-right: -12px;
+    // margin-top: -130px;
+    // margin-right: -12px;
 
     @include rmaxwd(1199) {
       margin: 0 0 0 0;
@@ -212,6 +230,42 @@
 
     @include sm {
       margin: 20px 0 0 0;
+    }
+  }
+}
+.testimonial-card {
+  display: flex !important;
+  align-items: center;
+  gap: 108px;
+  max-width: 1120px;
+  .image {
+    width: 112px;
+    height: 203px;
+    background-color: #b0b0b0;
+    flex-shrink: 0;
+  }
+  .slider-pra {
+    p {
+      font-family: $body-font;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 40px;
+      color: $white;
+    }
+  }
+  .slider-info {
+    .slider-info-text {
+      h5 {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 27.24px;
+      }
+      span {
+        font-family: $body-font;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 29px;
+      }
     }
   }
 }
