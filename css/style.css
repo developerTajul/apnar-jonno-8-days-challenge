@@ -13745,6 +13745,9 @@ html {
     gap: 10px;
   }
 }
+.counter-area.style-1 .counter-area-wrapper {
+  text-align: center;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-area.style-1 .counter-area-wrapper {
     margin-left: 20px;
@@ -13769,14 +13772,15 @@ html {
   }
 }
 .counter-area.style-1 .counter-area-wrapper p {
-  color: #FFF;
-  font-family: Rubik;
+  color: #ffffff;
+  font-family: "Gilroy-Bold";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 29px; /* 161.111% */
   letter-spacing: 6.66px;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .counter-area.style-1 .counter-area-wrapper p {
@@ -13837,7 +13841,7 @@ html {
   }
 }
 .counter-area.style-2 .counter-area-wrapper p {
-  color: #FFF;
+  color: #fff;
   font-family: Rubik;
   font-size: 18px;
   font-style: normal;
