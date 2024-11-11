@@ -17726,6 +17726,75 @@ html {
   line-height: 60px;
 }
 
+.image-card-area .image-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1910px;
+}
+.image-card-area .image-card {
+  position: relative;
+  flex-shrink: 0;
+}
+.image-card-area .image-card:hover .content-wrapper {
+  visibility: visible;
+  opacity: 1;
+}
+.image-card-area .image-card .image {
+  height: 100%;
+}
+.image-card-area .image-card .image img {
+  height: 100%;
+}
+.image-card-area .image-card .content-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.image-card-area .image-card .content-wrapper .icon {
+  margin-left: -35px;
+}
+.image-card-area .image-card .content-wrapper .content .title {
+  background-color: #141414;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 20px;
+}
+.image-card-area .image-card .content-wrapper .content .desc {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #141414;
+  margin-top: 5px;
+  padding: 5px 20px;
+  color: #ffffff;
+}
+.image-card-area .image-card.style-1 {
+  max-width: 465px;
+  max-height: 467px;
+}
+.image-card-area .image-card.style-2 {
+  max-width: 950px;
+  max-height: 467px;
+}
+.image-card-area .image-card.style-3 {
+  max-width: 488px;
+  max-height: 467px;
+}
+.image-card-area .image-card.style-4 {
+  max-width: 465px;
+  max-height: 467px;
+}
+
 .about-page .wcu-area-page {
   position: relative;
 }
