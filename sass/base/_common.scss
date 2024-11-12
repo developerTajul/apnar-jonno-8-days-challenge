@@ -1,124 +1,133 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-.w-img{
-	& img{
-		width: 100%;
-	}
+.w-img {
+  & img {
+    width: 100%;
+  }
 }
-.m-img{
-	& img{
-		max-width: 100%;
-	}
+.m-img {
+  & img {
+    max-width: 100%;
+  }
 }
 
 .fix {
-    overflow:hidden
+  overflow: hidden;
 }
-.clear{
-    clear: both;
-}
-
-.z-index-1{
-	z-index: 1;
+.clear {
+  clear: both;
 }
 
-.z-index-11{
-	z-index: 11;
-}
-.z-index-99{
-	z-index: 99;
+.z-index-1 {
+  z-index: 1;
 }
 
-.overflow-y-visible{
-	overflow-x: hidden;
-	overflow-y: visible;
+.z-index-11 {
+  z-index: 11;
 }
-.overflow-x-visible{
-	overflow-x: visible;
-	overflow-y: hidden;
+.z-index-99 {
+  z-index: 99;
 }
 
-.p-relative{
-	position: relative;
+.overflow-y-visible {
+  overflow-x: hidden;
+  overflow-y: visible;
 }
-.p-absolute{
-	position: absolute;
-}
-.body-black{
-	background: #131313;
-}
-.footer-bg{
-	background: $low-black;
-}
-.width-100{
-	width: 100%;
+.overflow-x-visible {
+  overflow-x: visible;
+  overflow-y: hidden;
 }
 
-.mb-140{
-	@include xl{
-        margin-bottom: 105px;
-    }
-    @include lg{
-        margin-bottom: 70px;
-    }
-    @include md{
-        margin-bottom: 55px;
-    }
-    @include sm{
-        margin-bottom: 40px;
-    }
+.p-relative {
+  position: relative;
 }
-.pb-140{
-	@include xl{
-        padding-bottom: 105px;
-    }
-    @include lg{
-        padding-bottom: 70px;
-    }
-    @include md{
-        padding-bottom: 55px;
-    }
-    @include sm{
-        padding-bottom: 40px;
-    }
+.p-absolute {
+  position: absolute;
 }
-.mt-140{
-	@include xl{
-        margin-top: 105px;
-    }
-    @include lg{
-        margin-top: 70px;
-    }
-    @include md{
-        margin-top: 55px;
-    }
-    @include sm{
-        margin-top: 40px;
-    }
+.body-black {
+  background: #131313;
 }
-.pt-140{
-	@include xl{
-        padding-top: 105px;
-    }
-    @include lg{
-        padding-top: 70px;
-    }
-    @include md{
-        padding-top: 55px;
-    }
-    @include sm{
-        padding-top: 40px;
-    }
+.footer-bg {
+  background: $low-black;
 }
-.progress-circle{
-    .progress {
-        stroke: $primary-color;
-        stroke-dasharray: 251.2;
-        stroke-dashoffset: 251.2; 
-        animation: progress-animation 2s linear forwards;
-        &.progress-2{
-            stroke-dasharray: 265.2;
-        }
+.width-100 {
+  width: 100%;
+}
+
+.mb-140 {
+  @include xl {
+    margin-bottom: 105px;
+  }
+  @include lg {
+    margin-bottom: 70px;
+  }
+  @include md {
+    margin-bottom: 55px;
+  }
+  @include sm {
+    margin-bottom: 40px;
+  }
+}
+.pb-140 {
+  @include xl {
+    padding-bottom: 105px;
+  }
+  @include lg {
+    padding-bottom: 70px;
+  }
+  @include md {
+    padding-bottom: 55px;
+  }
+  @include sm {
+    padding-bottom: 40px;
+  }
+}
+.mt-140 {
+  @include xl {
+    margin-top: 105px;
+  }
+  @include lg {
+    margin-top: 70px;
+  }
+  @include md {
+    margin-top: 55px;
+  }
+  @include sm {
+    margin-top: 40px;
+  }
+}
+.pt-140 {
+  @include xl {
+    padding-top: 105px;
+  }
+  @include lg {
+    padding-top: 70px;
+  }
+  @include md {
+    padding-top: 55px;
+  }
+  @include sm {
+    padding-top: 40px;
+  }
+}
+.progress-circle {
+  .progress {
+    stroke: $primary-color;
+    stroke-dasharray: 251.2;
+    stroke-dashoffset: 251.2;
+    animation: progress-animation 2s linear forwards;
+    &.progress-2 {
+      stroke-dasharray: 265.2;
     }
   }
+}
+
+.award-and-event-area {
+  position: relative;
+  .bg-img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+  }
+}

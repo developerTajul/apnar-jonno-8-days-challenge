@@ -54,8 +54,8 @@
   }
 
   &-bg-block-shape {
-    top: 0;
-    right: 100px;
+    top: 110px;
+    right: 80px;
     z-index: 11;
 
     @include rmaxwd(1700) {
@@ -78,6 +78,14 @@
       display: none;
       visibility: hidden;
     }
+  }
+  &-bg-five {
+    top: 0;
+    right: 25px;
+  }
+  &-bg-six {
+    bottom: 0;
+    right: 25px;
   }
 
   &-title-one {
@@ -213,9 +221,17 @@
   }
   &-short-title {
     position: absolute;
-    left: 220px;
+    left: 15px;
+    bottom: 15px;
     transform: translate(100%, -100%);
-    bottom: 26px;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px; /* 145% */
+    letter-spacing: 6px;
+    text-transform: uppercase;
   }
 
   &-title-two {

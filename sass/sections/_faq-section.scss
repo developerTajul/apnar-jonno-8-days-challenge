@@ -18,6 +18,13 @@
       border-radius: 50%;
       line-height: 78px;
       text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        font-size: 20px;
+        transform: rotate(-25deg);
+      }
 
       @include md {
         width: 60px;
