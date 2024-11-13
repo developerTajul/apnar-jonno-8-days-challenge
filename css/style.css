@@ -13649,6 +13649,27 @@ html {
 .award-and-event-area {
   position: relative;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .award-and-event-area {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .award-and-event-area .section-title {
+    padding-bottom: 16px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .award-and-event-area .accordion-wrapper {
+    margin-left: 0;
+    gap: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .award-and-event-area .wuc-accordion {
+    padding-bottom: 20px;
+  }
+}
 .award-and-event-area .bg-img {
   position: absolute;
   left: 0;
@@ -13714,6 +13735,7 @@ html {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title.style-1 span {
     font-size: 16px;
+    margin-bottom: 0;
   }
 }
 .section-title.style-2 {
@@ -15392,6 +15414,12 @@ html {
 @media (max-width: 992px) {
   .wuc-accordion-wrapper {
     margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .wuc-accordion-wrapper .wuc-accordion-pra {
+    margin-top: 0;
   }
 }
 .wuc-accordion-wrapper .wuc-accordion-pra p {
@@ -15405,6 +15433,7 @@ html {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .wuc-accordion-wrapper .wuc-accordion-pra p {
     font-size: 15px;
+    margin-top: 12px;
   }
 }
 .wuc-accordion-wrapper .wuc-accordion-pra.active p {
@@ -15437,6 +15466,11 @@ html {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .wuc-accordion-title h4 {
     font-size: 16px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .wuc-accordion-title .accordin-icon {
+    text-align: end;
   }
 }
 .wuc-accordion-title::after {
@@ -16460,7 +16494,7 @@ html {
 }
 .gallery-area.style-1 .gallery-area-image-1 {
   max-width: 1720px;
-  height: 810px;
+  max-height: 810px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   border-top-left-radius: 30px;
@@ -16468,10 +16502,17 @@ html {
 }
 .gallery-area.style-1 .gallery-area-image-2 {
   max-width: 440px;
-  height: 465px;
+  max-height: 465px;
   position: absolute;
   bottom: -100px;
   right: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .gallery-area.style-1 .gallery-area-image-2 {
+    max-width: 140px;
+    max-height: 165px;
+    bottom: -40px;
+  }
 }
 .gallery-area-bg-shape {
   top: -22px;
@@ -17653,6 +17694,11 @@ html {
     padding-top: 40px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-area.style-2 .section-title {
+    margin-bottom: 0;
+  }
+}
 .testimonial-area.style-2 .testimonial-slider-wrapper {
   position: relative;
 }
@@ -18428,6 +18474,31 @@ html {
   color: #b0b0b0;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .faq-area {
+    padding-top: 120px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .faq-area {
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faq-area {
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area {
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area-heading-part {
+    padding-left: 0;
+  }
+}
 .faq-area-heading-part h2 {
   text-transform: uppercase;
 }
@@ -18439,6 +18510,7 @@ html {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area-heading-part h2 {
     font-size: 22px;
+    line-height: 83px;
   }
 }
 .faq-area-heading-part a {
@@ -19942,6 +20014,16 @@ html {
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area.style-1 {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .section-title {
+    padding-bottom: 10px;
+  }
+}
 .blog-area-card {
   position: relative;
 }
@@ -20005,10 +20087,10 @@ html {
 }
 .blog-area-card-wrapper .card-image {
   max-width: 553px;
-  height: 450px;
+  max-height: 450px;
 }
 .blog-area-card-wrapper .card-image.style-2 {
-  height: 360px;
+  max-height: 360px;
 }
 .blog-area-card-wrapper .card-image .blog-main-img {
   width: 100%;
@@ -20028,14 +20110,6 @@ html {
   display: inline-block;
   text-align: center;
   line-height: 52px;
-  border-radius: 50%;
-}
-@media (max-width: 420px) {
-  .blog-area-icon-img a {
-    height: 40px;
-    width: 40px;
-    line-height: 38px;
-  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
