@@ -48,7 +48,7 @@
       infinite: true,
       centerMode: true,
       centerPadding: '0',
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 1500,
       arrows: false,
       dots: true,

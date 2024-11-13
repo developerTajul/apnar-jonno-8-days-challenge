@@ -1,6 +1,6 @@
 /**
  * Stylesheet:  style.css
- * Theme:       ConsalPro - Web Design Agency Figma Template
+ * Theme:       CreBiz - Web Design Agency Figma Template
  * Version:     1.0
  * Author:     	devlinkstudios
  * 
@@ -13572,87 +13572,67 @@ html {
   width: 100%;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .mb-140 {
-    margin-bottom: 105px;
-  }
-}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .mb-140 {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mb-140 {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .mb-140 {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .pb-140 {
-    padding-bottom: 105px;
-  }
-}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pb-140 {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pb-140 {
-    padding-bottom: 55px;
+    padding-bottom: 60px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .pb-140 {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .mt-140 {
-    margin-top: 105px;
-  }
-}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .mt-140 {
-    margin-top: 70px;
+    margin-top: 100px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mt-140 {
-    margin-top: 55px;
+    margin-top: 80px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .mt-140 {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .pt-140 {
-    padding-top: 105px;
-  }
-}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pt-140 {
-    padding-top: 70px;
+    padding-top: 100px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pt-140 {
-    padding-top: 55px;
+    padding-top: 80px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .pt-140 {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 }
 
@@ -13674,6 +13654,11 @@ html {
   left: 0;
   top: 50%;
 }
+@media (max-width: 991px) {
+  .award-and-event-area .bg-img {
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title {
@@ -13683,6 +13668,12 @@ html {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title {
     margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .section-title.style-1 {
+    flex-direction: column;
+    gap: 10px;
   }
 }
 .section-title.style-1 h2 {
@@ -13704,7 +13695,13 @@ html {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title.style-1 h2 {
-    font-size: 25px;
+    font-size: 35px;
+    line-height: 52px;
+  }
+}
+@media (max-width: 991px) {
+  .section-title.style-1 h2 br {
+    display: none;
   }
 }
 .section-title.style-1 span {
@@ -13761,6 +13758,15 @@ html {
   top: 130px;
   z-index: 1;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .section-title-btn {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: unset;
+    top: unset;
+  }
+}
 .section-title-btn a {
   color: #141414;
   font-family: "Gilroy-Bold";
@@ -13769,9 +13775,12 @@ html {
   line-height: 34.66px;
   letter-spacing: 0.1em;
   text-align: left;
-  text-underline-position: from-font;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .section-title-btn a {
+    font-size: 18px;
+    text-align: center;
+  }
 }
 
 .hero-area .slick-arrow.btn-prev {
@@ -15481,6 +15490,12 @@ html {
 .accordion-wrapper {
   border-top: 1px solid #ffffff;
   padding-top: 60px;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .accordion-wrapper {
+    margin-left: 12px;
+  }
 }
 
 @media (max-width: 1399px) {
@@ -15574,9 +15589,19 @@ html {
   top: 0;
   right: 25px;
 }
+@media (max-width: 1199px) {
+  .hero-area-bg-five {
+    display: none;
+  }
+}
 .hero-area-bg-six {
   bottom: 0;
   right: 25px;
+}
+@media (max-width: 1199px) {
+  .hero-area-bg-six {
+    display: none;
+  }
 }
 .hero-area-title-one {
   position: relative;
@@ -15600,17 +15625,7 @@ html {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .hero-area-title-one {
-    font-size: 80px;
-  }
-}
-@media (max-width: 576px) {
-  .hero-area-title-one {
-    font-size: 50px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 350px) {
-  .hero-area-title-one {
-    font-size: 30px;
+    font-size: 82px;
   }
 }
 .hero-area-title-one span {
@@ -15735,6 +15750,13 @@ html {
   line-height: 29px; /* 145% */
   letter-spacing: 6px;
   text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .hero-area-short-title {
+    transform: none;
+    font-size: 16px;
+    transform: translate(-2%, 100%);
+  }
 }
 .hero-area-title-two {
   color: #fff;
@@ -16437,7 +16459,7 @@ html {
   position: relative;
 }
 .gallery-area.style-1 .gallery-area-image-1 {
-  width: 1720px;
+  max-width: 1720px;
   height: 810px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -16445,7 +16467,7 @@ html {
   border-top-right-radius: 30px;
 }
 .gallery-area.style-1 .gallery-area-image-2 {
-  width: 440px;
+  max-width: 440px;
   height: 465px;
   position: absolute;
   bottom: -100px;
@@ -17061,17 +17083,32 @@ html {
     margin-left: 0;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area .section-title {
+    margin-bottom: 0;
+  }
+}
 .portfolio-area-bg-arrow {
   position: absolute;
   top: 0;
   right: 100px;
   transform: translate(-100%, -50%);
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area-bg-arrow {
+    display: none;
+  }
+}
 .portfolio-area-image-wrapper {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 65px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area-image-wrapper {
+    gap: 30px;
+  }
 }
 .portfolio-area-image-wrapper img {
   width: 100%;
@@ -17082,6 +17119,12 @@ html {
   height: 971px;
   background-color: gray;
 }
+@media (max-width: 991px) {
+  .portfolio-area-image-one {
+    width: auto;
+    height: auto;
+  }
+}
 .portfolio-area-image-two {
   width: 948px;
   height: 601px;
@@ -17089,17 +17132,40 @@ html {
   margin-top: 165px;
   margin-left: 15px;
 }
+@media (max-width: 991px) {
+  .portfolio-area-image-two {
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
 .portfolio-area-image-three {
   width: 1015px;
   height: 710px;
   background-color: gray;
   margin-top: 75px;
 }
+@media (max-width: 991px) {
+  .portfolio-area-image-three {
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
 .portfolio-area-image-four {
   width: 823px;
   height: 956px;
   background-color: gray;
   margin-top: -170px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area-image-four {
+    margin-top: 0;
+    width: auto;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -17504,6 +17570,11 @@ html {
 .team-area-member-social-link li a {
   color: #fff;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-area .team-member-card-wrapper {
+    margin-left: 12px;
+  }
+}
 .team-area .team-member-card {
   position: relative;
 }
@@ -17590,10 +17661,6 @@ html {
   bottom: 20px;
   left: 100px;
 }
-.testimonial-area.style-2 .testimonial-area-main-slider .slick-list {
-  width: 1115px;
-  margin: 0 auto;
-}
 .testimonial-area.style-2 .testimonial-area-main-slider .slick-dots {
   display: flex;
   align-items: center;
@@ -17639,6 +17706,9 @@ html {
   .testimonial-area-img-content {
     margin-left: 0;
   }
+}
+.testimonial-area-main-slider {
+  overflow: hidden;
 }
 @media (max-width: 1199px) {
   .testimonial-area-main-slider {
@@ -17820,8 +17890,15 @@ html {
   gap: 108px;
   max-width: 1120px;
 }
+@media (max-width: 991px) {
+  .testimonial-card {
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 0 12px;
+  }
+}
 .testimonial-card .image {
-  width: 112px;
+  max-width: 112px;
   height: 203px;
   flex-shrink: 0;
 }
@@ -18294,23 +18371,54 @@ html {
 .art-gallery {
   position: relative;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .art-gallery {
+    padding-top: 60px;
+  }
+}
 .art-gallery-bg-img {
   position: absolute;
   top: 0;
   right: 0;
   transform: translate(-50%, 50%);
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .art-gallery-bg-img {
+    display: none;
+  }
+}
 .art-gallery-inner {
   gap: 90px;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .art-gallery-inner {
+    gap: 30px;
+  }
 }
 .art-gallery-image {
   background-color: azure;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .art-gallery-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 .art-gallery-border {
   width: 1px;
   height: 301px;
   background-color: #ffffff;
   margin-left: 15px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .art-gallery-border {
+    margin-left: 0;
+  }
 }
 .art-gallery-content-inner h5 {
   text-transform: uppercase;
@@ -18377,6 +18485,11 @@ html {
 .image-card-area .image-card {
   position: relative;
   flex-shrink: 0;
+}
+@media (max-width: 991px) {
+  .image-card-area .image-card {
+    flex-shrink: unset;
+  }
 }
 .image-card-area .image-card:hover .content-wrapper {
   visibility: visible;
@@ -19539,7 +19652,7 @@ html {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .header-area-image {
     padding: 25px 0;
-    margin-left: 30px;
+    margin-left: 12px;
   }
 }
 .header-area-menu ul.main-menu {
@@ -19596,7 +19709,7 @@ html {
   }
 }
 .header-area-menu ul li:hover a {
-  color: #EDBC5A;
+  color: #edbc5a;
 }
 .header-area-menu ul li:hover .sub-menu {
   visibility: visible;
@@ -19628,7 +19741,7 @@ html {
   transition: all 500ms ease;
 }
 .header-area-menu ul li .sub-menu li:hover a {
-  color: #EDBC5A;
+  color: #edbc5a;
   text-decoration: underline;
 }
 .header-area-menu ul li a {
@@ -19759,7 +19872,7 @@ html {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .header-area #toggle-button {
-    margin-right: 30px;
+    margin-right: 12px;
     margin-top: 4px;
   }
 }
@@ -19891,7 +20004,7 @@ html {
   }
 }
 .blog-area-card-wrapper .card-image {
-  width: 553px;
+  max-width: 553px;
   height: 450px;
 }
 .blog-area-card-wrapper .card-image.style-2 {

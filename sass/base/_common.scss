@@ -56,59 +56,47 @@ html {
 }
 
 .mb-140 {
-  @include xl {
-    margin-bottom: 105px;
-  }
   @include lg {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
   @include md {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
   }
   @include sm {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
 .pb-140 {
-  @include xl {
-    padding-bottom: 105px;
-  }
   @include lg {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
   }
   @include md {
-    padding-bottom: 55px;
+    padding-bottom: 60px;
   }
   @include sm {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
 }
 .mt-140 {
-  @include xl {
-    margin-top: 105px;
-  }
   @include lg {
-    margin-top: 70px;
+    margin-top: 100px;
   }
   @include md {
-    margin-top: 55px;
+    margin-top: 80px;
   }
   @include sm {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 }
 .pt-140 {
-  @include xl {
-    padding-top: 105px;
-  }
   @include lg {
-    padding-top: 70px;
+    padding-top: 100px;
   }
   @include md {
-    padding-top: 55px;
+    padding-top: 80px;
   }
   @include sm {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 }
 .progress-circle {
@@ -129,5 +117,8 @@ html {
     position: absolute;
     left: 0;
     top: 50%;
+    @include rmaxwd(991) {
+      display: none;
+    }
   }
 }

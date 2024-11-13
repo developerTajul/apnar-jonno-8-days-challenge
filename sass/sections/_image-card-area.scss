@@ -8,6 +8,9 @@
   .image-card {
     position: relative;
     flex-shrink: 0;
+    @include rmaxwd(991) {
+      flex-shrink: unset;
+    }
     &:hover {
       .content-wrapper {
         visibility: visible;

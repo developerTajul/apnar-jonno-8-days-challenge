@@ -82,10 +82,16 @@
   &-bg-five {
     top: 0;
     right: 25px;
+    @include rmaxwd(1199) {
+      display: none;
+    }
   }
   &-bg-six {
     bottom: 0;
     right: 25px;
+    @include rmaxwd(1199) {
+      display: none;
+    }
   }
 
   &-title-one {
@@ -106,15 +112,7 @@
     }
 
     @include sm {
-      font-size: 80px;
-    }
-
-    @include rmaxwd(576) {
-      font-size: 50px;
-    }
-
-    @include xs {
-      font-size: 30px;
+      font-size: 82px;
     }
 
     & span {
@@ -232,6 +230,11 @@
     line-height: 29px; /* 145% */
     letter-spacing: 6px;
     text-transform: uppercase;
+    @include rmaxwd(991) {
+      transform: none;
+      font-size: 16px;
+      transform: translate(-2%, 100%);
+    }
   }
 
   &-title-two {

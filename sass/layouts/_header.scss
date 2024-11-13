@@ -1,10 +1,10 @@
-.header-area{
-    width: 100%;
-    height: 153px;
-    @include sm{
-      height: 100px;
-    }
-  .fixed-menu{
+.header-area {
+  width: 100%;
+  height: 153px;
+  @include sm {
+    height: 100px;
+  }
+  .fixed-menu {
     position: fixed;
     top: 0;
     right: 0;
@@ -14,51 +14,51 @@
     &.scrolled {
       background-color: #1a1a1a;
       @include transition;
-      ul{
-        li{
-          &.scroll-effect{
+      ul {
+        li {
+          &.scroll-effect {
             padding: 40px 0;
           }
         }
       }
     }
   }
-  &-image{
-    @include lg{
+  &-image {
+    @include lg {
       margin-left: 50px;
     }
-    @include md{
+    @include md {
       padding: 25px 0;
       margin-left: 50px;
     }
-    @include sm{
+    @include sm {
       padding: 25px 0;
-      margin-left: 30px;
+      margin-left: 12px;
     }
   }
-  &-menu{
-    & ul{
-      &.main-menu{
+  &-menu {
+    & ul {
+      &.main-menu {
         margin-left: 317px;
-        @include xxl{
+        @include xxl {
           margin-left: 210px;
         }
-        @include xml{
+        @include xml {
           margin-left: 80px;
         }
-        @include xl{
+        @include xl {
           margin-left: 50px;
         }
-        @include lg{
+        @include lg {
           margin-left: 30px;
         }
       }
-      @include rmaxwd(991){
+      @include rmaxwd(991) {
         display: none;
         visibility: hidden;
       }
-      & li{
-        &.scroll-effect{
+      & li {
+        &.scroll-effect {
           padding: 57px 0;
           @include transition;
         }
@@ -66,24 +66,24 @@
         line-height: normal;
         list-style: none;
         position: relative;
-        @include xl{
+        @include xl {
           margin-left: 60px;
         }
-        @include lg{
+        @include lg {
           margin-left: 35px;
         }
-        &:hover{
-          & a{
-            color: #EDBC5A;
+        &:hover {
+          & a {
+            color: #edbc5a;
           }
-          & .sub-menu{
+          & .sub-menu {
             visibility: visible;
             top: 100%;
             opacity: 1;
             transform: scaleY(1);
           }
         }
-        & .sub-menu{
+        & .sub-menu {
           position: absolute;
           left: -30px;
           top: 100%;
@@ -94,71 +94,71 @@
           opacity: 0;
           transform: scaleY(0);
           transform-origin: top center;
-          & li{
+          & li {
             margin-left: 0;
             padding: 10px 20px;
             background: #333333;
             border: 1px solid #484848;
-            a{
+            a {
               color: #fff;
               font-size: 16px;
               transition: all 500ms ease;
             }
-            &:hover{
-              a{
-                color: #EDBC5A;
+            &:hover {
+              a {
+                color: #edbc5a;
                 text-decoration: underline;
               }
             }
           }
         }
-        & a{
-        color: #fff;
-        font-family: Gilroy-SemiBold;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        display: inline-block;
-        @include lg{
-          font-size: 16px;
-        }
+        & a {
+          color: #fff;
+          font-family: Gilroy-SemiBold;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          display: inline-block;
+          @include lg {
+            font-size: 16px;
+          }
 
-        &.plus-icon::after {
-          content: "\2b";
-          font-family: "FontAwesome";
-          font-size: 14px;
-          margin-left: 5px;
-          font-weight: 900;
-        }
+          &.plus-icon::after {
+            content: '\2b';
+            font-family: 'FontAwesome';
+            font-size: 14px;
+            margin-left: 5px;
+            font-weight: 900;
+          }
         }
       }
     }
 
-    &.style-2{
-      ul{
-        &.main-menu{
+    &.style-2 {
+      ul {
+        &.main-menu {
           margin-left: 0;
         }
-        li{
-          @include rmaxwd(1700){
+        li {
+          @include rmaxwd(1700) {
             margin-left: 70px;
           }
-          @include xml{
+          @include xml {
             margin-left: 48px;
           }
-          @include xl{
+          @include xl {
             margin-left: 40px;
           }
-          @include lg{
+          @include lg {
             margin-left: 20px;
             padding: 40px 0;
           }
-          a{
-            @include xl{
+          a {
+            @include xl {
               font-size: 16px;
             }
-            @include lg{
+            @include lg {
               font-size: 14px;
             }
           }
@@ -167,94 +167,94 @@
     }
   }
   &-menu-icon {
-    span{
-      &::before{
+    span {
+      &::before {
         font-size: 30px;
       }
     }
   }
-  &-touch-btn{
+  &-touch-btn {
     margin-left: 20px;
-    @include lg{
+    @include lg {
       margin-left: 10px;
     }
-    @include rmaxwd(991){
+    @include rmaxwd(991) {
       display: none;
     }
-    a{
+    a {
       display: inline-block;
       padding: 10px 26px;
       border-radius: 111px;
       border: 1px solid rgba(255, 255, 255, 0.15);
-      @include xl{
+      @include xl {
         font-size: 14px;
         padding: 10px 20px;
       }
-      @include lg{
+      @include lg {
         font-size: 14px;
         padding: 5px 10px;
       }
-      @include md{
+      @include md {
         font-size: 14px;
         padding: 8px 10px;
       }
-      @include sm{
+      @include sm {
         font-size: 14px;
         padding: 8px 10px;
       }
-      &::after{
-        content: "\e900";
+      &::after {
+        content: '\e900';
         color: #fff;
         font-family: 'icomoon';
         margin-left: 9px;
         @include transition;
       }
-      &:hover{
-        &::after{
+      &:hover {
+        &::after {
           color: $primary-color;
         }
       }
     }
   }
-  #toggle-button{
+  #toggle-button {
     display: none;
     visibility: hidden;
     margin-right: 50px;
-    @include rmaxwd(991){
+    @include rmaxwd(991) {
       display: block;
       visibility: visible;
     }
-    @include sm{
-      margin-right: 30px;
+    @include sm {
+      margin-right: 12px;
       margin-top: 4px;
     }
-    a{
+    a {
       font-size: 30px;
     }
   }
-  &-menu-icon{
-    @include xl{
-      margin-right: 120px
+  &-menu-icon {
+    @include xl {
+      margin-right: 120px;
     }
-    @include lg{
+    @include lg {
       margin-right: 62px;
     }
-    @include rmaxwd(991){
+    @include rmaxwd(991) {
       display: none;
     }
-    
-    &.style-2{
-      @include xl{
+
+    &.style-2 {
+      @include xl {
         margin-right: 50px;
       }
-      @include lg{
+      @include lg {
         margin-right: 40px;
       }
-      @include sm{
+      @include sm {
         margin-right: 10px;
       }
     }
-    a{
+    a {
       &.canvas::after {
         content: 'Menu';
         font-family: Rubik;
@@ -264,23 +264,21 @@
         line-height: 29px;
         margin-left: 15px;
         position: absolute;
-        @include xl{
+        @include xl {
           font-size: 14px;
         }
-        @include lg{
+        @include lg {
           font-size: 14px;
         }
       }
-      &:hover{
-       span{
-        &::before{
-          color: $primary-color;
-          @include transition;
+      &:hover {
+        span {
+          &::before {
+            color: $primary-color;
+            @include transition;
+          }
         }
-       }
       }
     }
   }
 }
-
-

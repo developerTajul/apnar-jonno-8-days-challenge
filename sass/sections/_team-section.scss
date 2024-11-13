@@ -186,7 +186,11 @@
       }
     }
   }
-
+  .team-member-card-wrapper {
+    @include sm {
+      margin-left: 12px;
+    }
+  }
   .team-member-card {
     position: relative;
     .image {

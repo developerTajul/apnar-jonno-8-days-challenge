@@ -2,14 +2,14 @@
   &.style-1 {
     position: relative;
     .gallery-area-image-1 {
-      width: 1720px;
+      max-width: 1720px;
       height: 810px;
       clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
       border-top-left-radius: 30px;
       border-top-right-radius: 30px;
     }
     .gallery-area-image-2 {
-      width: 440px;
+      max-width: 440px;
       height: 465px;
       position: absolute;
       bottom: -100px;
