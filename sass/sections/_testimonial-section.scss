@@ -7,6 +7,9 @@
   }
 
   &.style-2 {
+    @include sm {
+      padding-bottom: 54px;
+    }
     .section-title {
       @include sm {
         margin-bottom: 0;
@@ -18,12 +21,20 @@
         position: absolute;
         bottom: 20px;
         left: 100px;
+        @include rmaxwd(991) {
+          left: 12px;
+        }
       }
     }
     .testimonial-area-main-slider {
+      @include sm {
+        padding-bottom: 54px;
+      }
       .slick-list {
-        // width: 1115px;
-        // margin: 0 auto;
+        @include rwd(1700) {
+          width: 1115px;
+          margin: 0 auto;
+        }
       }
       .slick-dots {
         display: flex;

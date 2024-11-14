@@ -355,64 +355,64 @@
     });
     /*Blog Hover Card
         ============================*/
-    $('#card-1, #card-3').hover(
-      function () {
-        $('#card-2 .visible-card').css({
-          visibility: 'hidden',
-          opacity: '0',
-          'max-height': '0',
-          transform: 'scaleY(0)',
-          transition: 'all 0.4s ease 0s',
-        });
-        $('#card-2 .blog-area-icon-img').css({
-          visibility: 'hidden',
-          opacity: '0',
-        });
-      },
-      function () {
-        $('#card-2 .visible-card').css({
-          visibility: 'visible',
-          opacity: '1',
-          'max-height': '100px',
-          transform: 'scaleY(1)',
-          transition: 'all 0.4s ease 0s',
-        });
-        $('#card-2 .blog-area-icon-img').css({
-          visibility: 'visible',
-          opacity: '1',
-          transition: 'all 0.3s ease 0s',
-        });
-      }
-    );
-    $('#card-4, #card-6').hover(
-      function () {
-        $('#card-5 .visible-card').css({
-          visibility: 'hidden',
-          opacity: '0',
-          'max-height': '0',
-          transform: 'scaleY(0)',
-          transition: 'all 0.4s ease 0s',
-        });
-        $('#card-5 .blog-area-icon-img').css({
-          visibility: 'hidden',
-          opacity: '0',
-        });
-      },
-      function () {
-        $('#card-5 .visible-card').css({
-          visibility: 'visible',
-          opacity: '1',
-          'max-height': '100px',
-          transform: 'scaleY(1)',
-          transition: 'all 0.4s ease 0s',
-        });
-        $('#card-5 .blog-area-icon-img').css({
-          visibility: 'visible',
-          opacity: '1',
-          transition: 'all 0.3s ease 0s',
-        });
-      }
-    );
+    // $('#card-1, #card-3').hover(
+    //   function () {
+    //     $('#card-2 .visible-card').css({
+    //       visibility: 'hidden',
+    //       opacity: '0',
+    //       'max-height': '0',
+    //       transform: 'scaleY(0)',
+    //       transition: 'all 0.4s ease 0s',
+    //     });
+    //     $('#card-2 .blog-area-icon-img').css({
+    //       visibility: 'hidden',
+    //       opacity: '0',
+    //     });
+    //   },
+    //   function () {
+    //     $('#card-2 .visible-card').css({
+    //       visibility: 'visible',
+    //       opacity: '1',
+    //       'max-height': '100px',
+    //       transform: 'scaleY(1)',
+    //       transition: 'all 0.4s ease 0s',
+    //     });
+    //     $('#card-2 .blog-area-icon-img').css({
+    //       visibility: 'visible',
+    //       opacity: '1',
+    //       transition: 'all 0.3s ease 0s',
+    //     });
+    //   }
+    // );
+    // $('#card-4, #card-6').hover(
+    //   function () {
+    //     $('#card-5 .visible-card').css({
+    //       visibility: 'hidden',
+    //       opacity: '0',
+    //       'max-height': '0',
+    //       transform: 'scaleY(0)',
+    //       transition: 'all 0.4s ease 0s',
+    //     });
+    //     $('#card-5 .blog-area-icon-img').css({
+    //       visibility: 'hidden',
+    //       opacity: '0',
+    //     });
+    //   },
+    //   function () {
+    //     $('#card-5 .visible-card').css({
+    //       visibility: 'visible',
+    //       opacity: '1',
+    //       'max-height': '100px',
+    //       transform: 'scaleY(1)',
+    //       transition: 'all 0.4s ease 0s',
+    //     });
+    //     $('#card-5 .blog-area-icon-img').css({
+    //       visibility: 'visible',
+    //       opacity: '1',
+    //       transition: 'all 0.3s ease 0s',
+    //     });
+    //   }
+    // );
     /*pricing Hover Card
         ============================*/
     $('#cards-1, #cards-3').hover(

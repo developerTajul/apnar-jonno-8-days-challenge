@@ -14378,11 +14378,20 @@ html {
   .counter-area {
     gap: 50px;
     display: flex;
+    padding-top: 15px;
+    padding-bottom: 42px;
   }
 }
 @media (max-width: 520px) {
   .counter-area {
     gap: 10px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-area.style-1-inner-wrapper {
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
   }
 }
 .counter-area.style-1 .counter-area-wrapper {
@@ -17612,12 +17621,23 @@ html {
   color: #fff;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-area.style-1 .section-title {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .team-area .team-member-card-wrapper {
-    margin-left: 12px;
+    margin-left: 0;
   }
 }
 .team-area .team-member-card {
   position: relative;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-area .team-member-card {
+    margin-bottom: 30px;
+  }
 }
 .team-area .team-member-card .image {
   width: 100%;
@@ -17695,6 +17715,11 @@ html {
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-area.style-2 {
+    padding-bottom: 54px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-area.style-2 .section-title {
     margin-bottom: 0;
   }
@@ -17706,6 +17731,22 @@ html {
   position: absolute;
   bottom: 20px;
   left: 100px;
+}
+@media (max-width: 991px) {
+  .testimonial-area.style-2 .testimonial-slider-wrapper .slide-counter {
+    left: 12px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-area.style-2 .testimonial-area-main-slider {
+    padding-bottom: 54px;
+  }
+}
+@media (min-width: 1700px) {
+  .testimonial-area.style-2 .testimonial-area-main-slider .slick-list {
+    width: 1115px;
+    margin: 0 auto;
+  }
 }
 .testimonial-area.style-2 .testimonial-area-main-slider .slick-dots {
   display: flex;
@@ -18553,6 +18594,11 @@ html {
   display: flex;
   flex-wrap: wrap;
   max-width: 1910px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .image-card-area .image-card-wrapper {
+    gap: 30px;
+  }
 }
 .image-card-area .image-card {
   position: relative;
@@ -20016,7 +20062,7 @@ html {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-area.style-1 {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -20334,7 +20380,7 @@ html {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer-area-quick-menu {
     margin-left: 0;
-    padding-top: 25px;
+    padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

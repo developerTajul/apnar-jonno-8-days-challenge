@@ -8,11 +8,20 @@
   @include sm {
     gap: 50px;
     display: flex;
+    padding-top: 15px;
+    padding-bottom: 42px;
   }
   @include rmaxwd(520) {
     gap: 10px;
   }
   &.style-1 {
+    &-inner-wrapper {
+      @include sm {
+        padding-left: 0;
+        display: flex;
+        gap: 30px;
+      }
+    }
     .counter-area-wrapper {
       text-align: center;
       @include md {
