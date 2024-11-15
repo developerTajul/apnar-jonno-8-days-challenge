@@ -136,7 +136,7 @@ html {
     position: absolute;
     left: 0;
     top: 50%;
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       display: none;
     }
   }

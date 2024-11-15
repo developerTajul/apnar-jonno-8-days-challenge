@@ -239,7 +239,7 @@
     top: 0;
     right: 100px;
     transform: translate(-100%, -50%);
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       display: none;
     }
   }
@@ -260,7 +260,7 @@
     width: 875px;
     height: 971px;
     background-color: gray;
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       width: auto;
       height: auto;
     }
@@ -271,7 +271,7 @@
     background-color: gray;
     margin-top: 165px;
     margin-left: 15px;
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       width: auto;
       height: auto;
       margin-top: 0;
@@ -283,7 +283,7 @@
     height: 710px;
     background-color: gray;
     margin-top: 75px;
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       width: auto;
       height: auto;
       margin-top: 0;
@@ -295,7 +295,7 @@
     height: 956px;
     background-color: gray;
     margin-top: -170px;
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       margin-top: 0;
       width: auto;
       height: auto;

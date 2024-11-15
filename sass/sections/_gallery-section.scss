@@ -1,6 +1,9 @@
 .gallery-area {
   &.style-1 {
     position: relative;
+    @include lg {
+      padding-top: 54px;
+    }
     .gallery-area-image-1 {
       max-width: 1720px;
       max-height: 810px;
@@ -22,6 +25,16 @@
       @include md {
         max-width: 220px;
         max-height: 200px;
+        bottom: 0;
+      }
+      @include lg {
+        max-width: 280px;
+        max-height: 250px;
+        bottom: 0;
+      }
+      @include xl {
+        max-width: 280px;
+        max-height: 250px;
         bottom: 0;
       }
     }

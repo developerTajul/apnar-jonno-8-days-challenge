@@ -44,11 +44,11 @@
       right: 15%;
     }
 
-    @include lg {
-      right: 5%;
-    }
+    // @include lg {
+    //   right: 5%;
+    // }
 
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       display: none;
     }
   }
@@ -61,6 +61,7 @@
     @include rmaxwd(1700) {
       max-width: 50%;
       max-height: 50%;
+      display: none;
     }
 
     @include rmaxwd(1500) {
@@ -82,14 +83,14 @@
   &-bg-five {
     top: 0;
     right: 25px;
-    @include rmaxwd(1199) {
+    @include rmaxwd(1399) {
       display: none;
     }
   }
   &-bg-six {
     bottom: 0;
     right: 25px;
-    @include rmaxwd(1199) {
+    @include rmaxwd(1399) {
       display: none;
     }
   }
@@ -100,15 +101,15 @@
     letter-spacing: 12.5px;
 
     @include xl {
-      font-size: 120px;
+      font-size: 280px;
     }
 
     @include lg {
-      font-size: 120px;
+      font-size: 260px;
     }
 
     @include md {
-      font-size: 100px;
+      font-size: 186px;
     }
 
     @include sm {
@@ -233,7 +234,16 @@
     @include rmaxwd(991) {
       transform: none;
       font-size: 16px;
-      transform: translate(-2%, 100%);
+      transform: translate(25%, 50%);
+      left: 0;
+    }
+    @include lg {
+      transform: translate(30%, 25%);
+      left: 0;
+    }
+    @include xl {
+      transform: translate(30%, 25%);
+      left: 0;
     }
   }
 
@@ -338,7 +348,7 @@
         display: none;
       }
     }
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       margin-top: 30px;
     }
   }

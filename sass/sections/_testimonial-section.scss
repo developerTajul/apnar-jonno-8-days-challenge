@@ -256,6 +256,13 @@
     flex-wrap: wrap;
     padding: 0 12px;
   }
+  @include lg {
+    padding: 0 12px;
+  }
+  @include xl {
+    padding: 0 12px;
+    max-width: none;
+  }
   .image {
     max-width: 112px;
     height: 203px;

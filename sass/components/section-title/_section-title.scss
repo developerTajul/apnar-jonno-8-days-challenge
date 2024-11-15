@@ -22,7 +22,7 @@
       text-align: left;
 
       @include lg {
-        font-size: 35px;
+        font-size: 45px;
       }
       @include rmaxwd(991) {
         font-size: 35px;
@@ -94,6 +94,18 @@
       right: 0;
       top: 55px;
     }
+    @include lg {
+      width: 180px;
+      height: 180px;
+      right: 0;
+      top: 55px;
+    }
+    @include xl {
+      width: 200px;
+      height: 200px;
+      right: 0;
+      top: 100px;
+    }
     a {
       color: $black;
       font-family: $heading-font;
@@ -102,7 +114,7 @@
       line-height: 34.66px;
       letter-spacing: 0.1em;
       text-align: left;
-      @include rmaxwd(991) {
+      @include rmaxwd(1199) {
         font-size: 18px;
         text-align: center;
       }

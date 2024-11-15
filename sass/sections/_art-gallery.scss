@@ -9,7 +9,7 @@
     top: 0;
     right: 0;
     transform: translate(-50%, 50%);
-    @include rmaxwd(991) {
+    @include rmaxwd(1399) {
       display: none;
     }
   }
@@ -44,10 +44,6 @@
     @include sm {
       margin-left: 0;
     }
-  }
-  &-mouse-pointer {
-    // width: 30px;
-    // height: 30px;
   }
   &-content-inner {
     @include md {
