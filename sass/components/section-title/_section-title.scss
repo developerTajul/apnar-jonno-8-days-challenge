@@ -10,6 +10,10 @@
       flex-direction: column;
       gap: 10px;
     }
+    @include md {
+      margin-bottom: 0;
+      padding-bottom: 48px;
+    }
     & h2 {
       font-family: $heading-font;
       font-size: 75px;
@@ -20,10 +24,7 @@
       @include lg {
         font-size: 35px;
       }
-      @include md {
-        font-size: 30px;
-      }
-      @include sm {
+      @include rmaxwd(991) {
         font-size: 35px;
         line-height: 52px;
       }
@@ -87,6 +88,12 @@
       right: unset;
       top: unset;
     }
+    @include md {
+      width: 130px;
+      height: 130px;
+      right: 0;
+      top: 55px;
+    }
     a {
       color: $black;
       font-family: $heading-font;
@@ -95,7 +102,7 @@
       line-height: 34.66px;
       letter-spacing: 0.1em;
       text-align: left;
-      @include sm {
+      @include rmaxwd(991) {
         font-size: 18px;
         text-align: center;
       }

@@ -239,7 +239,7 @@
     top: 0;
     right: 100px;
     transform: translate(-100%, -50%);
-    @include sm {
+    @include rmaxwd(991) {
       display: none;
     }
   }
@@ -295,7 +295,7 @@
     height: 956px;
     background-color: gray;
     margin-top: -170px;
-    @include sm {
+    @include rmaxwd(991) {
       margin-top: 0;
       width: auto;
       height: auto;

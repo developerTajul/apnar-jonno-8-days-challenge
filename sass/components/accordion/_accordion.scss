@@ -97,6 +97,11 @@
     }
   }
   &.style-2 {
+    &:last-child {
+      @include md {
+        padding-bottom: 20px;
+      }
+    }
     .wuc-accordion {
       &-title {
         h4 {
@@ -146,7 +151,8 @@
   border-top: 1px solid $white;
   padding-top: 60px;
   flex-wrap: wrap;
-  @include sm {
-    margin-left: 12px;
+  @include rmaxwd(991) {
+    margin-left: 0;
+    gap: 0;
   }
 }

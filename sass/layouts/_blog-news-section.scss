@@ -5,6 +5,9 @@
     @include sm {
       padding-bottom: 20px;
     }
+    @include md {
+      padding-bottom: 36px;
+    }
   }
   .section-title {
     @include sm {

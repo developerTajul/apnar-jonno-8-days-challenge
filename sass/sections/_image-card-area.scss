@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     // grid-template-columns: repeat(4, 1fr);
     max-width: 1910px;
-    @include sm {
+    @include rmaxwd(991) {
       gap: 30px;
     }
   }

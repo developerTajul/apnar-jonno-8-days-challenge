@@ -113,7 +113,7 @@ html {
 
 .award-and-event-area {
   position: relative;
-  @include sm {
+  @include rmaxwd(991) {
     padding-bottom: 0;
   }
   .section-title {
@@ -122,10 +122,10 @@ html {
     }
   }
   .accordion-wrapper {
-    @include sm {
-      margin-left: 0;
-      gap: 0;
-    }
+    // @include sm {
+    //   margin-left: 0;
+    //   gap: 0;
+    // }
   }
   .wuc-accordion {
     @include sm {

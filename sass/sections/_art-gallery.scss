@@ -3,12 +3,13 @@
   @include sm {
     padding-top: 60px;
   }
+
   &-bg-img {
     position: absolute;
     top: 0;
     right: 0;
     transform: translate(-50%, 50%);
-    @include sm {
+    @include rmaxwd(991) {
       display: none;
     }
   }
@@ -16,12 +17,15 @@
     gap: 90px;
     align-items: center;
     justify-content: center;
-    @include sm {
+    @include rmaxwd(991) {
       gap: 30px;
     }
   }
   &-image {
     background-color: azure;
+    @include md {
+      width: 400px;
+    }
   }
   &-content {
     @include sm {
@@ -46,6 +50,9 @@
     // height: 30px;
   }
   &-content-inner {
+    @include md {
+      margin-top: 30px;
+    }
     h5 {
       text-transform: uppercase;
       letter-spacing: 2px;

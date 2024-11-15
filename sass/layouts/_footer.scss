@@ -188,6 +188,10 @@
     @include lg {
       margin-left: 71px;
     }
+    @include md {
+      margin-left: 0;
+      margin-right: 0;
+    }
     @include sm {
       margin-left: 20px;
       margin-right: 50px;
@@ -218,9 +222,10 @@
     // @include lg {
     //   margin: 38px 0 0 24px;
     // }
-    // @include md {
-    //   margin: 42px 0 0 65px;
-    // }
+    @include md {
+      transform: translate(0);
+      right: 0;
+    }
     @include sm {
       display: none;
     }
@@ -289,7 +294,9 @@
         box-sizing: border-box;
         color: $white;
         font-size: 18px;
-
+        @include rmaxwd(991) {
+          width: auto;
+        }
         &:focus {
           outline: none;
           border-color: $white;

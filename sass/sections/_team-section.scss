@@ -195,13 +195,13 @@
     }
   }
   .team-member-card-wrapper {
-    @include sm {
+    @include rmaxwd(991) {
       margin-left: 0;
     }
   }
   .team-member-card {
     position: relative;
-    @include sm {
+    @include rmaxwd(991) {
       margin-bottom: 30px;
     }
     .image {

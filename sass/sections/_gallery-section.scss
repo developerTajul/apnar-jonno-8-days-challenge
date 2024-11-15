@@ -19,6 +19,11 @@
         max-height: 165px;
         bottom: -40px;
       }
+      @include md {
+        max-width: 220px;
+        max-height: 200px;
+        bottom: 0;
+      }
     }
   }
   &-bg-shape {

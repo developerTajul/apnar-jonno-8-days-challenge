@@ -1,7 +1,7 @@
 .header-area {
   width: 100%;
   height: 153px;
-  @include sm {
+  @include rmaxwd(991) {
     height: 100px;
   }
   .fixed-menu {

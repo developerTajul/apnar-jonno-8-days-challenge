@@ -48,7 +48,7 @@
       right: 5%;
     }
 
-    @include sm {
+    @include rmaxwd(991) {
       display: none;
     }
   }
@@ -333,29 +333,13 @@
 
   &-author-Wrapper {
     height: 170px;
-    @include rmaxwd(1831) {
-      padding-left: 120px;
+    br {
+      @include sm {
+        display: none;
+      }
     }
-
-    @include xxl {
-      padding: 0 55px 0 65px;
-    }
-
-    @include xml {
-      padding: 0 28px 0 28px;
-    }
-
-    @include xl {
-      padding: 0px 3px 0 11px;
-    }
-
-    @include lg {
-      padding: 0 10px 0 10px;
-    }
-
-    @include sm {
-      display: none;
-      visibility: hidden;
+    @include rmaxwd(991) {
+      margin-top: 30px;
     }
   }
 
@@ -363,6 +347,7 @@
     display: flex;
     flex-direction: column;
     gap: 0;
+
     & h5 {
       color: #fff;
       font-family: Rubik;

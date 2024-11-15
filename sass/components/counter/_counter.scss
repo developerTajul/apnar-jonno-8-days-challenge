@@ -4,6 +4,8 @@
   }
   @include md {
     gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 96px;
   }
   @include sm {
     gap: 50px;
