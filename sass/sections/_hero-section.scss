@@ -255,13 +255,15 @@
 
   &-title-two {
     color: #fff;
-    font-family: Gilroy-Light;
-    font-size: 100px;
+    font-family: $heading-font;
+    font-size: 180px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 70px;
+    line-height: normal;
+    letter-spacing: 9px;
+    text-align: center;
     text-transform: uppercase;
+    position: relative;
 
     @include xl {
       font-size: 65px;
@@ -288,7 +290,6 @@
       font-size: 20px;
     }
   }
-
   &-slider-inner-text {
     bottom: 140px;
     left: 114px;
@@ -446,7 +447,16 @@
   }
 
   &-first-containt-inner {
-    margin-left: -60px;
+    position: relative;
+    .hero-area-short-title {
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 9.45px;
+      text-transform: uppercase;
+      transform: translate(30%, 50%);
+    }
 
     @include rmaxwd(1600) {
       margin-left: 0;

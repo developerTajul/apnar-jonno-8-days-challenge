@@ -15934,13 +15934,15 @@ html {
 }
 .hero-area-title-two {
   color: #fff;
-  font-family: Gilroy-Light;
-  font-size: 100px;
+  font-family: "Gilroy-Bold";
+  font-size: 180px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 70px;
+  line-height: normal;
+  letter-spacing: 9px;
+  text-align: center;
   text-transform: uppercase;
+  position: relative;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-area-title-two {
@@ -16129,7 +16131,16 @@ html {
   }
 }
 .hero-area-two-first-containt-inner {
-  margin-left: -60px;
+  position: relative;
+}
+.hero-area-two-first-containt-inner .hero-area-short-title {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 9.45px;
+  text-transform: uppercase;
+  transform: translate(30%, 50%);
 }
 @media (max-width: 1600px) {
   .hero-area-two-first-containt-inner {
@@ -18747,6 +18758,12 @@ html {
   line-height: 60px;
 }
 
+.image-card-area.style-2 .image-card-wrapper {
+  gap: 30px;
+}
+.image-card-area.style-2 .image-card-wrapper .image-card.style-2 {
+  max-width: 890px;
+}
 .image-card-area .image-card-wrapper {
   display: flex;
   flex-wrap: wrap;

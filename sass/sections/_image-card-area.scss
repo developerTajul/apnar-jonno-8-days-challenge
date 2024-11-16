@@ -1,4 +1,14 @@
 .image-card-area {
+  &.style-2 {
+    .image-card-wrapper {
+      gap: 30px;
+      .image-card {
+        &.style-2 {
+          max-width: 890px;
+        }
+      }
+    }
+  }
   .image-card-wrapper {
     display: flex;
     flex-wrap: wrap;
