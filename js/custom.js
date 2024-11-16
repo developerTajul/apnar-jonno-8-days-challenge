@@ -196,14 +196,14 @@
         ============================*/
     document.querySelectorAll('.wuc-accordion-wrapper').forEach(accordion => {
       const title = accordion.querySelector('.wuc-accordion-title');
-      const rightArrow = title.querySelector('.right-arrow');
-      const bottomArrow = title.querySelector('.bottom-arrow');
+      const rightArrow = title.querySelector('.accordin-icon');
+      // const bottomArrow = title.querySelector('.bottom-arrow');
       const content = accordion.querySelector('.wuc-accordion-pra');
 
       title.addEventListener('click', () => {
         content.classList.toggle('active');
         rightArrow.classList.toggle('active');
-        bottomArrow.classList.toggle('active');
+        // bottomArrow.classList.toggle('active');
       });
     });
 

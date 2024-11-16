@@ -16,11 +16,24 @@
   @include rmaxwd(520) {
     gap: 10px;
   }
+  &-inner-wrapper {
+    @include sm {
+      padding-left: 0;
+      display: flex;
+      gap: 30px;
+    }
+    @include xl {
+      gap: 30px;
+    }
+  }
   &.style-1 {
     &-inner-wrapper {
       @include sm {
         padding-left: 0;
         display: flex;
+        gap: 30px;
+      }
+      @include xl {
         gap: 30px;
       }
     }
