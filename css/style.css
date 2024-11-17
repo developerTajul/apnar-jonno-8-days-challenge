@@ -18865,13 +18865,14 @@ html {
 }
 .services-area .wuc-accordion-pra .image-wrapper {
   max-width: 575px;
-  max-height: 216px;
+  height: 216px;
   position: relative;
   border-radius: 26px;
   overflow: hidden;
 }
 .services-area .wuc-accordion-pra .image-wrapper img {
   border-radius: 26px;
+  height: 100%;
 }
 .services-area .wuc-accordion-pra .image-wrapper .square-1 {
   position: absolute;
