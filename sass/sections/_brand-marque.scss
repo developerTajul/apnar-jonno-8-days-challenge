@@ -1,4 +1,17 @@
 .brand-marque-area {
+  &.style-2 {
+    margin-bottom: 0;
+    &.brand-marque-area-primary {
+      margin-bottom: 0;
+    }
+    .brand-marque-wrapper {
+      .single-img-marque {
+        &:nth-child(even) {
+          margin-top: 0;
+        }
+      }
+    }
+  }
   &.brand-marque-area-primary {
     margin-bottom: -39px;
     overflow: hidden;
