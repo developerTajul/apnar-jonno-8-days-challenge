@@ -51,51 +51,15 @@
         gap: 50px;
         padding: 26px 0;
         background-color: $primary-color;
-
-        &.first-text-marque {
-          animation: Scroll 32s linear infinite;
-        }
-
-        // &.second-text-marque {
-        //   animation: Scroll 32s linear infinite;
-        //   animation-direction: reverse;
-        // }
       }
 
-      & .text-marque-title-two {
+      & .text-marque-title-one {
         font-size: 38px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
         color: $black;
-
-        @include xl {
-          font-size: 210px;
-        }
-
-        @include lg {
-          margin-top: 1;
-          font-size: 180px;
-        }
-
-        @include md {
-          font-size: 120px;
-          margin-right: 30px;
-          margin-top: 1;
-        }
-
-        @include sm {
-          font-size: 90px;
-          margin-right: 30px;
-          margin-top: 0;
-        }
-
-        @include rmaxwd(480) {
-          font-size: 45px;
-          margin-right: 10px;
-          margin-top: 0;
-        }
       }
       & .single-text-marque {
         display: flex;
@@ -106,26 +70,6 @@
   }
 
   &.style-2 {
-    @include xl {
-      padding-top: 10px;
-      padding-bottom: 30px;
-    }
-
-    @include lg {
-      padding-top: 10px;
-      padding-bottom: 30px;
-    }
-
-    @include md {
-      padding-top: 10px;
-      padding-bottom: 30px;
-    }
-
-    @include sm {
-      padding-top: 10px;
-      padding-bottom: 30px;
-    }
-
     .text-marque-section {
       gap: 40px;
 
@@ -134,87 +78,19 @@
         align-items: center;
         justify-content: center;
         gap: 50px;
-        padding: 26px 0;
-        background-color: $primary-color;
+        // background-color: $primary-color;
         @include rmaxwd(1399) {
           margin-bottom: 0;
-        }
-
-        &.first-text-marque {
-          animation: Scroll 32s linear infinite;
-        }
-
-        &.second-text-marque {
-          animation: Scroll 32s linear infinite;
-          animation-direction: reverse;
         }
       }
 
       & .single-text-marque {
-        & .text-marque-title-one {
-          font-size: 150px;
-          white-space: nowrap;
-          text-transform: uppercase;
-
-          @include md {
-            font-size: 120px;
-          }
-
-          @include sm {
-            font-size: 80px;
-          }
-
-          @include rmaxwd(480) {
-            font-size: 50px;
-            letter-spacing: 10px;
-          }
-
-          span {
-            font-family: Gilroy-Light;
-          }
-        }
-
         & .text-marque-title-two {
-          @include sm {
-            margin-right: 30px;
-          }
-
-          @include sm {
-            margin-right: 15px;
-          }
-
-          font-family: Gilroy-Light;
-          font-size: 80px;
-          letter-spacing: 40px;
+          font-size: 120px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
           text-transform: uppercase;
-          white-space: nowrap;
-
-          span {
-            text-align: center;
-            font-family: Gilroy-Bold;
-            font-size: 65px;
-            letter-spacing: 46.15px;
-
-            @include sm {
-              font-size: 40px;
-              letter-spacing: 10px;
-            }
-
-            @include rmaxwd(480) {
-              font-size: 30px;
-              letter-spacing: 10px;
-            }
-          }
-
-          @include sm {
-            font-size: 40px;
-            letter-spacing: 13px;
-          }
-
-          @include rmaxwd(480) {
-            font-size: 30px;
-            letter-spacing: 10px;
-          }
         }
       }
     }

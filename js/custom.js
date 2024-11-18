@@ -190,6 +190,24 @@
         },
       ],
     });
+    $('.marquee-active-two').slick({
+      slidesToShow: 4,
+      speed: 10000,
+      autoplay: true,
+      autoplaySpeed: 0,
+      cssEase: 'linear',
+      variableWidth: true,
+      infinite: true,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            vertical: false,
+          },
+        },
+      ],
+    });
 
     /*============================
         Service Details Accordion
