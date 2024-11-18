@@ -13720,6 +13720,13 @@ html {
     display: none;
   }
 }
+.section-title.style-1 .desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  text-transform: capitalize;
+}
 .section-title.style-1 span {
   color: #edbc5a;
   font-weight: 300;
@@ -14808,41 +14815,45 @@ html {
     font-size: 15px;
   }
 }
-.team-secondary-partner .contact-form form {
+
+.contact-form form {
   display: flex;
   flex-direction: column;
 }
-.team-secondary-partner .contact-form form .contract-group {
+.contact-form form .contract-group {
   display: flex;
   justify-content: space-between;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-secondary-partner .contact-form form .contract-group {
+  .contact-form form .contract-group {
     display: block;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-secondary-partner .contact-form form .contract-group {
+  .contact-form form .contract-group {
     display: block;
   }
 }
-.team-secondary-partner .contact-form form .contract-group .input-col {
+.contact-form form .contract-group .input-col {
   width: calc(50% - 24px);
   margin-bottom: 40px;
 }
+.contact-form form .contract-group .input-col.w-full {
+  width: 100%;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-secondary-partner .contact-form form .contract-group .input-col {
+  .contact-form form .contract-group .input-col {
     width: calc(100% - 20px);
     margin-bottom: 35px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-secondary-partner .contact-form form .contract-group .input-col {
+  .contact-form form .contract-group .input-col {
     width: calc(100% - 20px);
     margin-bottom: 20px;
   }
 }
-.team-secondary-partner .contact-form form .contract-group .input-col label {
+.contact-form form .contract-group .input-col label {
   display: block;
   color: #ffffff;
   font-family: Rubik;
@@ -14851,27 +14862,9 @@ html {
   font-weight: 400;
   line-height: 29px;
 }
-.team-secondary-partner .contact-form form .contract-group .input-col label.name::before {
-  content: "\e91e";
-  font-family: "icomoon";
-  font-size: 22px;
-  margin-right: 17px;
-}
-.team-secondary-partner .contact-form form .contract-group .input-col label.phone::before {
-  content: "\e91c";
-  font-family: "icomoon";
-  font-size: 22px;
-  margin-right: 17px;
-}
-.team-secondary-partner .contact-form form .contract-group .input-col label.email::before {
-  content: "\e91d";
-  font-family: "icomoon";
-  font-size: 22px;
-  margin-right: 17px;
-}
-.team-secondary-partner .contact-form form .contract-group .input-col input,
-.team-secondary-partner .contact-form form .contract-group .input-col select,
-.team-secondary-partner .contact-form form .contract-group .input-col textarea {
+.contact-form form .contract-group .input-col input,
+.contact-form form .contract-group .input-col select,
+.contact-form form .contract-group .input-col textarea {
   width: 100%;
   border: none;
   border-radius: 0;
@@ -14883,16 +14876,16 @@ html {
   color: #ffffff;
   font-size: 18px;
 }
-.team-secondary-partner .contact-form form .contract-group .input-col input:focus,
-.team-secondary-partner .contact-form form .contract-group .input-col select:focus,
-.team-secondary-partner .contact-form form .contract-group .input-col textarea:focus {
+.contact-form form .contract-group .input-col input:focus,
+.contact-form form .contract-group .input-col select:focus,
+.contact-form form .contract-group .input-col textarea:focus {
   outline: none;
   border-color: #ffffff;
 }
-.team-secondary-partner .contact-form form .contract-group .input-col textarea {
+.contact-form form .contract-group .input-col textarea {
   min-height: 80px;
 }
-.team-secondary-partner .contact-form form .contract-group .input-col select {
+.contact-form form .contract-group .input-col select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -14903,13 +14896,13 @@ html {
   padding-right: 30px;
   color: #ffffff;
 }
-.team-secondary-partner .contact-form form .contract-group .input-col select option.selector-menu {
+.contact-form form .contract-group .input-col select option.selector-menu {
   background: #141414;
 }
-.team-secondary-partner .contact-form form .contract-group.full-row {
+.contact-form form .contract-group.full-row {
   flex-direction: column;
 }
-.team-secondary-partner .contact-form form .contract-group.full-row label {
+.contact-form form .contract-group.full-row label {
   color: #ffffff;
   font-family: Rubik;
   font-size: 16px;
@@ -14917,13 +14910,7 @@ html {
   font-weight: 400;
   line-height: 29px;
 }
-.team-secondary-partner .contact-form form .contract-group.full-row label.inbox::before {
-  content: "\e91b";
-  font-family: "icomoon";
-  font-size: 22px;
-  margin-right: 17px;
-}
-.team-secondary-partner .contact-form form .contract-group.full-row textarea {
+.contact-form form .contract-group.full-row textarea {
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 0;
@@ -14936,52 +14923,50 @@ html {
   font-size: 18px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-secondary-partner .contact-form form .contract-group.full-row textarea {
+  .contact-form form .contract-group.full-row textarea {
     min-height: 90px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-secondary-partner .contact-form form .contract-group.full-row textarea {
+  .contact-form form .contract-group.full-row textarea {
     min-height: 90px;
   }
 }
-.team-secondary-partner .contact-form form .contract-group.full-row textarea:focus {
+.contact-form form .contract-group.full-row textarea:focus {
   outline: none;
   border-color: #ffffff;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-secondary-partner .contact-form form .page-btn {
+  .contact-form form .page-btn {
     margin-top: 35px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-secondary-partner .contact-form form .page-btn {
+  .contact-form form .page-btn {
     margin-top: 24px;
   }
 }
-.team-secondary-partner .contact-form form .page-btn a {
-  display: inline-block;
-  padding: 22px 19px 22px 42px;
-  border: 1px solid #edbc5a;
-  color: var(--White, #fff);
-  font-family: Gilroy-Medium;
-  font-size: 28px;
+.contact-form form .page-btn a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  color: #141414;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  border-radius: 38px;
+  line-height: 29px;
+  background-color: #ffffff;
+  border-radius: 50px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-secondary-partner .contact-form form .page-btn a {
+  .contact-form form .page-btn a {
     font-size: 22px;
     padding: 12px 20px 12px 20px;
   }
 }
-.team-secondary-partner .contact-form form .page-btn a::after {
-  content: "\e90f";
-  font-family: icomoon;
-  margin: 20px 0 0 23px;
-}
-.team-secondary-partner .contact-form form .page-btn a:hover {
+.contact-form form .page-btn a:hover {
   background: #edbc5a;
 }
 
@@ -19442,7 +19427,7 @@ html {
   }
 }
 .contact-page h4 {
-  color: #FFF;
+  color: #fff;
   font-family: Gilroy-Regular;
   font-size: 40px;
   font-style: normal;
@@ -19464,6 +19449,10 @@ html {
   .contact-page .company-map span iframe {
     height: 250px;
   }
+}
+
+.contact-card {
+  border-bottom: 1px solid #ffffff;
 }
 
 .project-page-card-part {

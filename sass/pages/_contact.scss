@@ -1,32 +1,35 @@
-.contact-page{
-    &-info {
-        margin-top: 56px;
-        @include sm{
-            margin-top: 0;
-        }
+.contact-page {
+  &-info {
+    margin-top: 56px;
+    @include sm {
+      margin-top: 0;
     }
-    h4{
-        color: #FFF;
-        font-family: Gilroy-Regular;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 2px;
-        @include md{
-            font-size: 21px;
-        }
-        @include sm{
-            font-size: 21px;
-        }
+  }
+  h4 {
+    color: #fff;
+    font-family: Gilroy-Regular;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    @include md {
+      font-size: 21px;
     }
-    .company-map{
-        span{
-            iframe{
-                @include sm{
-                    height: 250px;
-                }
-            }
-        }
+    @include sm {
+      font-size: 21px;
     }
+  }
+  .company-map {
+    span {
+      iframe {
+        @include sm {
+          height: 250px;
+        }
+      }
+    }
+  }
+}
+.contact-card {
+  border-bottom: 1px solid $white;
 }
