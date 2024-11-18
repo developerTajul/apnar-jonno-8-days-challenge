@@ -45,90 +45,62 @@
       gap: 40px;
 
       & .text-marque-wrapper {
-        display: flex;
+        display: flex !important;
         align-items: center;
         justify-content: center;
         gap: 50px;
+        padding: 26px 0;
+        background-color: $primary-color;
 
         &.first-text-marque {
           animation: Scroll 32s linear infinite;
         }
 
-        &.second-text-marque {
-          animation: Scroll 32s linear infinite;
-          animation-direction: reverse;
-        }
+        // &.second-text-marque {
+        //   animation: Scroll 32s linear infinite;
+        //   animation-direction: reverse;
+        // }
       }
 
+      & .text-marque-title-two {
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        color: $black;
+
+        @include xl {
+          font-size: 210px;
+        }
+
+        @include lg {
+          margin-top: 1;
+          font-size: 180px;
+        }
+
+        @include md {
+          font-size: 120px;
+          margin-right: 30px;
+          margin-top: 1;
+        }
+
+        @include sm {
+          font-size: 90px;
+          margin-right: 30px;
+          margin-top: 0;
+        }
+
+        @include rmaxwd(480) {
+          font-size: 45px;
+          margin-right: 10px;
+          margin-top: 0;
+        }
+      }
       & .single-text-marque {
-        & .text-marque-title-one {
-          font-size: 250px;
-          letter-spacing: 12.5px;
-          white-space: nowrap;
-
-        }
-
-        & .text-marque-title-one {
-          @include xl {
-            font-size: 210px;
-          }
-
-          @include lg {
-            font-size: 180px;
-          }
-
-          @include md {
-            font-size: 120px;
-            margin-right: 50px;
-          }
-
-          @include sm {
-            font-size: 90px;
-            margin-right: 30px;
-          }
-
-          @include rmaxwd(480) {
-            font-size: 45px;
-            margin-right: 10px;
-          }
-        }
-
-        & .text-marque-title-two {
-          -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: rgba(255, 255, 255, 0.40);
-          color: transparent;
-          font-size: 250px;
-          letter-spacing: 7.5px;
-          margin-top: -3.2%;
-          white-space: nowrap;
-
-          @include xl {
-            font-size: 210px;
-          }
-
-          @include lg {
-            margin-top: 1;
-            font-size: 180px;
-          }
-
-          @include md {
-            font-size: 120px;
-            margin-right: 30px;
-            margin-top: 1;
-          }
-
-          @include sm {
-            font-size: 90px;
-            margin-right: 30px;
-            margin-top: 0;
-          }
-
-          @include rmaxwd(480) {
-            font-size: 45px;
-            margin-right: 10px;
-            margin-top: 0;
-          }
-        }
+        display: flex;
+        align-items: center;
+        gap: 50px;
       }
     }
   }
@@ -162,7 +134,8 @@
         align-items: center;
         justify-content: center;
         gap: 50px;
-
+        padding: 26px 0;
+        background-color: $primary-color;
         @include rmaxwd(1399) {
           margin-bottom: 0;
         }

@@ -13564,6 +13564,10 @@ html {
   background: #131313;
 }
 
+.body-primary {
+  background: #edbc5a;
+}
+
 .footer-bg {
   background: #1a1717;
 }
@@ -16401,91 +16405,60 @@ html {
   gap: 40px;
 }
 .text-marque-area.style-1 .text-marque-section .text-marque-wrapper {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   gap: 50px;
+  padding: 26px 0;
+  background-color: #edbc5a;
 }
 .text-marque-area.style-1 .text-marque-section .text-marque-wrapper.first-text-marque {
   animation: Scroll 32s linear infinite;
 }
-.text-marque-area.style-1 .text-marque-section .text-marque-wrapper.second-text-marque {
-  animation: Scroll 32s linear infinite;
-  animation-direction: reverse;
-}
-.text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-one {
-  font-size: 250px;
-  letter-spacing: 12.5px;
-  white-space: nowrap;
+.text-marque-area.style-1 .text-marque-section .text-marque-title-two {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #141414;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-one {
+  .text-marque-area.style-1 .text-marque-section .text-marque-title-two {
     font-size: 210px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-one {
-    font-size: 180px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-one {
-    font-size: 120px;
-    margin-right: 50px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-one {
-    font-size: 90px;
-    margin-right: 30px;
-  }
-}
-@media (max-width: 480px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-one {
-    font-size: 45px;
-    margin-right: 10px;
-  }
-}
-.text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-two {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(255, 255, 255, 0.4);
-  color: transparent;
-  font-size: 250px;
-  letter-spacing: 7.5px;
-  margin-top: -3.2%;
-  white-space: nowrap;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-two {
-    font-size: 210px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-two {
+  .text-marque-area.style-1 .text-marque-section .text-marque-title-two {
     margin-top: 1;
     font-size: 180px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-two {
+  .text-marque-area.style-1 .text-marque-section .text-marque-title-two {
     font-size: 120px;
     margin-right: 30px;
     margin-top: 1;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-two {
+  .text-marque-area.style-1 .text-marque-section .text-marque-title-two {
     font-size: 90px;
     margin-right: 30px;
     margin-top: 0;
   }
 }
 @media (max-width: 480px) {
-  .text-marque-area.style-1 .text-marque-section .single-text-marque .text-marque-title-two {
+  .text-marque-area.style-1 .text-marque-section .text-marque-title-two {
     font-size: 45px;
     margin-right: 10px;
     margin-top: 0;
   }
+}
+.text-marque-area.style-1 .text-marque-section .single-text-marque {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .text-marque-area.style-2 {
@@ -16519,6 +16492,8 @@ html {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  padding: 26px 0;
+  background-color: #edbc5a;
 }
 @media (max-width: 1399px) {
   .text-marque-area.style-2 .text-marque-section .text-marque-wrapper {
