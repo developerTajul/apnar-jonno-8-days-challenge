@@ -13737,6 +13737,7 @@ html {
   letter-spacing: 3.52px;
   text-transform: uppercase;
   display: block;
+  white-space: nowrap;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title.style-1 span {
@@ -13834,7 +13835,6 @@ html {
     text-align: center;
   }
 }
-
 .hero-area .slick-arrow.btn-prev {
   position: absolute;
   bottom: 0;
@@ -14940,17 +14940,18 @@ html {
   outline: none;
   border-color: #ffffff;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact-form form .page-btn {
+  .page-btn {
     margin-top: 35px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .contact-form form .page-btn {
+  .page-btn {
     margin-top: 24px;
   }
 }
-.contact-form form .page-btn a {
+.page-btn a {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -14965,12 +14966,12 @@ html {
   border-radius: 50px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .contact-form form .page-btn a {
+  .page-btn a {
     font-size: 22px;
     padding: 12px 20px 12px 20px;
   }
 }
-.contact-form form .page-btn a:hover {
+.page-btn a:hover {
   background: #edbc5a;
 }
 

@@ -47,6 +47,7 @@
       letter-spacing: 3.52px;
       text-transform: uppercase;
       display: block;
+      white-space: nowrap;
       @include sm {
         font-size: 16px;
         margin-bottom: 0;
@@ -125,6 +126,8 @@
         font-size: 18px;
         text-align: center;
       }
+    }
+    &.style-2 {
     }
   }
 }

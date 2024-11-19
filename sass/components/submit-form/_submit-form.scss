@@ -77,30 +77,6 @@
           font-style: normal;
           font-weight: 400;
           line-height: 29px;
-          // &.name {
-          //   &::before {
-          //     content: '\e91e';
-          //     font-family: 'icomoon';
-          //     font-size: 22px;
-          //     margin-right: 17px;
-          //   }
-          // }
-          // &.phone {
-          //   &::before {
-          //     content: '\e91c';
-          //     font-family: 'icomoon';
-          //     font-size: 22px;
-          //     margin-right: 17px;
-          //   }
-          // }
-          // &.email {
-          //   &::before {
-          //     content: '\e91d';
-          //     font-family: 'icomoon';
-          //     font-size: 22px;
-          //     margin-right: 17px;
-          //   }
-          // }
         }
 
         input,
@@ -188,35 +164,34 @@
         }
       }
     }
-
-    .page-btn {
-      @include md {
-        margin-top: 35px;
-      }
-      @include sm {
-        margin-top: 24px;
-      }
-      a {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        padding: 5px 10px;
-        color: $black;
-        font-family: $body-font;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 29px;
-        background-color: $white;
-        border-radius: 50px;
-        @include sm {
-          font-size: 22px;
-          padding: 12px 20px 12px 20px;
-        }
-        &:hover {
-          background: $primary-color;
-        }
-      }
+  }
+}
+.page-btn {
+  @include md {
+    margin-top: 35px;
+  }
+  @include sm {
+    margin-top: 24px;
+  }
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    color: $black;
+    font-family: $body-font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    background-color: $white;
+    border-radius: 50px;
+    @include sm {
+      font-size: 22px;
+      padding: 12px 20px 12px 20px;
+    }
+    &:hover {
+      background: $primary-color;
     }
   }
 }
