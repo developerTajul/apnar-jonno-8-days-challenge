@@ -33,3 +33,10 @@
 .contact-card {
   border-bottom: 1px solid $white;
 }
+.contact-us-area {
+  .contact-card-wrapper {
+    @include sm {
+      margin-left: 12px;
+    }
+  }
+}

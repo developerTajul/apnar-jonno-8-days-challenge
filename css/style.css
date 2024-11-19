@@ -13636,7 +13636,7 @@ html {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .pt-140 {
-    padding-top: 60px;
+    padding-top: 54px;
   }
 }
 
@@ -13656,6 +13656,7 @@ html {
 @media (max-width: 991px) {
   .award-and-event-area {
     padding-bottom: 0;
+    padding-top: 55px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -16132,14 +16133,11 @@ html {
   text-transform: uppercase;
   transform: translate(30%, 50%);
 }
-@media (max-width: 1600px) {
-  .hero-area-two-first-containt-inner {
-    margin-left: 0;
-  }
-}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .hero-area-two-first-containt-inner {
-    margin-bottom: 30px;
+  .hero-area-two-first-containt-inner .hero-area-short-title {
+    transform: translate(0px, 25px);
+    font-size: 13px;
+    letter-spacing: 2px;
   }
 }
 .hero-area-two-first-containt-inner h1 {
@@ -16162,12 +16160,8 @@ html {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .hero-area-two-first-containt-inner h1 {
-    font-size: 53px;
-  }
-}
-@media (max-width: 480px) {
-  .hero-area-two-first-containt-inner h1 {
-    font-size: 35px;
+    font-size: 75px;
+    letter-spacing: 9px;
   }
 }
 .hero-area-two-first-containt-inner h1.after-shape {
@@ -18005,7 +17999,6 @@ html {
   margin-top: 0;
 }
 .brand-marque-area.brand-marque-area-primary {
-  margin-bottom: -39px;
   overflow: hidden;
   position: relative;
   z-index: 11;
@@ -18475,6 +18468,11 @@ html {
   line-height: 60px;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .image-card-area.style-2 {
+    padding-top: 80px;
+  }
+}
 .image-card-area.style-2 .image-card-wrapper {
   gap: 30px;
 }
@@ -18499,6 +18497,11 @@ html {
   width: 255px;
   height: 255px;
   border-bottom-left-radius: 60px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .image-card-area.style-3 .image-card.style-5 .square-1 {
+    display: none;
+  }
 }
 .image-card-area.style-3 .image-card.style-5 .square-1:before, .image-card-area.style-3 .image-card.style-5 .square-1:after {
   content: "";
@@ -18613,6 +18616,31 @@ html {
   max-height: 467px;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .services-area {
+    padding-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .services-area .section-title.style-1 {
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .services-area .wuc-accordion-main-content {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .services-area .wuc-accordion-wrapper {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .services-area .wuc-accordion-title h4 {
+    margin-bottom: 25px;
+  }
+}
 .services-area .wuc-accordion-pra {
   display: flex;
   gap: 200px;
@@ -19176,6 +19204,12 @@ html {
 
 .contact-card {
   border-bottom: 1px solid #ffffff;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .contact-us-area .contact-card-wrapper {
+    margin-left: 12px;
+  }
 }
 
 .project-page-card-part {

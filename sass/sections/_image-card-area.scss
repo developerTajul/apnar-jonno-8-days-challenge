@@ -1,5 +1,8 @@
 .image-card-area {
   &.style-2 {
+    @include sm {
+      padding-top: 80px;
+    }
     .image-card-wrapper {
       gap: 30px;
       .image-card {
@@ -28,6 +31,9 @@
           width: 255px;
           height: 255px;
           border-bottom-left-radius: 60px;
+          @include sm {
+            display: none;
+          }
           &:before,
           &:after {
             content: '';

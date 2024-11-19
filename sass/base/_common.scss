@@ -99,7 +99,7 @@ html {
     padding-top: 80px;
   }
   @include sm {
-    padding-top: 60px;
+    padding-top: 54px;
   }
 }
 .progress-circle {
@@ -118,6 +118,7 @@ html {
   position: relative;
   @include rmaxwd(991) {
     padding-bottom: 0;
+    padding-top: 55px;
   }
   .section-title {
     @include sm {

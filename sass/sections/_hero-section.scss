@@ -456,14 +456,11 @@
       letter-spacing: 9.45px;
       text-transform: uppercase;
       transform: translate(30%, 50%);
-    }
-
-    @include rmaxwd(1600) {
-      margin-left: 0;
-    }
-
-    @include sm {
-      margin-bottom: 30px;
+      @include sm {
+        transform: translate(0px, 25px);
+        font-size: 13px;
+        letter-spacing: 2px;
+      }
     }
 
     h1 {
@@ -482,11 +479,8 @@
       }
 
       @include sm {
-        font-size: 53px;
-      }
-
-      @include rmaxwd(480) {
-        font-size: 35px;
+        font-size: 75px;
+        letter-spacing: 9px;
       }
 
       &.after-shape {

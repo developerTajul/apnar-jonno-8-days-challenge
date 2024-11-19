@@ -1,5 +1,32 @@
 .services-area {
+  @include sm {
+    padding-bottom: 32px;
+  }
+  .section-title {
+    &.style-1 {
+      @include sm {
+        padding-bottom: 0px;
+      }
+    }
+  }
   .wuc-accordion {
+    &-main-content {
+      @include sm {
+        margin-left: 0;
+      }
+    }
+    &-wrapper {
+      @include sm {
+        margin-bottom: 25px;
+      }
+    }
+    &-title {
+      h4 {
+        @include sm {
+          margin-bottom: 25px;
+        }
+      }
+    }
     &-pra {
       display: flex;
       gap: 200px;
