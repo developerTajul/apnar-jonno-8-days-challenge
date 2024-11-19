@@ -433,27 +433,27 @@
     // );
     /*pricing Hover Card
         ============================*/
-    $('#cards-1, #cards-3').hover(
-      function () {
-        $('#cards-2 .visibles-card').css({
-          visibility: 'hidden',
-          opacity: '0',
-          height: '0',
-          transform: 'scaleY(0)',
-        });
-        $('#cards-2 .card-wrapper-visible').addClass('hidden-before');
-      },
-      function () {
-        $('#cards-2 .visibles-card').css({
-          visibility: 'visible',
-          opacity: '1',
-          height: 'auto',
-          transform: 'scaleY(1)',
-          transition: 'all 0.4s ease 0s',
-        });
-        $('#cards-2 .card-wrapper-visible').removeClass('hidden-before');
-      }
-    );
+    // $('#cards-1, #cards-3').hover(
+    //   function () {
+    //     $('#cards-2 .visibles-card').css({
+    //       visibility: 'hidden',
+    //       opacity: '0',
+    //       height: '0',
+    //       transform: 'scaleY(0)',
+    //     });
+    //     $('#cards-2 .card-wrapper-visible').addClass('hidden-before');
+    //   },
+    //   function () {
+    //     $('#cards-2 .visibles-card').css({
+    //       visibility: 'visible',
+    //       opacity: '1',
+    //       height: 'auto',
+    //       transform: 'scaleY(1)',
+    //       transition: 'all 0.4s ease 0s',
+    //     });
+    //     $('#cards-2 .card-wrapper-visible').removeClass('hidden-before');
+    //   }
+    // );
 
     /*Js-Tilt Animation
         ============================*/
