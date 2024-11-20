@@ -1,7 +1,4 @@
 .counter-area {
-  @include lg {
-    margin-right: 25px;
-  }
   @include md {
     gap: 20px;
     padding-top: 40px;
@@ -93,9 +90,10 @@
     }
     @include md {
       padding-bottom: 40px;
-    }
-    @include md {
       padding-top: 0;
+    }
+    @include lg {
+      padding-bottom: 60px;
     }
   }
   &.style-3 {

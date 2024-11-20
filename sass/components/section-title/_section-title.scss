@@ -23,6 +23,7 @@
 
       @include lg {
         font-size: 45px;
+        line-height: 75px;
       }
       @include rmaxwd(991) {
         font-size: 35px;
@@ -48,6 +49,7 @@
       text-transform: uppercase;
       display: block;
       white-space: nowrap;
+      margin-top: -5px;
       @include sm {
         font-size: 16px;
         margin-bottom: 0;

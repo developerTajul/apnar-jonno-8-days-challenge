@@ -13682,6 +13682,7 @@ html {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title.style-1 h2 {
     font-size: 45px;
+    line-height: 75px;
   }
 }
 @media (max-width: 991px) {
@@ -13709,6 +13710,7 @@ html {
   text-transform: uppercase;
   display: block;
   white-space: nowrap;
+  margin-top: -5px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title.style-1 span {
@@ -14370,11 +14372,6 @@ html {
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-area {
-    margin-right: 25px;
-  }
-}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-area {
     gap: 20px;
@@ -14494,11 +14491,12 @@ html {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-area.style-2 {
     padding-bottom: 40px;
+    padding-top: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .counter-area.style-2 {
-    padding-top: 0;
+    padding-bottom: 60px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -16138,6 +16136,13 @@ html {
     letter-spacing: 2px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-area-two-first-containt-inner .hero-area-short-title {
+    transform: translate(50%, 25px);
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
 .hero-area-two-first-containt-inner h1 {
   text-transform: uppercase;
 }
@@ -16622,6 +16627,11 @@ html {
     padding-bottom: 0;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area {
+    padding-bottom: 10px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-area .section-title {
     padding-bottom: 0;
@@ -16629,6 +16639,12 @@ html {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-area .section-title {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-area .section-title {
     flex-direction: column;
     gap: 0;
@@ -17937,7 +17953,7 @@ html {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pricing-area {
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     padding-top: 70px;
   }
 }
@@ -17966,7 +17982,14 @@ html {
     gap: 0;
   }
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pricing-area .section-title {
+    padding-bottom: 0;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+@media (max-width: 1199px) {
   .pricing-area-card {
     margin-top: 30px;
   }
@@ -18284,6 +18307,11 @@ html {
 .image-card-area.style-2 .image-card-wrapper .image-card.style-2 {
   max-width: 890px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .image-card-area.style-2 .image-card-wrapper .image-card.style-2 {
+    max-width: 500px;
+  }
+}
 .image-card-area.style-3 .image-card.style-5 {
   position: relative;
   border-radius: 60px;
@@ -18309,6 +18337,12 @@ html {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .image-card-area.style-3 .image-card.style-5 .square-1 {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .image-card-area.style-3 .image-card.style-5 .square-1 {
     width: 120px;
     height: 120px;
@@ -18447,12 +18481,22 @@ html {
     padding-bottom: 52px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .services-area {
+    padding-bottom: 70px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .services-area .section-title.style-1 {
     padding-bottom: 0px;
   }
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .services-area .section-title.style-1 {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 1199px) {
   .services-area .wuc-accordion-main-content {
     margin-left: 0;
   }
@@ -18460,6 +18504,11 @@ html {
 @media (max-width: 991px) {
   .services-area .wuc-accordion-wrapper {
     margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .services-area .wuc-accordion-wrapper {
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 991px) {
@@ -18560,7 +18609,13 @@ html {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .award-and-event-area.style-2 {
-    padding-top: 75px;
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .award-and-event-area.style-2 {
+    padding-top: 100px;
+    padding-bottom: 30px;
   }
 }
 .award-and-event-area.style-2 .accordion-wrapper .wuc-accordion:last-child {
@@ -19092,12 +19147,19 @@ html {
     padding-bottom: 0;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-us-area .section-title {
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 30px;
+  }
+}
 @media (max-width: 991px) {
   .contact-us-area .contact-form .form-heading {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .contact-us-area .contact-card-wrapper {
     margin-left: 0;
   }

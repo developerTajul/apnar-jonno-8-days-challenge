@@ -5,22 +5,31 @@
   @include md {
     padding-bottom: 52px;
   }
+  @include lg {
+    padding-bottom: 70px;
+  }
   .section-title {
     &.style-1 {
       @include sm {
         padding-bottom: 0px;
       }
+      @include lg {
+        padding-bottom: 40px;
+      }
     }
   }
   .wuc-accordion {
     &-main-content {
-      @include rmaxwd(991) {
+      @include rmaxwd(1199) {
         margin-left: 0;
       }
     }
     &-wrapper {
       @include rmaxwd(991) {
         margin-bottom: 25px;
+      }
+      @include lg {
+        margin-bottom: 30px;
       }
     }
     &-title {

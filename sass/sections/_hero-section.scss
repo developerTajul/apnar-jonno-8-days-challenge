@@ -466,6 +466,11 @@
         font-size: 13px;
         letter-spacing: 2px;
       }
+      @include lg {
+        transform: translate(50%, 25px);
+        font-size: 20px;
+        letter-spacing: 2px;
+      }
     }
 
     h1 {

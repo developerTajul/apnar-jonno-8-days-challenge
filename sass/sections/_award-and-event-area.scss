@@ -2,7 +2,11 @@
   position: relative;
   &.style-2 {
     @include md {
-      padding-top: 75px;
+      padding-top: 80px;
+    }
+    @include lg {
+      padding-top: 100px;
+      padding-bottom: 30px;
     }
     .accordion-wrapper {
       .wuc-accordion {

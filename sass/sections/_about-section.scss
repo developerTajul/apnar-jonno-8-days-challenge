@@ -224,12 +224,19 @@
   @include rmaxwd(991) {
     padding-bottom: 0;
   }
+  @include lg {
+    padding-bottom: 10px;
+  }
   .section-title {
     @include sm {
       padding-bottom: 0;
       margin-bottom: 0;
     }
     @include md {
+      flex-direction: column;
+      gap: 0;
+    }
+    @include lg {
       flex-direction: column;
       gap: 0;
     }
