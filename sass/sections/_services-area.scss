@@ -2,6 +2,9 @@
   @include sm {
     padding-bottom: 32px;
   }
+  @include md {
+    padding-bottom: 52px;
+  }
   .section-title {
     &.style-1 {
       @include sm {
@@ -11,18 +14,18 @@
   }
   .wuc-accordion {
     &-main-content {
-      @include sm {
+      @include rmaxwd(991) {
         margin-left: 0;
       }
     }
     &-wrapper {
-      @include sm {
+      @include rmaxwd(991) {
         margin-bottom: 25px;
       }
     }
     &-title {
       h4 {
-        @include sm {
+        @include rmaxwd(991) {
           margin-bottom: 25px;
         }
       }

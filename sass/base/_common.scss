@@ -71,10 +71,10 @@ html {
 }
 .pb-140 {
   @include lg {
-    padding-bottom: 80px;
+    padding-bottom: 100px;
   }
   @include md {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
   @include sm {
     padding-bottom: 60px;
@@ -110,57 +110,6 @@ html {
     animation: progress-animation 2s linear forwards;
     &.progress-2 {
       stroke-dasharray: 265.2;
-    }
-  }
-}
-
-.award-and-event-area {
-  position: relative;
-  &.style-2 {
-    .accordion-wrapper {
-      .wuc-accordion {
-        &:last-child {
-          margin-top: 30px;
-        }
-      }
-    }
-    .wuc-accordion {
-      @include sm {
-        padding-bottom: 0;
-      }
-      .wuc-accordion-wrapper {
-        @include sm {
-          margin-bottom: 25px;
-        }
-      }
-    }
-  }
-  @include rmaxwd(991) {
-    padding-bottom: 0;
-    padding-top: 55px;
-  }
-  .section-title {
-    @include sm {
-      padding-bottom: 16px;
-    }
-  }
-  .accordion-wrapper {
-    // @include sm {
-    //   margin-left: 0;
-    //   gap: 0;
-    // }
-  }
-  .wuc-accordion {
-    @include sm {
-      padding-bottom: 20px;
-    }
-  }
-  .bg-img {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    @include rmaxwd(1399) {
-      display: none;
     }
   }
 }

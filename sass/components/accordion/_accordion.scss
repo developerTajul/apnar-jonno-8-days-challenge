@@ -135,9 +135,12 @@
     }
   }
   &.style-2 {
+    @include md {
+      padding-bottom: 7px;
+    }
     &:last-child {
       @include md {
-        padding-bottom: 20px;
+        padding-bottom: 10px;
       }
     }
     .wuc-accordion {

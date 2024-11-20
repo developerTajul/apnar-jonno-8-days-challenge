@@ -461,6 +461,11 @@
         font-size: 13px;
         letter-spacing: 2px;
       }
+      @include md {
+        transform: translate(50%, 25px);
+        font-size: 13px;
+        letter-spacing: 2px;
+      }
     }
 
     h1 {

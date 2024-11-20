@@ -221,13 +221,22 @@
   //   }
 
   //   New style
-  @include sm {
+  @include rmaxwd(991) {
     padding-bottom: 0;
   }
   .section-title {
     @include sm {
       padding-bottom: 0;
       margin-bottom: 0;
+    }
+    @include md {
+      flex-direction: column;
+      gap: 0;
+    }
+    &-main {
+      @include md {
+        margin-top: 0;
+      }
     }
   }
 }

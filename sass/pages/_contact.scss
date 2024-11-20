@@ -38,16 +38,21 @@
     @include sm {
       padding-bottom: 0;
     }
+    @include md {
+      flex-direction: column;
+      gap: 0;
+      padding-bottom: 0;
+    }
   }
   .contact-form {
     .form-heading {
-      @include sm {
+      @include rmaxwd(991) {
         margin-bottom: 30px;
       }
     }
   }
   .contact-card-wrapper {
-    @include sm {
+    @include rmaxwd(991) {
       margin-left: 0;
     }
     .contact-card {
@@ -55,6 +60,9 @@
         margin-top: 0;
         margin-bottom: 30px;
         padding-bottom: 30px;
+      }
+      @include md {
+        margin-top: 30px;
       }
     }
   }

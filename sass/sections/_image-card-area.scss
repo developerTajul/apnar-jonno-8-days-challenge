@@ -3,6 +3,9 @@
     @include sm {
       padding-top: 80px;
     }
+    @include md {
+      padding-top: 100px;
+    }
     .image-card-wrapper {
       gap: 30px;
       .image-card {
@@ -34,6 +37,10 @@
           @include sm {
             display: none;
           }
+          @include md {
+            width: 120px;
+            height: 120px;
+          }
           &:before,
           &:after {
             content: '';
@@ -50,6 +57,9 @@
             clip-path: path(
               'M0,0 Q50,0 50,33 L50,350 Q50,400 0,400 L750,400 Q800,400 800,350 L800,50 Q800,0 750,0 Z'
             );
+            @include md {
+              top: 48px;
+            }
           }
           &:after {
             right: 50px;
@@ -60,6 +70,9 @@
             clip-path: path(
               'M0,0 Q50,0 50,33 L50,350 Q50,400 0,400 L750,400 Q800,400 800,350 L800,50 Q800,0 750,0 Z'
             );
+            @include md {
+              bottom: -48px;
+            }
           }
         }
       }
