@@ -16,10 +16,18 @@
 
   @include sm {
     padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 30px;
   }
-
+  .section-title {
+    @include sm {
+      padding-bottom: 0;
+      margin-bottom: 10px;
+    }
+  }
   &-card {
+    @include sm {
+      margin-top: 30px;
+    }
     &:hover {
       .pricing-area-card-wrapper {
         border-color: $primary-color;
@@ -44,6 +52,9 @@
     padding: 60px 48px;
     border: 1px solid $white;
     @include transition;
+    @include sm {
+      padding: 40px 30px;
+    }
   }
 
   &-card-text {
@@ -104,6 +115,9 @@
         line-height: normal;
         color: $white;
 
+        @include sm {
+          margin-bottom: 30px;
+        }
         @include lg {
           font-size: 14px;
         }

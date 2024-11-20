@@ -34,9 +34,28 @@
   border-bottom: 1px solid $white;
 }
 .contact-us-area {
+  .section-title {
+    @include sm {
+      padding-bottom: 0;
+    }
+  }
+  .contact-form {
+    .form-heading {
+      @include sm {
+        margin-bottom: 30px;
+      }
+    }
+  }
   .contact-card-wrapper {
     @include sm {
-      margin-left: 12px;
+      margin-left: 0;
+    }
+    .contact-card {
+      @include sm {
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+      }
     }
   }
 }

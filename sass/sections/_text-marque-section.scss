@@ -1,18 +1,6 @@
 // Text Marquee section
 // home-1-marque-star
 .text-marque-area {
-  @include lg {
-    padding-bottom: 20px;
-  }
-
-  @include md {
-    padding-bottom: 20px;
-  }
-
-  @include sm {
-    padding-bottom: 20px;
-  }
-
   &-shape {
     position: absolute;
     width: 300px;

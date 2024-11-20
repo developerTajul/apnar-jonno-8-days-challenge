@@ -99,7 +99,7 @@ html {
     padding-top: 80px;
   }
   @include sm {
-    padding-top: 54px;
+    padding-top: 60px;
   }
 }
 .progress-circle {
@@ -116,6 +116,25 @@ html {
 
 .award-and-event-area {
   position: relative;
+  &.style-2 {
+    .accordion-wrapper {
+      .wuc-accordion {
+        &:last-child {
+          margin-top: 30px;
+        }
+      }
+    }
+    .wuc-accordion {
+      @include sm {
+        padding-bottom: 0;
+      }
+      .wuc-accordion-wrapper {
+        @include sm {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
   @include rmaxwd(991) {
     padding-bottom: 0;
     padding-top: 55px;

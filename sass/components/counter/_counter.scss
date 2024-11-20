@@ -26,70 +26,71 @@
       gap: 30px;
     }
   }
-  &.style-1 {
-    &-inner-wrapper {
+  &-inner-wrapper {
+    @include sm {
+      padding-left: 0;
+      display: flex;
+      gap: 30px;
+    }
+    @include xl {
+      gap: 30px;
+    }
+  }
+  .counter-area-wrapper {
+    text-align: center;
+    @include md {
+      margin-left: 20px;
+    }
+    @include sm {
+      margin-bottom: 10px;
+    }
+    & span {
+      color: #fff;
+      font-family: Gilroy-Bold;
+      font-size: 120px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
       @include sm {
-        padding-left: 0;
-        display: flex;
-        gap: 30px;
-      }
-      @include xl {
-        gap: 30px;
+        font-size: 60px;
       }
     }
-    .counter-area-wrapper {
-      text-align: center;
+    p {
+      color: $white;
+      font-family: $heading-font;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 29px; /* 161.111% */
+      letter-spacing: 6.66px;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      @include xl {
+        letter-spacing: 4px;
+        font-size: 17px;
+      }
       @include md {
-        margin-left: 20px;
+        font-size: 16px;
+        letter-spacing: 4.66px;
       }
       @include sm {
-        margin-bottom: 10px;
+        font-size: 15px;
+        letter-spacing: 2.66px;
       }
-      & span {
-        color: #fff;
-        font-family: Gilroy-Bold;
-        font-size: 120px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        @include sm {
-          font-size: 60px;
-        }
+      @include rmaxwd(520) {
+        font-size: 14px;
+        letter-spacing: 1px;
       }
-      p {
-        color: $white;
-        font-family: $heading-font;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 29px; /* 161.111% */
-        letter-spacing: 6.66px;
-        text-transform: uppercase;
-        margin-bottom: 0;
-        @include xl {
-          letter-spacing: 4px;
-          font-size: 17px;
-        }
-        @include md {
-          font-size: 16px;
-          letter-spacing: 4.66px;
-        }
-        @include sm {
-          font-size: 15px;
-          letter-spacing: 2.66px;
-        }
-        @include rmaxwd(520) {
-          font-size: 14px;
-          letter-spacing: 1px;
-        }
-        @include rmaxwd(420) {
-          font-size: 12px;
-          letter-spacing: 0;
-        }
+      @include rmaxwd(420) {
+        font-size: 12px;
+        letter-spacing: 0;
       }
     }
   }
   &.style-2 {
+    padding-bottom: 10px;
+  }
+  &.style-3 {
     .counter-area-wrapper {
       @include md {
         margin-right: 20px;
