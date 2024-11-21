@@ -14573,6 +14573,23 @@ html {
     letter-spacing: 0;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-area.style-4 {
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counter-area.style-4 {
+    padding-bottom: 42px;
+    padding-top: 50px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-area.style-4 {
+    padding-bottom: 62px;
+    padding-top: 70px;
+  }
+}
 
 .bg-light-color.style-1 {
   position: absolute;
@@ -18539,6 +18556,12 @@ html {
     height: 872px;
   }
 }
+@media (max-width: 1399px) {
+  .image-card-area .image-card.style-7 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
 .image-card-area .image-card.style-7 img {
   width: 100%;
   height: 100%;
@@ -19224,6 +19247,55 @@ html {
   position: relative;
   z-index: 3;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .contact-us-area.style-2 .image-card {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us-area.style-2 .image-card {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-us-area.style-3 {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us-area.style-3 .section-title {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1399px) {
+  .contact-us-area.style-3 .section-title .section-title-main {
+    margin-top: 0;
+  }
+}
+.contact-us-area.style-3 .faq-area-heading {
+  position: relative;
+  z-index: 3;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .contact-us-area.style-3 .image-card {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us-area.style-3 .image-card {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-us-area.style-3 .image-card {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-us-area.style-3 .contact-card-wrapper {
+    padding-top: 0;
+  }
+}
 .contact-us-area .circle-shape {
   position: absolute;
   left: 0;
@@ -19260,6 +19332,11 @@ html {
     flex-direction: column;
     gap: 0;
     padding-bottom: 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .contact-us-area .section-title .section-title-main {
+    margin-top: 0;
   }
 }
 @media (max-width: 991px) {
@@ -19878,6 +19955,11 @@ html {
 @media (max-width: 991px) {
   .header-area {
     height: 100px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area {
+    height: 99px;
   }
 }
 .header-area .fixed-menu {

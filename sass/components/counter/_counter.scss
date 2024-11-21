@@ -154,4 +154,17 @@
       }
     }
   }
+  &.style-4 {
+    @include sm {
+      padding-bottom: 10px;
+    }
+    @include md {
+      padding-bottom: 42px;
+      padding-top: 50px;
+    }
+    @include lg {
+      padding-bottom: 62px;
+      padding-top: 70px;
+    }
+  }
 }

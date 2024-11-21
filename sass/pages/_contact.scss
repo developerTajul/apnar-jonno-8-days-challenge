@@ -39,6 +39,49 @@
       position: relative;
       z-index: 3;
     }
+    .image-card {
+      @include sm {
+        margin-bottom: 30px;
+      }
+      @include md {
+        margin-bottom: 60px;
+      }
+    }
+  }
+  &.style-3 {
+    @include lg {
+      padding-top: 0;
+    }
+    .section-title {
+      @include md {
+        margin-bottom: 30px;
+      }
+      .section-title-main {
+        @include rmaxwd(1399) {
+          margin-top: 0;
+        }
+      }
+    }
+    .faq-area-heading {
+      position: relative;
+      z-index: 3;
+    }
+    .image-card {
+      @include sm {
+        margin-bottom: 30px;
+      }
+      @include md {
+        margin-bottom: 60px;
+      }
+      @include lg {
+        margin-bottom: 60px;
+      }
+    }
+    .contact-card-wrapper {
+      @include md {
+        padding-top: 0;
+      }
+    }
   }
   .circle-shape {
     position: absolute;
@@ -68,6 +111,11 @@
       flex-direction: column;
       gap: 0;
       padding-bottom: 30px;
+    }
+    .section-title-main {
+      @include rmaxwd(1199) {
+        margin-top: 0;
+      }
     }
   }
   .contact-form {

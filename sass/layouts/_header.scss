@@ -4,6 +4,9 @@
   @include rmaxwd(991) {
     height: 100px;
   }
+  @include lg {
+    height: 99px;
+  }
   .fixed-menu {
     position: fixed;
     top: 0;
