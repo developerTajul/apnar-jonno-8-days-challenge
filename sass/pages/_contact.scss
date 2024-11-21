@@ -34,6 +34,22 @@
   border-bottom: 1px solid $white;
 }
 .contact-us-area {
+  &.style-2 {
+    .faq-area-heading {
+      position: relative;
+      z-index: 3;
+    }
+  }
+  .circle-shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transform: translate(30%, 40%);
+    @include rmaxwd(1399) {
+      display: none;
+    }
+  }
   .section-title {
     @include sm {
       padding-bottom: 0;

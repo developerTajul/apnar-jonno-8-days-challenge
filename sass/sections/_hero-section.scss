@@ -415,34 +415,21 @@
   @include sm {
     padding-top: 20px;
   }
-
-  &::after {
-    content: '';
+  .circle-shape {
     position: absolute;
-    width: 376px;
-    height: 376px;
-    right: 58px;
-    top: 0px;
-    background: rgba(237, 188, 90, 0.7);
-    filter: blur(200px);
-    animation: zoomInOut 5s 2s infinite;
-    z-index: 1;
-
-    @include sm {
-      width: 276px;
-      height: 276px;
-      right: 20px;
+    top: 0;
+    right: 50px;
+    @include rmaxwd(1399) {
+      display: none;
     }
   }
-
-  .spiral-shape {
-    right: 90px;
-    top: 10px;
-    animation: rotated_circle 30s infinite;
-
-    @include sm {
-      left: 76px;
-      width: 189px;
+  .ornament {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    transform: translate(100%, -40%);
+    @include rmaxwd(1399) {
+      display: none;
     }
   }
 

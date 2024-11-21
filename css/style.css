@@ -16089,34 +16089,25 @@ html {
     padding-top: 20px;
   }
 }
-.hero-area-two::after {
-  content: "";
+.hero-area-two .circle-shape {
   position: absolute;
-  width: 376px;
-  height: 376px;
-  right: 58px;
-  top: 0px;
-  background: rgba(237, 188, 90, 0.7);
-  filter: blur(200px);
-  animation: zoomInOut 5s 2s infinite;
-  z-index: 1;
+  top: 0;
+  right: 50px;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .hero-area-two::after {
-    width: 276px;
-    height: 276px;
-    right: 20px;
+@media (max-width: 1399px) {
+  .hero-area-two .circle-shape {
+    display: none;
   }
 }
-.hero-area-two .spiral-shape {
-  right: 90px;
-  top: 10px;
-  animation: rotated_circle 30s infinite;
+.hero-area-two .ornament {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  transform: translate(100%, -40%);
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .hero-area-two .spiral-shape {
-    left: 76px;
-    width: 189px;
+@media (max-width: 1399px) {
+  .hero-area-two .ornament {
+    display: none;
   }
 }
 .hero-area-two-first-containt-inner {
@@ -18524,6 +18515,20 @@ html {
   max-width: 465px;
   max-height: 467px;
 }
+.image-card-area .image-card.style-5 {
+  max-width: 990px;
+  max-height: 1100px;
+}
+@media (min-width: 1400px) {
+  .image-card-area .image-card.style-5 {
+    width: 990px;
+    height: 1100px;
+  }
+}
+.image-card-area .image-card.style-5 img {
+  width: 100%;
+  height: 100%;
+}
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .services-area {
@@ -19199,6 +19204,22 @@ html {
   border-bottom: 1px solid #ffffff;
 }
 
+.contact-us-area.style-2 .faq-area-heading {
+  position: relative;
+  z-index: 3;
+}
+.contact-us-area .circle-shape {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transform: translate(30%, 40%);
+}
+@media (max-width: 1399px) {
+  .contact-us-area .circle-shape {
+    display: none;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .contact-us-area .section-title {
     padding-bottom: 0;
