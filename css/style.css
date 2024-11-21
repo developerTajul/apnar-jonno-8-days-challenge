@@ -16661,6 +16661,7 @@ html {
   .about-area .section-title {
     flex-direction: column;
     gap: 0;
+    padding-bottom: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -17960,8 +17961,8 @@ html {
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .pricing-area {
-    padding-bottom: 105px;
-    padding-top: 105px;
+    padding-bottom: 138px;
+    padding-top: 108px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -18483,6 +18484,26 @@ html {
 .image-card-area .image-card.style-3 {
   max-width: 488px;
   max-height: 467px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .image-card-area .image-card.style-3 {
+    max-width: 600px;
+    max-height: 550px;
+    width: 600px;
+    height: 550px;
+    flex-shrink: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .image-card-area .image-card.style-3 .image {
+    width: 600px;
+    height: 550px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .image-card-area .image-card.style-3 .image img {
+    width: 100%;
+  }
 }
 .image-card-area .image-card.style-4 {
   max-width: 465px;

@@ -243,6 +243,7 @@
     @include xl {
       flex-direction: column;
       gap: 0;
+      padding-bottom: 0;
     }
     &-main {
       @include md {
