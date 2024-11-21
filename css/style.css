@@ -15442,10 +15442,19 @@ html {
 .wuc-accordion-wrapper {
   margin-bottom: 40px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .wuc-accordion-wrapper {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wuc-accordion-wrapper {
+    margin-bottom: 35px;
+  }
+}
 @media (max-width: 1399px) {
   .wuc-accordion-wrapper {
     margin-right: 0;
-    margin-bottom: 0;
   }
 }
 .wuc-accordion-wrapper .wuc-accordion-pra {
