@@ -21,77 +21,6 @@
       }
     }
   }
-  &.style-3 {
-    .image-card {
-      &.style-5 {
-        position: relative;
-        border-radius: 60px;
-        overflow: hidden;
-        img {
-          width: 100%;
-          height: 100%;
-          border-top-right-radius: 66px;
-        }
-        .square-1 {
-          position: absolute;
-          background-color: $black;
-          top: 0;
-          right: 0;
-          width: 255px;
-          height: 255px;
-          border-bottom-left-radius: 60px;
-          @include sm {
-            display: none;
-          }
-          @include md {
-            width: 120px;
-            height: 120px;
-          }
-          @include lg {
-            width: 120px;
-            height: 120px;
-          }
-          @include xl {
-            width: 140px;
-            height: 140px;
-          }
-          &:before,
-          &:after {
-            content: '';
-            position: absolute;
-            width: 73px;
-            height: 50px;
-          }
-          &:before {
-            left: -50px;
-            top: 50px;
-            background: #141414;
-            transform: translateY(-100%) rotate(360deg);
-            z-index: 2;
-            clip-path: path(
-              'M0,0 Q50,0 50,33 L50,350 Q50,400 0,400 L750,400 Q800,400 800,350 L800,50 Q800,0 750,0 Z'
-            );
-            @include md {
-              top: 48px;
-            }
-          }
-          &:after {
-            right: 50px;
-            bottom: -50px;
-            background: $black;
-            transform: translateX(100%) rotate(0deg);
-            z-index: 2;
-            clip-path: path(
-              'M0,0 Q50,0 50,33 L50,350 Q50,400 0,400 L750,400 Q800,400 800,350 L800,50 Q800,0 750,0 Z'
-            );
-            @include md {
-              bottom: -48px;
-            }
-          }
-        }
-      }
-    }
-  }
   .image-card-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +120,73 @@
       max-height: 467px;
     }
     &.style-5 {
+      position: relative;
+      border-radius: 60px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 66px;
+      }
+      .square-1 {
+        position: absolute;
+        background-color: $black;
+        top: 0;
+        right: 0;
+        width: 255px;
+        height: 255px;
+        border-bottom-left-radius: 60px;
+        @include sm {
+          display: none;
+        }
+        @include md {
+          width: 120px;
+          height: 120px;
+        }
+        @include lg {
+          width: 120px;
+          height: 120px;
+        }
+        @include xl {
+          width: 140px;
+          height: 140px;
+        }
+        &:before,
+        &:after {
+          content: '';
+          position: absolute;
+          width: 73px;
+          height: 50px;
+        }
+        &:before {
+          left: -50px;
+          top: 50px;
+          background: #141414;
+          transform: translateY(-100%) rotate(360deg);
+          z-index: 2;
+          clip-path: path(
+            'M0,0 Q50,0 50,33 L50,350 Q50,400 0,400 L750,400 Q800,400 800,350 L800,50 Q800,0 750,0 Z'
+          );
+          @include md {
+            top: 48px;
+          }
+        }
+        &:after {
+          right: 50px;
+          bottom: -50px;
+          background: $black;
+          transform: translateX(100%) rotate(0deg);
+          z-index: 2;
+          clip-path: path(
+            'M0,0 Q50,0 50,33 L50,350 Q50,400 0,400 L750,400 Q800,400 800,350 L800,50 Q800,0 750,0 Z'
+          );
+          @include md {
+            bottom: -48px;
+          }
+        }
+      }
+    }
+    &.style-6 {
       max-width: 990px;
       max-height: 1100px;
       @include rwd(1400) {
