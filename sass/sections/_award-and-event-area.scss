@@ -14,7 +14,9 @@
     .accordion-wrapper {
       .wuc-accordion {
         &:last-child {
-          margin-top: 30px;
+          @include lg {
+            margin-top: 30px;
+          }
         }
       }
     }
@@ -37,12 +39,6 @@
     @include sm {
       padding-bottom: 16px;
     }
-  }
-  .accordion-wrapper {
-    // @include sm {
-    //   margin-left: 0;
-    //   gap: 0;
-    // }
   }
   .wuc-accordion {
     @include sm {

@@ -18687,8 +18687,10 @@ html {
     padding-top: 140px;
   }
 }
-.award-and-event-area.style-2 .accordion-wrapper .wuc-accordion:last-child {
-  margin-top: 30px;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .award-and-event-area.style-2 .accordion-wrapper .wuc-accordion:last-child {
+    margin-top: 30px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .award-and-event-area.style-2 .wuc-accordion {
