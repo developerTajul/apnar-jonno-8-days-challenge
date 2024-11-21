@@ -16143,6 +16143,13 @@ html {
     letter-spacing: 2px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .hero-area-two-first-containt-inner .hero-area-short-title {
+    transform: translate(50%, 25px);
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+}
 .hero-area-two-first-containt-inner h1 {
   text-transform: uppercase;
 }
@@ -16645,6 +16652,12 @@ html {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area .section-title {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .about-area .section-title {
     flex-direction: column;
     gap: 0;
@@ -18312,6 +18325,11 @@ html {
     max-width: 500px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .image-card-area.style-2 .image-card-wrapper .image-card.style-2 {
+    max-width: 750px;
+  }
+}
 .image-card-area.style-3 .image-card.style-5 {
   position: relative;
   border-radius: 60px;
@@ -18496,7 +18514,7 @@ html {
     padding-bottom: 40px;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
   .services-area .wuc-accordion-main-content {
     margin-left: 0;
   }
@@ -18507,6 +18525,11 @@ html {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .services-area .wuc-accordion-wrapper {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .services-area .wuc-accordion-wrapper {
     margin-bottom: 30px;
   }
@@ -18616,6 +18639,11 @@ html {
   .award-and-event-area.style-2 {
     padding-top: 100px;
     padding-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .award-and-event-area.style-2 {
+    padding-top: 140px;
   }
 }
 .award-and-event-area.style-2 .accordion-wrapper .wuc-accordion:last-child {
@@ -19154,12 +19182,19 @@ html {
     padding-bottom: 30px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .contact-us-area .section-title {
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 30px;
+  }
+}
 @media (max-width: 991px) {
   .contact-us-area .contact-form .form-heading {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
   .contact-us-area .contact-card-wrapper {
     margin-left: 0;
   }

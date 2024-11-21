@@ -8,6 +8,9 @@
       padding-top: 100px;
       padding-bottom: 30px;
     }
+    @include xl {
+      padding-top: 140px;
+    }
     .accordion-wrapper {
       .wuc-accordion {
         &:last-child {

@@ -48,6 +48,11 @@
       gap: 0;
       padding-bottom: 30px;
     }
+    @include xl {
+      flex-direction: column;
+      gap: 0;
+      padding-bottom: 30px;
+    }
   }
   .contact-form {
     .form-heading {
@@ -57,7 +62,7 @@
     }
   }
   .contact-card-wrapper {
-    @include rmaxwd(1199) {
+    @include rmaxwd(1399) {
       margin-left: 0;
     }
     .contact-card {
