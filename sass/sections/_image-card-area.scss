@@ -51,6 +51,10 @@
             width: 120px;
             height: 120px;
           }
+          @include xl {
+            width: 140px;
+            height: 140px;
+          }
           &:before,
           &:after {
             content: '';

@@ -18367,6 +18367,12 @@ html {
     height: 120px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .image-card-area.style-3 .image-card.style-5 .square-1 {
+    width: 140px;
+    height: 140px;
+  }
+}
 .image-card-area.style-3 .image-card.style-5 .square-1:before, .image-card-area.style-3 .image-card.style-5 .square-1:after {
   content: "";
   position: absolute;
