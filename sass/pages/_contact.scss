@@ -1,25 +1,25 @@
 .contact-page {
-  &-info {
-    margin-top: 56px;
-    @include sm {
-      margin-top: 0;
-    }
-  }
-  h4 {
-    color: #fff;
-    font-family: Gilroy-Regular;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 2px;
-    @include md {
-      font-size: 21px;
-    }
-    @include sm {
-      font-size: 21px;
-    }
-  }
+  // &-info {
+  //   margin-top: 56px;
+  //   @include sm {
+  //     margin-top: 0;
+  //   }
+  // }
+  // h4 {
+  //   color: #fff;
+  //   font-family: Gilroy-Regular;
+  //   font-size: 40px;
+  //   font-style: normal;
+  //   font-weight: 400;
+  //   line-height: normal;
+  //   letter-spacing: 2px;
+  //   @include md {
+  //     font-size: 21px;
+  //   }
+  //   @include sm {
+  //     font-size: 21px;
+  //   }
+  // }
   .company-map {
     span {
       iframe {
@@ -29,7 +29,25 @@
       }
     }
   }
+  .contact-us-area {
+    @include xl {
+      padding-top: 120px;
+    }
+  }
+  .footer-area-quick-menu {
+    @include md {
+      padding-top: 75px;
+    }
+    @include lg {
+      padding-top: 95px;
+    }
+    @include xl {
+      padding-top: 105px;
+    }
+  }
 }
+
+// New add
 .contact-card {
   border-bottom: 1px solid $white;
 }
@@ -120,8 +138,8 @@
   }
   .contact-form {
     .form-heading {
+      margin-bottom: 30px;
       @include rmaxwd(991) {
-        margin-bottom: 30px;
       }
     }
   }
