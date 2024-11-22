@@ -34,7 +34,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
     <!-- Preloader Start  -->
     <div id="preloader">
@@ -252,268 +251,66 @@
       </div>
     </header>
     <!-- Header End -->
+    <div class="body-overlay"></div>
 
-    <!-- Contact Page Star -->
-    <div class="contact-page body-black">
-      <!-- Map widget start -->
-      <div class="company-map">
-        <div class="container">
-          <span>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.839886527!2d-0.2664029401218982!3d51.52873980508681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sbd!4v1721048248667!5m2!1sen!2sbd"
-              style="width: 100%; height: 672px; border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </span>
-        </div>
-      </div>
-      <!-- Map widget end -->
-      <!-- Contact Us area Start -->
-      <div class="contact-us-area body-black pt-140 pb-140">
-        <div class="container">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-xl-8 col-xxl-7">
-              <div class="section-title style-1 d-flex gap-80 p-relative pb-70">
-                <div class="section-title-short">
-                  <span class="mb-15">Portfolio</span>
-                </div>
+    <div class="coming-soon pb-140 body-black">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-xl-7 order-1 order-sm-2">
+            <div class="content">
+              <div class="section-title style-1 d-flex gap-80 p-relative pb-30">
                 <div class="section-title-main text-uppercase">
-                  <h2>
-                    how to get
-                    <br />
-                    in touch with us
-                  </h2>
+                  <h2>Coming soon</h2>
                   <p class="desc mt-30">
                     Proin efficitur, mauris vel condimentum pulvinar, velit orci
-                    consectetur ligula, eget egestas magna mi ut arcu. Phasellus
-                    nec odio orci. Nunc id massa ante. Suspendisse sit amet
-                    neque euismod, convallis quam eget, dignissim massa.
+                    consectetur ligula, eget egestas magna
+                    <br />
+                    mi ut arcu. Phasellus nec odio orci. Nunc id massa ante.
+                    Suspendisse sit amet neque euismod,
+                    <br />
+                    convallis quam eget, dignissim massa.
                   </p>
                 </div>
               </div>
-              <div class="contact-card-wrapper ml-200">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="contact-card pb-40">
-                      <div class="contact-card-title">
-                        <h4>Email</h4>
-                      </div>
-                      <div class="contact-card-text mt-30">
-                        <p class="mb-0">alma.lawson@example.com</p>
-                        <p class="mb-0 mt-15">alma.lawson@example.com</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="contact-card style-2 pb-55">
-                      <div class="contact-card-title">
-                        <h4>Adress</h4>
-                      </div>
-                      <div class="contact-card-text mt-30">
-                        <p class="mb-0">
-                          3517 W. Gray St. Utica,
-                          <br />
-                          Pennsylvania 57867
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="contact-card pb-40 mt-60">
-                      <div class="contact-card-title">
-                        <h4>Phone</h4>
-                      </div>
-                      <div class="contact-card-text mt-30">
-                        <p class="mb-0">alma.lawson@example.com</p>
-                        <p class="mb-0 mt-15">alma.lawson@example.com</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="contact-card pb-40 mt-60">
-                      <div class="contact-card-title">
-                        <h4>Social Icons</h4>
-                      </div>
-                      <div class="contact-card-text mt-30">
-                        <div class="d-flex gap-30">
-                          <p class="mb-0">FACEBOOK_</p>
-                          <p class="mb-0">INSTATRAM_</p>
-                        </div>
-                        <div class="d-flex gap-30 mt-15">
-                          <p class="mb-0">DRIBBBLE_</p>
-                          <p class="mb-0">BEHANCE_</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div class="countdown-container">
+                <div class="time-unit">
+                  <span class="number" id="days">120</span>
+                  <span class="label">Week</span>
+                </div>
+                <div class="time-unit">
+                  <span class="number" id="days">90</span>
+                  <span class="label">Day</span>
+                </div>
+                <div class="time-unit">
+                  <span class="number" id="hours">50</span>
+                  <span class="label">Hours</span>
+                </div>
+                <div class="time-unit">
+                  <span class="number" id="minutes">35</span>
+                  <span class="label">Minutes</span>
+                </div>
+                <div class="time-unit">
+                  <span class="number" id="seconds">10</span>
+                  <span class="label">Seconds</span>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4">
-              <div class="contact-form mt-40">
-                <div class="form-heading">
-                  <h3>Connect With Us</h3>
-                </div>
-                <form action="/submit" method="post">
-                  <div class="contract-group full-row">
-                    <div class="input-col w-full">
-                      <label class="email" for="email">Email Address:</label>
-                      <input
-                        type="email"
-                        id="emails"
-                        name="email"
-                        class="no-border" />
-                    </div>
-                  </div>
-                  <div class="contract-group gx-1">
-                    <div class="input-col">
-                      <label class="name" for="first_name">First name</label>
-                      <input
-                        type="text"
-                        id="first_name"
-                        name="first_name"
-                        class="no-border" />
-                    </div>
-                    <div class="input-col">
-                      <label class="name" for="last_name">Last name</label>
-                      <input
-                        type="text"
-                        id="last_name"
-                        name="last_name"
-                        class="no-border" />
-                    </div>
-                  </div>
-                  <div class="contract-group full-row">
-                    <label class="inbox" for="message">Message:</label>
-                    <textarea
-                      id="messages"
-                      name="message"
-                      class="no-border"></textarea>
-                  </div>
-                  <div class="page-btn mt-55">
-                    <a href="#">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="15"
-                        height="15"
-                        viewBox="0 0 15 15"
-                        fill="none">
-                        <g clip-path="url(#clip0_2113_83)">
-                          <path
-                            d="M6.37519 15.0002C6.34294 15.0002 6.30994 14.9957 6.27769 14.9875C6.11419 14.9432 6.00019 14.7947 6.00019 14.6252V9.00023H0.375188C0.205688 9.00023 0.0571883 8.88623 0.0129383 8.72273C-0.0313117 8.55923 0.0406883 8.38598 0.186938 8.30123L14.4369 0.0512318C14.5839 -0.0335182 14.7699 -0.00951815 14.8899 0.110482C15.0099 0.230482 15.0347 0.416482 14.9492 0.563482L6.69919 14.8135C6.63094 14.9312 6.50569 15.0002 6.37444 15.0002H6.37519ZM1.77169 8.25023H6.37519C6.58219 8.25023 6.75019 8.41823 6.75019 8.62523V13.2287L13.5962 1.40423L1.77169 8.25023Z"
-                            fill="black" />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_2113_83">
-                            <rect width="15" height="15" fill="white" />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                      Send Message
-                    </a>
-                  </div>
-                </form>
-              </div>
+          </div>
+          <div class="col-xl-5 order-2 order-sm-1">
+            <div class="image-wrapper">
+              <img src="images/shape/mercury.png" alt="Contact Us" />
             </div>
           </div>
         </div>
       </div>
-      <!-- Contact Us area End -->
-      <!-- Image area Start -->
-      <div class="image-card-area style-3 body-black">
-        <div class="container">
-          <div class="image-card style-5">
-            <div class="square-1"></div>
-            <img src="images/image-card/image-7.jpg" alt="image-card" />
-          </div>
-        </div>
-      </div>
-      <!-- Image area End -->
-      <!-- Footer Start -->
-      <footer>
-        <div class="footer-area body-black">
-          <div class="container">
-            <div class="row gx-0">
-              <div class="col-xl-12">
-                <div
-                  class="footer-area-quick-menu d-flex justify-content-between pb-80 pt-140 ml-120">
-                  <div class="footer-area-quick-menu-one">
-                    <h4 class="mb-26">Quick Links</h4>
-                    <ul>
-                      <li><a href="./index.html">Home</a></li>
-                      <li><a href="#">UI UX Design</a></li>
-                      <li><a href="./projects.html">Portfolio</a></li>
-                      <li><a href="#">Web Design</a></li>
-                    </ul>
-                  </div>
-                  <div class="footer-area-quick-menu-two ml-127 mr-92">
-                    <h4 class="mb-26">Quick Links</h4>
-                    <ul>
-                      <li>
-                        <a href="#">facebook</a>
-                      </li>
-                      <li>
-                        <a href="#">pinterest</a>
-                      </li>
-                      <li>
-                        <a href="#">pinterest</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="footer-area-services">
-                    <h4 class="mb-26">Contact</h4>
-                    <ul>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">How IT Works</a></li>
-                    </ul>
-                  </div>
-                  <div class="footer-area-mail-to">
-                    <h4 class="mb-26">Contact</h4>
-                    <div class="input-wrapper">
-                      <label class="email" for="email">Email Address:</label>
-                      <input
-                        type="email"
-                        id="emails"
-                        name="email"
-                        class="no-border" />
-                    </div>
-                  </div>
-                  <div class="footer-area-sand-messege">
-                    <a href="./contact.html">
-                      <h4>Send</h4>
-                      <i class="fa-solid fa-arrow-right-long"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="d-flex align-items-end justify-content-between flex-wrap gap-20">
-              <div class="footer-area-company-logo">
-                <img src="./images/logo/footer-logo.png" alt="" />
-              </div>
-              <div
-                class="footer-copy-right-info d-flex justify-content-center align-items-center pb-15">
-                <span>
-                  ©2024
-                  <a href="#">CreBiz</a>
-                  All Rights Reserved
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
     <!-- Scroll Up Section Start -->
     <div id="scrollTop" class="scrollup-wrapper">
       <div class="scrollup-btn">
-        <i class="fa-solid fa-chevron-up"></i>
+        <i class="fa-regular fa-angle-up"></i>
       </div>
     </div>
     <!-- Scroll Up Section End -->
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
@@ -523,10 +320,12 @@
     <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/inview.min.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/tilt.jquery.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
     <script src="js/isotope.min.js"></script>
     <script src="js/jquery.imagesloaded.min.js"></script>
+    <script src="js/jquery.lettering.min.js"></script>
+    <script src="js/circletype.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>
