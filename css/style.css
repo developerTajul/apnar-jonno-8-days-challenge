@@ -13670,6 +13670,8 @@ html {
   .section-title.style-1 {
     margin-bottom: 0;
     padding-bottom: 48px;
+    flex-direction: column;
+    gap: 0;
   }
 }
 .section-title.style-1 h2 {
@@ -18727,15 +18729,11 @@ html {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .award-and-event-area.style-2 .accordion-wrapper .wuc-accordion:last-child {
     margin-top: 30px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .award-and-event-area.style-2 .wuc-accordion {
     padding-bottom: 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .award-and-event-area.style-2 .wuc-accordion .wuc-accordion-wrapper {
+  .award-and-event-area.style-2 .accordion-wrapper .wuc-accordion .wuc-accordion-wrapper {
     margin-bottom: 25px;
   }
 }
@@ -18766,176 +18764,88 @@ html {
   }
 }
 
-.about-page .wcu-area-page {
-  position: relative;
-}
-@media (max-width: 575px) {
-  .about-page .wcu-area-page {
-    display: none;
-  }
-}
-.about-page .wcu-area-page .wcu-area-page-circle-img {
-  max-width: 613px;
-  max-height: 613px;
-  margin-left: -250px;
-  margin-right: 71px;
-  animation: rotated_circle 30s infinite;
-}
-@media only screen and (min-width: 1600px) and (max-width: 1800px) {
-  .about-page .wcu-area-page .wcu-area-page-circle-img {
-    margin-left: -122px;
-    margin-right: 0;
-    max-width: 500px;
-    max-height: 500px;
-  }
-}
-@media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .about-page .wcu-area-page .wcu-area-page-circle-img {
-    margin-left: -39px;
-    margin-right: 0;
-    max-width: 450px;
-    max-height: 450px;
-    margin-top: 120px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .about-page .wcu-area-page .wcu-area-page-circle-img {
-    margin-left: -29px;
-    margin-right: 0;
-    max-width: 370px;
-    max-height: 370px;
-    margin-top: 120px;
+@media (max-width: 991px) {
+  .about-page .contact-us-area.style-2 .faq-area-heading {
+    padding-top: 10px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-page .wcu-area-page .wcu-area-page-circle-img {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 370px;
-    max-height: 370px;
-    display: block;
-    margin: 0 auto;
+  .about-page .contact-us-area.style-2 .faq-area-heading {
+    padding-top: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-page .wcu-area-page .wcu-area-page-circle-img {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 370px;
-    max-height: 370px;
-    display: block;
-    margin: 0 auto;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-page .wcu-area-page .wcu-area-page-circle-img {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 370px;
-    max-height: 370px;
-    display: block;
-    margin: 0 auto;
-  }
-}
-.about-page .wcu-area-page-img-content {
-  margin-top: -396px;
-  margin-left: -46px;
-}
-@media only screen and (min-width: 1600px) and (max-width: 1800px) {
-  .about-page .wcu-area-page-img-content {
-    margin-top: -351px;
-    margin-left: 31px;
-  }
-}
-@media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .about-page .wcu-area-page-img-content {
-    margin-top: -326px;
-    margin-left: 98px;
+@media (max-width: 991px) {
+  .about-page .contact-us-area.style-2 .faq-area-heading .faq-area-heading-part h2 {
+    line-height: 41px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .about-page .wcu-area-page-img-content {
-    margin-top: -260px;
-    margin-left: 90px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-page .wcu-area-page-img-content {
-    margin-top: 0;
-    margin-left: 0;
-    position: absolute;
-    margin-left: 0;
-    bottom: 125px;
-    left: 400px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-page .wcu-area-page-img-content {
-    margin-top: 0;
-    margin-left: 0;
-    position: absolute;
-    margin-left: 0;
-    bottom: 117px;
-    left: 280px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-page .wcu-area-page-img-content {
-    margin-top: 0;
-    margin-left: 0;
-    position: absolute;
-    margin-left: 0;
-    bottom: 117px;
-    left: 200px;
+  .about-page .contact-us-area.style-2 .faq-area-heading .faq-area-heading-part h2 {
+    font-size: 58px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .about-page .wcu-area-page-img-content img {
-    max-width: 50%;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-page .wcu-area-page-img-content img {
-    max-width: 60%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-page .wcu-area-page-img-content img {
-    max-width: 60%;
+  .about-page .contact-us-area.style-2 .faq-area-heading .faq-area-heading-part h2 span {
+    font-size: 40px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-page .wcu-area-page-img-content img {
-    max-width: 60%;
+  .about-page .text-marque-area {
+    padding-top: 60px;
   }
 }
-.about-page .wcu-area-page-img-content h3 {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #ffffff;
-  color: transparent;
-  font-size: 35px;
-  letter-spacing: 15.75px;
-  text-transform: uppercase;
-  margin-left: 9px;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-page .text-marque-area {
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-page .text-marque-area {
+    padding-top: 100px;
+  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .about-page .wcu-area-page-img-content h3 {
-    font-size: 20px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-page .wcu-area-page-img-content h3 {
-    font-size: 20px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-page .wcu-area-page-img-content h3 {
-    font-size: 20px;
+  .about-page .text-marque-area {
+    padding-top: 120px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-page .wcu-area-page-img-content h3 {
-    font-size: 20px;
+  .about-page .counter-area {
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-page .counter-area {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-page .counter-area {
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .about-page .counter-area {
+    padding-top: 80px;
+    padding-bottom: 110px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-page .footer-area-quick-menu {
+    padding-top: 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-page .footer-area-quick-menu {
+    padding-top: 60px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-page .footer-area-quick-menu {
+    padding-top: 92px;
   }
 }
 
@@ -18971,7 +18881,7 @@ html {
   }
 }
 .team-page .team-wcu-title h5 {
-  color: #FFF;
+  color: #fff;
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -18981,7 +18891,7 @@ html {
   }
 }
 .team-page .team-wcu-title p {
-  color: #FFF;
+  color: #fff;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-page .team-wcu-title p {
@@ -19012,7 +18922,7 @@ html {
   font-size: 50px;
 }
 .team-page .team-wcu-info-title h5 {
-  color: #FFF;
+  color: #fff;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-page .team-wcu-info-title h5 {
@@ -19022,6 +18932,16 @@ html {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .team-page .team-wcu-info-title h5 {
     font-size: 17px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-page .award-and-event-area .accordion-wrapper .wuc-accordion.style-2:last-child {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-page .award-and-event-area .accordion-wrapper .wuc-accordion.style-2 .wuc-accordion-main-content.wuc-accordion-wrapper {
+    margin-bottom: 0;
   }
 }
 

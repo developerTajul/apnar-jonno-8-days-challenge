@@ -16,17 +16,13 @@
         &:last-child {
           @include lg {
             margin-top: 30px;
+            padding-bottom: 0;
           }
         }
-      }
-    }
-    .wuc-accordion {
-      @include sm {
-        padding-bottom: 0;
-      }
-      .wuc-accordion-wrapper {
-        @include sm {
-          margin-bottom: 25px;
+        .wuc-accordion-wrapper {
+          @include sm {
+            margin-bottom: 25px;
+          }
         }
       }
     }
