@@ -214,5 +214,15 @@
         height: 100%;
       }
     }
+    &.style-8 {
+      max-width: 552px;
+      max-height: 613px;
+      width: 552px;
+      height: 613px;
+      @include sm {
+        max-width: 350px;
+        max-height: 400px;
+      }
+    }
   }
 }
