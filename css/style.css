@@ -19957,6 +19957,16 @@ html {
     margin-bottom: 30px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-details-clint-comment {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blog-details-clint-comment {
+    margin-bottom: 80px;
+  }
+}
 .blog-details-comment-wrapper {
   display: flex;
 }

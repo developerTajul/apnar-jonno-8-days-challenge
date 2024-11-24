@@ -133,6 +133,12 @@
     @include sm {
       margin-bottom: 30px;
     }
+    @include md {
+      margin-bottom: 60px;
+    }
+    @include lg {
+      margin-bottom: 80px;
+    }
   }
   &-comment-wrapper {
     display: flex;
