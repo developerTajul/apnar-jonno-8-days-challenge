@@ -164,13 +164,13 @@
     /*==========================
         Blog Details Slider
         ============================*/
-    $('.blog-page-active-slider').slick({
-      centerMode: true,
-      centerPadding: '0',
-      autoplay: true,
-      autoplaySpeed: 1500,
-      arrows: false,
-    });
+    // $('.blog-page-active-slider').slick({
+    //   centerMode: true,
+    //   centerPadding: '0',
+    //   autoplay: true,
+    //   autoplaySpeed: 1500,
+    //   arrows: false,
+    // });
 
     $('.post-gallery').slick({
       slidesToShow: 1,

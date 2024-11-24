@@ -276,12 +276,12 @@
         float: left;
       }
 
-      &:hover {
-        color: $white;
-        background: $primary-color;
-        //border-color: $primary-color;
-        @include transition;
-      }
+      // &:hover {
+      //   color: $white;
+      //   background: $primary-color;
+      //   //border-color: $primary-color;
+      //   @include transition;
+      // }
     }
   }
 

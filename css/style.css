@@ -13249,6 +13249,19 @@ nav.wp-calendar-nav a:hover {
   font-weight: 400;
   line-height: 29px;
 }
+.user_info.style-2 .image-wrapper {
+  align-items: start;
+  gap: 30px;
+}
+.user_info.style-2 .image-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.user_info.style-2 .image-wrapper .content .desc {
+  margin-top: 7px;
+  margin-bottom: 0;
+}
 
 /*
    Media
@@ -14152,35 +14165,10 @@ html {
 }
 
 .title-border-4 {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 1.51%, #edbc5a 105.37%);
-  width: 856px;
+  background: #ffffff;
+  width: 100%;
   height: 1px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  margin: 30px 0 50px 0;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .title-border-4 {
-    width: 395px;
-    margin: 20px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .title-border-4 {
-    width: 320px;
-    margin: 20px 0;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .title-border-4 {
-    width: 346px;
-    margin: 20px 0;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .title-border-4 {
-    width: 300px;
-    margin: 15px 0;
-  }
+  margin: 40px 0;
 }
 
 .title-border-5 {
@@ -14831,15 +14819,18 @@ html {
   }
 }
 
-.team-secondary-partner.blog-details-form {
-  padding: 80px 83px 87px 80px;
-  background: #1a1717;
-  border-radius: 20px;
+.team-secondary-partner.blog-details-form .form-heading {
+  margin-bottom: 60px;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-secondary-partner.blog-details-form {
-    padding: 20px 10px 20px 10px;
-  }
+.team-secondary-partner.blog-details-form .form-heading .title {
+  margin-bottom: 30px;
+}
+.team-secondary-partner.blog-details-form .form-heading .desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-secondary-partner.contact-page-form {
@@ -14886,28 +14877,33 @@ html {
     display: block;
   }
 }
-.contact-form form .contract-group .input-col {
+.contact-form form .contract-group .input-col,
+.contact-form form .contract-group .textarea-field {
   width: calc(50% - 24px);
   margin-bottom: 40px;
 }
-.contact-form form .contract-group .input-col.w-full {
+.contact-form form .contract-group .input-col.w-full,
+.contact-form form .contract-group .textarea-field.w-full {
   width: 100%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact-form form .contract-group .input-col {
+  .contact-form form .contract-group .input-col,
+  .contact-form form .contract-group .textarea-field {
     width: calc(100% - 20px);
     margin-bottom: 35px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .contact-form form .contract-group .input-col {
+  .contact-form form .contract-group .input-col,
+  .contact-form form .contract-group .textarea-field {
     width: calc(100% - 20px);
     margin-bottom: 20px;
   }
 }
-.contact-form form .contract-group .input-col label {
+.contact-form form .contract-group .input-col label,
+.contact-form form .contract-group .textarea-field label {
   display: block;
-  color: #ffffff;
+  color: #b0b0b0;
   font-family: Rubik;
   font-size: 16px;
   font-style: normal;
@@ -14916,7 +14912,10 @@ html {
 }
 .contact-form form .contract-group .input-col input,
 .contact-form form .contract-group .input-col select,
-.contact-form form .contract-group .input-col textarea {
+.contact-form form .contract-group .input-col textarea,
+.contact-form form .contract-group .textarea-field input,
+.contact-form form .contract-group .textarea-field select,
+.contact-form form .contract-group .textarea-field textarea {
   width: 100%;
   border: none;
   border-radius: 0;
@@ -14930,14 +14929,19 @@ html {
 }
 .contact-form form .contract-group .input-col input:focus,
 .contact-form form .contract-group .input-col select:focus,
-.contact-form form .contract-group .input-col textarea:focus {
+.contact-form form .contract-group .input-col textarea:focus,
+.contact-form form .contract-group .textarea-field input:focus,
+.contact-form form .contract-group .textarea-field select:focus,
+.contact-form form .contract-group .textarea-field textarea:focus {
   outline: none;
   border-color: #ffffff;
 }
-.contact-form form .contract-group .input-col textarea {
+.contact-form form .contract-group .input-col textarea,
+.contact-form form .contract-group .textarea-field textarea {
   min-height: 80px;
 }
-.contact-form form .contract-group .input-col select {
+.contact-form form .contract-group .input-col select,
+.contact-form form .contract-group .textarea-field select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -14948,19 +14952,15 @@ html {
   padding-right: 30px;
   color: #ffffff;
 }
-.contact-form form .contract-group .input-col select option.selector-menu {
+.contact-form form .contract-group .input-col select option.selector-menu,
+.contact-form form .contract-group .textarea-field select option.selector-menu {
   background: #141414;
+}
+.contact-form form .contract-group .textarea-field {
+  margin-bottom: 40px;
 }
 .contact-form form .contract-group.full-row {
   flex-direction: column;
-}
-.contact-form form .contract-group.full-row label {
-  color: #ffffff;
-  font-family: Rubik;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 29px;
 }
 .contact-form form .contract-group.full-row textarea {
   width: 100%;
@@ -19827,10 +19827,13 @@ html {
 }
 
 .blog-details-content-pra .data {
-  color: #B0B0B0;
+  color: #b0b0b0;
 }
 .blog-details-content-main-pra {
   margin: 17px 0 30px 0;
+}
+.blog-details-content-main-pra .blog-title {
+  margin-bottom: 20px;
 }
 .blog-details-content-main-pra span {
   color: #ffffff;
@@ -19848,15 +19851,7 @@ html {
 }
 .blog-details-slider {
   position: relative;
-  margin-bottom: 58px;
-}
-.blog-details-slider::before {
-  content: "";
-  width: 5px;
-  height: 114px;
-  background: #edbc5a;
-  position: absolute;
-  top: -2px;
+  margin-bottom: 52px;
 }
 .blog-details-slider span::before {
   font-size: 58px;
@@ -19896,6 +19891,9 @@ html {
 .blog-details-post-img {
   display: flex;
 }
+.blog-details-post-img img {
+  flex: 1;
+}
 @media (max-width: 1399px) {
   .blog-details-post-img {
     flex-direction: column;
@@ -19903,8 +19901,7 @@ html {
 }
 .blog-details-post-tag {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 20px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .blog-details-post-tag {
@@ -19919,18 +19916,30 @@ html {
   }
 }
 .blog-details-btn-wrapper a {
-  padding: 5px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-details-btn-wrapper a {
     padding: 5px 15px;
   }
 }
+.blog-details-btn-wrapper a:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  float: left;
+}
 .blog-details-author {
-  padding: 46px 50px;
-  background: #1A1717;
+  padding: 21px 34px;
+  background: #1a1717;
   margin-bottom: 60px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -19962,7 +19971,7 @@ html {
   border-radius: 50%;
 }
 .blog-details-comment-content h4 span {
-  color: var(--Secondery, #B0B0B0);
+  color: var(--Secondery, #b0b0b0);
   font-family: Rubik;
   font-size: 16px;
   font-style: normal;
@@ -19984,7 +19993,7 @@ html {
   padding: 15px 20px;
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background: #1A1717;
+  background: #1a1717;
   color: #828282;
 }
 .blog-details-side-content .search-box input:focus {
@@ -20027,6 +20036,9 @@ html {
 }
 .blog-details-category-list ul li span {
   margin-left: 12px;
+}
+.blog-details-comment-heading {
+  margin-bottom: 60px;
 }
 .blog-details-news h5 {
   color: #ffffff;
@@ -21271,16 +21283,6 @@ html {
   border-radius: 50%;
   background-color: #ffffff;
   float: left;
-}
-.widget .tagcloud a:hover,
-.widget .wp-block-tag-cloud a:hover {
-  color: #ffffff;
-  background: #edbc5a;
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
 }
 .widget ul,
 .widget ol {

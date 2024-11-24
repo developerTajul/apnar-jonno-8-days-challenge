@@ -1,10 +1,17 @@
 .team-secondary-partner {
   &.blog-details-form {
-    padding: 80px 83px 87px 80px;
-    background: #1a1717;
-    border-radius: 20px;
-    @include sm {
-      padding: 20px 10px 20px 10px;
+    .form-heading {
+      margin-bottom: 60px;
+      .title {
+        margin-bottom: 30px;
+      }
+      .desc {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        margin-bottom: 0;
+      }
     }
   }
   &.contact-page-form {
@@ -55,7 +62,8 @@
         display: block;
       }
 
-      .input-col {
+      .input-col,
+      .textarea-field {
         width: calc(50% - 24px);
         margin-bottom: 40px;
         &.w-full {
@@ -71,7 +79,7 @@
         }
         label {
           display: block;
-          color: $white;
+          color: $secondary-color;
           font-family: Rubik;
           font-size: 16px;
           font-style: normal;
@@ -119,26 +127,12 @@
           }
         }
       }
+      .textarea-field {
+        margin-bottom: 40px;
+      }
 
       &.full-row {
         flex-direction: column;
-
-        label {
-          color: $white;
-          font-family: Rubik;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 29px;
-          // &.inbox {
-          //   &::before {
-          //     content: '\e91b';
-          //     font-family: 'icomoon';
-          //     font-size: 22px;
-          //     margin-right: 17px;
-          //   }
-          // }
-        }
 
         textarea {
           width: 100%;
