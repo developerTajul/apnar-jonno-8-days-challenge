@@ -3,7 +3,6 @@
 
   @include rmaxwd(991) {
     padding-right: 0;
-    padding-top: 40px;
   }
 }
 .page-sidebar {
@@ -14,29 +13,12 @@
 /* Widget */
 .widget {
   margin-bottom: 40px;
-  @include sm {
-    padding: 20px;
-  }
-  @include md {
-    padding: 30px;
-  }
-  @include lg {
-    padding: 20px;
-  }
-  @include xl {
-    padding: 30px;
-  }
   &:last-child {
     margin-bottom: 0;
   }
   ol,
   ul {
     margin-bottom: 0;
-  }
-  .search-form,
-  ul,
-  .tagcloud,
-  .widget-instagram-feed {
   }
 
   /* Widget Instagram Feed */
@@ -569,7 +551,8 @@
   }
 }
 .widget_latest_post {
-  ul {
+  > ul {
+    padding-left: 0;
     li {
       display: flex;
       gap: 20px;
@@ -680,6 +663,15 @@
           }
         }
       }
+    }
+  }
+}
+
+// widget_video
+.widget_video {
+  .video-popup-area-wrapper {
+    img {
+      width: 100%;
     }
   }
 }

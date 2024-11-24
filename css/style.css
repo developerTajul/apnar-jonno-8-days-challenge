@@ -21007,7 +21007,6 @@ html {
 @media (max-width: 991px) {
   .sidebar {
     padding-right: 0;
-    padding-top: 40px;
   }
 }
 
@@ -21028,26 +21027,6 @@ html {
   /* Login Widget */
   /* Tagcloud Widget */
   /* Default Widget */
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .widget {
-    padding: 20px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .widget {
-    padding: 30px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .widget {
-    padding: 20px;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .widget {
-    padding: 30px;
-  }
 }
 .widget:last-child {
   margin-bottom: 0;
@@ -21580,7 +21559,10 @@ html {
   margin-bottom: 0;
 }
 
-.widget_latest_post ul li {
+.widget_latest_post > ul {
+  padding-left: 0;
+}
+.widget_latest_post > ul li {
   display: flex;
   gap: 20px;
   margin-bottom: 10px;
@@ -21588,11 +21570,11 @@ html {
   align-items: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .widget_latest_post ul li {
+  .widget_latest_post > ul li {
     gap: 10px;
   }
 }
-.widget_latest_post ul li:hover .latest-post-thumb img {
+.widget_latest_post > ul li:hover .latest-post-thumb img {
   transform: scale(1.2);
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
@@ -21600,27 +21582,27 @@ html {
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
 }
-.widget_latest_post ul li:last-child {
+.widget_latest_post > ul li:last-child {
   margin-bottom: 0;
 }
-.widget_latest_post ul li a {
+.widget_latest_post > ul li a {
   padding-left: 0;
 }
-.widget_latest_post ul li a:before {
+.widget_latest_post > ul li a:before {
   display: none;
 }
-.widget_latest_post ul li .latest-post-thumb {
+.widget_latest_post > ul li .latest-post-thumb {
   flex-shrink: 0;
   overflow: hidden;
   width: 70px;
   height: 70px;
   position: relative;
 }
-.widget_latest_post ul li .latest-post-thumb a {
+.widget_latest_post > ul li .latest-post-thumb a {
   width: 100%;
   height: 100%;
 }
-.widget_latest_post ul li .latest-post-thumb img {
+.widget_latest_post > ul li .latest-post-thumb img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -21635,11 +21617,11 @@ html {
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
 }
-.widget_latest_post ul li .latest-post-desc {
+.widget_latest_post > ul li .latest-post-desc {
   flex-direction: column-reverse;
   display: flex;
 }
-.widget_latest_post ul li .latest-post-desc .latest-post-title {
+.widget_latest_post > ul li .latest-post-desc .latest-post-title {
   font-family: "Gilroy-Bold";
   font-size: 16px;
   font-style: normal;
@@ -21650,7 +21632,7 @@ html {
   text-transform: capitalize;
   padding-right: 20px;
 }
-.widget_latest_post ul li .latest-post-desc .latest-post-title a {
+.widget_latest_post > ul li .latest-post-desc .latest-post-title a {
   font-family: "Gilroy-Bold";
   font-size: 22px;
   font-style: normal;
@@ -21666,17 +21648,17 @@ html {
   -o-transition: all 0.5s ease-out;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .widget_latest_post ul li .latest-post-desc .latest-post-title a {
+  .widget_latest_post > ul li .latest-post-desc .latest-post-title a {
     font-size: 16px;
     line-height: normal;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .widget_latest_post ul li .latest-post-desc .latest-post-title a {
+  .widget_latest_post > ul li .latest-post-desc .latest-post-title a {
     font-size: 16px;
   }
 }
-.widget_latest_post ul li .latest-post-desc .latest-post-title a:hover {
+.widget_latest_post > ul li .latest-post-desc .latest-post-title a:hover {
   color: #edbc5a;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
@@ -21684,7 +21666,7 @@ html {
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
 }
-.widget_latest_post ul li .latest-post-desc .latest-post-meta {
+.widget_latest_post > ul li .latest-post-desc .latest-post-meta {
   font-family: "Rubik", sans-serif;
   font-size: 12px;
   font-style: normal;
@@ -21695,19 +21677,23 @@ html {
   margin-bottom: 8px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .widget_latest_post ul li .latest-post-desc .latest-post-meta {
+  .widget_latest_post > ul li .latest-post-desc .latest-post-meta {
     font-size: 15px;
     line-height: normal;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .widget_latest_post ul li .latest-post-desc .latest-post-meta {
+  .widget_latest_post > ul li .latest-post-desc .latest-post-meta {
     font-size: 14px;
     line-height: normal;
   }
 }
-.widget_latest_post ul li .latest-post-desc .latest-post-meta i {
+.widget_latest_post > ul li .latest-post-desc .latest-post-meta i {
   color: #edbc5a;
+}
+
+.widget_video .video-popup-area-wrapper img {
+  width: 100%;
 }
 
 .widget_promotion {
