@@ -8,6 +8,15 @@
 
   &.style-2 {
     @include sm {
+      padding-top: 60px;
+      padding-bottom: 58px;
+    }
+    @include md {
+      padding-top: 80px;
+      padding-bottom: 54px;
+    }
+    @include lg {
+      padding-top: 100px;
       padding-bottom: 54px;
     }
     .section-title {
@@ -23,12 +32,13 @@
         left: 100px;
         @include rmaxwd(991) {
           left: 12px;
+          bottom: 56px;
         }
       }
     }
     .testimonial-area-main-slider {
       @include sm {
-        padding-bottom: 54px;
+        padding-bottom: 90px;
       }
       .slick-list {
         @include rwd(1700) {
