@@ -42,18 +42,18 @@
   &-menu {
     & ul {
       &.main-menu {
-        margin-left: 317px;
+        margin-left: 200px;
         @include xxl {
-          margin-left: 210px;
+          margin-left: 150px;
         }
         @include xml {
-          margin-left: 80px;
-        }
-        @include xl {
           margin-left: 50px;
         }
+        @include xl {
+          margin-left: 65px;
+        }
         @include lg {
-          margin-left: 30px;
+          margin-left: 20px;
         }
       }
       @include rmaxwd(991) {

@@ -1,8 +1,8 @@
 /**
  * Stylesheet:  style.css
- * Theme:       CreBiz - Web Design Agency Figma Template
+ * Theme:       CreBiz - Web Design Agency HTML Template
  * Version:     1.0
- * Author:     	devlinkstudios
+ * Author:     	CreBiz
  * 
  */
 /* Table of contents
@@ -20237,26 +20237,26 @@ html {
   }
 }
 .header-area-menu ul.main-menu {
-  margin-left: 317px;
+  margin-left: 200px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
   .header-area-menu ul.main-menu {
-    margin-left: 210px;
+    margin-left: 150px;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .header-area-menu ul.main-menu {
-    margin-left: 80px;
+    margin-left: 50px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-area-menu ul.main-menu {
-    margin-left: 50px;
+    margin-left: 65px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area-menu ul.main-menu {
-    margin-left: 30px;
+    margin-left: 20px;
   }
 }
 @media (max-width: 991px) {
