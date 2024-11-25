@@ -15503,30 +15503,32 @@ html {
   right: 0;
   bottom: 0;
 }
-.wuc-accordion-wrapper {
+.wuc-accordion-wrapper, .wuc-accordion-wrapper-two {
   margin-bottom: 40px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .wuc-accordion-wrapper {
+  .wuc-accordion-wrapper, .wuc-accordion-wrapper-two {
     margin-bottom: 25px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .wuc-accordion-wrapper {
+  .wuc-accordion-wrapper, .wuc-accordion-wrapper-two {
     margin-bottom: 35px;
   }
 }
 @media (max-width: 1399px) {
-  .wuc-accordion-wrapper {
+  .wuc-accordion-wrapper, .wuc-accordion-wrapper-two {
     margin-right: 0;
   }
 }
-.wuc-accordion-wrapper .wuc-accordion-pra {
+.wuc-accordion-wrapper .wuc-accordion-pra, .wuc-accordion-wrapper-two .wuc-accordion-pra {
   visibility: hidden;
   opacity: 0;
   max-height: 0;
   margin-top: 0;
   transform: scaleY(0);
+  overflow: hidden;
+  transition: max-height 0.3s ease;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
@@ -15534,11 +15536,11 @@ html {
   -o-transition: all 0.5s ease-out;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .wuc-accordion-wrapper .wuc-accordion-pra {
+  .wuc-accordion-wrapper .wuc-accordion-pra, .wuc-accordion-wrapper-two .wuc-accordion-pra {
     margin-top: 0;
   }
 }
-.wuc-accordion-wrapper .wuc-accordion-pra p {
+.wuc-accordion-wrapper .wuc-accordion-pra p, .wuc-accordion-wrapper-two .wuc-accordion-pra p {
   font-size: 18px;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
@@ -15547,16 +15549,16 @@ html {
   -o-transition: all 0.5s ease-out;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .wuc-accordion-wrapper .wuc-accordion-pra p {
+  .wuc-accordion-wrapper .wuc-accordion-pra p, .wuc-accordion-wrapper-two .wuc-accordion-pra p {
     font-size: 15px;
   }
 }
 @media (max-width: 1199px) {
-  .wuc-accordion-wrapper .wuc-accordion-pra p {
+  .wuc-accordion-wrapper .wuc-accordion-pra p, .wuc-accordion-wrapper-two .wuc-accordion-pra p {
     margin-top: 0;
   }
 }
-.wuc-accordion-wrapper .wuc-accordion-pra.active {
+.wuc-accordion-wrapper .wuc-accordion-pra.active, .wuc-accordion-wrapper-two .wuc-accordion-pra.active {
   visibility: visible;
   opacity: 1;
   max-height: 100px;
@@ -15568,7 +15570,7 @@ html {
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
 }
-.wuc-accordion-wrapper .wuc-accordion-pra.active p {
+.wuc-accordion-wrapper .wuc-accordion-pra.active p, .wuc-accordion-wrapper-two .wuc-accordion-pra.active p {
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;

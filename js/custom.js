@@ -228,18 +228,58 @@
     /*============================
         Service Details Accordion
         ============================*/
-    document.querySelectorAll('.wuc-accordion-wrapper').forEach(accordion => {
-      const title = accordion.querySelector('.wuc-accordion-title');
-      const rightArrow = title.querySelector('.accordin-icon');
-      // const bottomArrow = title.querySelector('.bottom-arrow');
-      const content = accordion.querySelector('.wuc-accordion-pra');
+        document.querySelectorAll('.wuc-accordion-wrapper').forEach(accordion => {
+          const title = accordion.querySelector('.wuc-accordion-title');
+          const rightArrow = title?.querySelector('.accordin-icon'); // Optional chaining to handle null
+          const content = accordion.querySelector('.wuc-accordion-pra');
+        
+          if (!title) return; // Skip this iteration if the title is missing
+        
+          title.addEventListener('click', () => {
+            // Remove 'active' class from all accordions
+            document.querySelectorAll('.wuc-accordion-wrapper').forEach(item => {
+              if (item !== accordion) {
+                item.classList.remove('active');
+                const itemContent = item.querySelector('.wuc-accordion-pra');
+                const itemRightArrow = item.querySelector('.accordin-icon');
+                if (itemContent) itemContent.classList.remove('active'); // Check before removing
+                if (itemRightArrow) itemRightArrow.classList.remove('active'); // Check before removing
+              }
+            });
+        
+            // Toggle 'active' class on the clicked accordion
+            accordion.classList.toggle('active');
+            if (content) content.classList.toggle('active'); // Check before toggling
+            if (rightArrow) rightArrow.classList.toggle('active'); // Check before toggling
+          });
+        });
 
-      title.addEventListener('click', () => {
-        content.classList.toggle('active');
-        rightArrow.classList.toggle('active');
-        // bottomArrow.classList.toggle('active');
-      });
-    });
+        document.querySelectorAll('.wuc-accordion-wrapper-two').forEach(accordion => {
+          const title = accordion.querySelector('.wuc-accordion-title');
+          const rightArrow = title?.querySelector('.accordin-icon'); // Optional chaining to handle null
+          const content = accordion.querySelector('.wuc-accordion-pra');
+        
+          if (!title) return; // Skip this iteration if the title is missing
+        
+          title.addEventListener('click', () => {
+            // Remove 'active' class from all accordions
+            document.querySelectorAll('.wuc-accordion-wrapper-two').forEach(item => {
+              if (item !== accordion) {
+                item.classList.remove('active');
+                const itemContent = item.querySelector('.wuc-accordion-pra');
+                const itemRightArrow = item.querySelector('.accordin-icon');
+                if (itemContent) itemContent.classList.remove('active'); // Check before removing
+                if (itemRightArrow) itemRightArrow.classList.remove('active'); // Check before removing
+              }
+            });
+        
+            // Toggle 'active' class on the clicked accordion
+            accordion.classList.toggle('active');
+            if (content) content.classList.toggle('active'); // Check before toggling
+            if (rightArrow) rightArrow.classList.toggle('active'); // Check before toggling
+          });
+        });
+        
 
     /*============================
         Magnific Popup
