@@ -301,7 +301,62 @@
       time: 1000,
     });
 
-    /*=======================
+     // CountDown
+     let countdownSeconds = 
+     90 * 24 * 3600 + // 90 days in seconds
+     50 * 3600 + // 50 hours in seconds
+     35 * 60 + // 35 minutes in seconds
+     10; // 10 seconds
+   
+   // Update countdown display
+   function updateCountdownDisplay(totalSeconds) {
+    // Convert seconds to weeks, days, hours, minutes, and seconds
+    const weeks = Math.floor(totalSeconds / (7 * 24 * 3600));
+    totalSeconds %= 7 * 24 * 3600;
+  
+    const days = Math.floor(totalSeconds / (24 * 3600));
+    totalSeconds %= 24 * 3600;
+  
+    const hours = Math.floor(totalSeconds / 3600);
+    totalSeconds %= 3600;
+  
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+  
+    // Safely update HTML elements
+    const weeksEl = document.getElementById('weeks');
+    const daysEl = document.getElementById('days');
+    const hoursEl = document.getElementById('hours');
+    const minutesEl = document.getElementById('minutes');
+    const secondsEl = document.getElementById('seconds');
+  
+    if (weeksEl) weeksEl.textContent = weeks;
+    if (daysEl) daysEl.textContent = days;
+    if (hoursEl) hoursEl.textContent = hours;
+    if (minutesEl) minutesEl.textContent = minutes;
+    if (secondsEl) secondsEl.textContent = seconds;
+  }
+  
+   
+   // Start countdown
+   function startCountdown() {
+     updateCountdownDisplay(countdownSeconds);
+   
+     const countdownInterval = setInterval(() => {
+       countdownSeconds--;
+   
+       if (countdownSeconds < 0) {
+         clearInterval(countdownInterval); // Stop the countdown when it reaches zero
+         console.log("Countdown complete!");
+         return;
+       }
+   
+       updateCountdownDisplay(countdownSeconds);
+     }, 1000); // Update every second
+   }
+   
+    startCountdown();
+  /*=======================
         Responsive Dropdown Toggle Active
         =========================*/
     function toggleList(listNumber) {
@@ -513,17 +568,17 @@
 
     /*Js-Tilt Animation
         ============================*/
-    $('.tilt-zoom').tilt({
-      scale: 1.1,
-      perspective: 1500,
-    });
+    // $('.tilt-zoom').tilt({
+    //   scale: 1.1,
+    //   perspective: 1500,
+    // });
 
-    /*Jquery Tilt Js
-       ============================*/
-    $('.tilt-animate').tilt({
-      maxTilt: 12,
-      perspective: 1000,
-    });
+    // /*Jquery Tilt Js
+    //    ============================*/
+    // $('.tilt-animate').tilt({
+    //   maxTilt: 12,
+    //   perspective: 1000,
+    // });
 
     /*
         Window Preload
