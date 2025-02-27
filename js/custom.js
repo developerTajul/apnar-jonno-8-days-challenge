@@ -412,6 +412,13 @@
       }
     });
 
+
+    $(".menu-item").each(function () {
+      if ($(this).find(".submenu").length) {
+        $(this).find("> a").addClass("plus-icon");
+      }
+    });
+
     /*
         Window Load Offcanvas
         ============================*/
