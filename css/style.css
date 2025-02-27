@@ -20863,6 +20863,72 @@ section.breadcrumb-area {
   -o-transition: all 0.5s ease-out;
 }
 
+
+/* Navbar more css - started */
+ul.main-menu li.menu-item ul.submenu {
+  position: absolute;
+  left: -30px;
+  top: 100%;
+  width: 210px;
+  visibility: hidden;
+  transition: all 0.3s ease 0s;
+  z-index: 1;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top center;
+  background-color: #fff;
+  border-top: 2px solid #edbc5a;
+}
+
+ul.main-menu li.menu-item:hover ul.submenu {
+  visibility: visible;
+  top: 100%;
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+ul.main-menu li.menu-item ul.submenu li {
+  margin: 0
+}
+
+ul.main-menu li.menu-item ul.submenu li:not(:first-child) {
+  border-top: 1px solid #ccc;
+}
+
+ul.main-menu li.menu-item ul.submenu li a {
+  color: #26262c;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  display: block;
+}
+
+ul.main-menu li.menu-item ul.submenu li:hover a {
+  background-color: #edbc5a;
+  color: #fff;
+}
+
+ul.main-menu li.menu-item a.plus-icon::after {
+  content: "+";
+  font-family: "FontAwesome";
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 900;
+}
+
+ul.main-menu li.menu-item a {
+  color: #fff;
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  padding: 45px 24px;
+}
+/* Navbar more css - ended */
+
+
 .blog-area.style-1 {
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
