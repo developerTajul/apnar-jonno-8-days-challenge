@@ -23716,6 +23716,13 @@ ul.main-menu li.menu-item a {
 
 
 
+/* Contact page's contact form */
+.contact-form form .contract-group.full-row textarea {
+  max-height: 105px;
+}
+
+
+
 /* Footer's contact form - started */
 footer .mc-field-group input {
   width: 300px;
