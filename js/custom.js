@@ -403,10 +403,16 @@
     $(window).on('scroll', function () {
       if ($(window).scrollTop() > 50) {
         $('.fixed-menu').addClass('scrolled');
-        $('.standard-logo').hide();
-        $('.sticky-logo').show();
       } else {
         $('.fixed-menu').removeClass('scrolled');
+      }
+    });
+
+    $(window).on('scroll', function () {
+      if ($(window).scrollTop() < 50) {
+        $('.standard-logo').show();
+        $('.sticky-logo').hide();
+      } else {
         $('.standard-logo').show();
         $('.sticky-logo').hide();
       }
