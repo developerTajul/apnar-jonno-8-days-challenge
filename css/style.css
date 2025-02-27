@@ -23705,8 +23705,8 @@ ul.main-menu li.menu-item a {
 .breadcrumb-list li a::before {
   content: '/';
   position: absolute;
-  left: -13px;
-  top: 0;
+  right: -13px;
+  top: -3px;
   color: #fff;
 }
 
