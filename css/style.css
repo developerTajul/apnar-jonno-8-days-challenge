@@ -23692,20 +23692,24 @@ ul.main-menu li.menu-item a {
 
 
 
-/* Blog page's breadcrumb - started */
+/* Single page's breadcrumb - started */
 .breadcrumb-list li.active {
   color: #fff;
   position: relative;
 }
 
-.breadcrumb-list li.active::before {
+.breadcrumb-list li:last-child {
+  position: relative
+}
+
+.breadcrumb-list li:last-child::before {
   content: '/';
   position: absolute;
   left: -13px;
   top: 0;
+  color: #fff;
 }
-
-/* Blog page's breadcrumb - started */
+/* Single page's breadcrumb - started */
 
 
 
