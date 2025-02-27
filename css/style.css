@@ -23709,6 +23709,22 @@ ul.main-menu li.menu-item a {
   top: 0;
   color: #fff;
 }
+
+.crebiz-member-template .breadcrumb-list li:last-child {
+  position: relative;
+}
+
+.crebiz-member-template .breadcrumb-list li:first-child::before {
+  content: '/';
+  position: absolute;
+  right: -13px;
+  top: 0;
+  color: #fff;
+}
+
+.page-title {
+  text-align: center;
+}
 /* Single page's breadcrumb - started */
 
 
