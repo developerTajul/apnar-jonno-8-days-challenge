@@ -23699,7 +23699,7 @@ ul.main-menu li.menu-item a {
 }
 
 .breadcrumb-list li:last-child {
-  position: relative
+  position: relative;
 }
 
 .breadcrumb-list li:last-child::before {
