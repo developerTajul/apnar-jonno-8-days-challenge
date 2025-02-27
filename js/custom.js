@@ -226,66 +226,66 @@
     });
 
 
-      // data bg img 
-      $("[data-background]").each(function () {
-        $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
-      })
+    // data bg img 
+    $("[data-background]").each(function () {
+      $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
+    })
 
     /*============================
         Service Details Accordion
         ============================*/
-        document.querySelectorAll('.wuc-accordion-wrapper').forEach(accordion => {
-          const title = accordion.querySelector('.wuc-accordion-title');
-          const rightArrow = title?.querySelector('.accordin-icon'); // Optional chaining to handle null
-          const content = accordion.querySelector('.wuc-accordion-pra');
-        
-          if (!title) return; // Skip this iteration if the title is missing
-        
-          title.addEventListener('click', () => {
-            // Remove 'active' class from all accordions
-            document.querySelectorAll('.wuc-accordion-wrapper').forEach(item => {
-              if (item !== accordion) {
-                item.classList.remove('active');
-                const itemContent = item.querySelector('.wuc-accordion-pra');
-                const itemRightArrow = item.querySelector('.accordin-icon');
-                if (itemContent) itemContent.classList.remove('active'); // Check before removing
-                if (itemRightArrow) itemRightArrow.classList.remove('active'); // Check before removing
-              }
-            });
-        
-            // Toggle 'active' class on the clicked accordion
-            accordion.classList.toggle('active');
-            if (content) content.classList.toggle('active'); // Check before toggling
-            if (rightArrow) rightArrow.classList.toggle('active'); // Check before toggling
-          });
+    document.querySelectorAll('.wuc-accordion-wrapper').forEach(accordion => {
+      const title = accordion.querySelector('.wuc-accordion-title');
+      const rightArrow = title?.querySelector('.accordin-icon'); // Optional chaining to handle null
+      const content = accordion.querySelector('.wuc-accordion-pra');
+
+      if (!title) return; // Skip this iteration if the title is missing
+
+      title.addEventListener('click', () => {
+        // Remove 'active' class from all accordions
+        document.querySelectorAll('.wuc-accordion-wrapper').forEach(item => {
+          if (item !== accordion) {
+            item.classList.remove('active');
+            const itemContent = item.querySelector('.wuc-accordion-pra');
+            const itemRightArrow = item.querySelector('.accordin-icon');
+            if (itemContent) itemContent.classList.remove('active'); // Check before removing
+            if (itemRightArrow) itemRightArrow.classList.remove('active'); // Check before removing
+          }
         });
 
-        document.querySelectorAll('.wuc-accordion-wrapper-two').forEach(accordion => {
-          const title = accordion.querySelector('.wuc-accordion-title');
-          const rightArrow = title?.querySelector('.accordin-icon'); // Optional chaining to handle null
-          const content = accordion.querySelector('.wuc-accordion-pra');
-        
-          if (!title) return; // Skip this iteration if the title is missing
-        
-          title.addEventListener('click', () => {
-            // Remove 'active' class from all accordions
-            document.querySelectorAll('.wuc-accordion-wrapper-two').forEach(item => {
-              if (item !== accordion) {
-                item.classList.remove('active');
-                const itemContent = item.querySelector('.wuc-accordion-pra');
-                const itemRightArrow = item.querySelector('.accordin-icon');
-                if (itemContent) itemContent.classList.remove('active'); // Check before removing
-                if (itemRightArrow) itemRightArrow.classList.remove('active'); // Check before removing
-              }
-            });
-        
-            // Toggle 'active' class on the clicked accordion
-            accordion.classList.toggle('active');
-            if (content) content.classList.toggle('active'); // Check before toggling
-            if (rightArrow) rightArrow.classList.toggle('active'); // Check before toggling
-          });
+        // Toggle 'active' class on the clicked accordion
+        accordion.classList.toggle('active');
+        if (content) content.classList.toggle('active'); // Check before toggling
+        if (rightArrow) rightArrow.classList.toggle('active'); // Check before toggling
+      });
+    });
+
+    document.querySelectorAll('.wuc-accordion-wrapper-two').forEach(accordion => {
+      const title = accordion.querySelector('.wuc-accordion-title');
+      const rightArrow = title?.querySelector('.accordin-icon'); // Optional chaining to handle null
+      const content = accordion.querySelector('.wuc-accordion-pra');
+
+      if (!title) return; // Skip this iteration if the title is missing
+
+      title.addEventListener('click', () => {
+        // Remove 'active' class from all accordions
+        document.querySelectorAll('.wuc-accordion-wrapper-two').forEach(item => {
+          if (item !== accordion) {
+            item.classList.remove('active');
+            const itemContent = item.querySelector('.wuc-accordion-pra');
+            const itemRightArrow = item.querySelector('.accordin-icon');
+            if (itemContent) itemContent.classList.remove('active'); // Check before removing
+            if (itemRightArrow) itemRightArrow.classList.remove('active'); // Check before removing
+          }
         });
-        
+
+        // Toggle 'active' class on the clicked accordion
+        accordion.classList.toggle('active');
+        if (content) content.classList.toggle('active'); // Check before toggling
+        if (rightArrow) rightArrow.classList.toggle('active'); // Check before toggling
+      });
+    });
+
 
     /*============================
         Magnific Popup
@@ -307,64 +307,64 @@
       time: 1000,
     });
 
-     // CountDown
-     let countdownSeconds = 
-     90 * 24 * 3600 + // 90 days in seconds
-     50 * 3600 + // 50 hours in seconds
-     35 * 60 + // 35 minutes in seconds
-     10; // 10 seconds
-   
-   // Update countdown display
-   function updateCountdownDisplay(totalSeconds) {
-    // Convert seconds to weeks, days, hours, minutes, and seconds
-    const weeks = Math.floor(totalSeconds / (7 * 24 * 3600));
-    totalSeconds %= 7 * 24 * 3600;
-  
-    const days = Math.floor(totalSeconds / (24 * 3600));
-    totalSeconds %= 24 * 3600;
-  
-    const hours = Math.floor(totalSeconds / 3600);
-    totalSeconds %= 3600;
-  
-    const minutes = Math.floor(totalSeconds / 60);
-    const seconds = totalSeconds % 60;
-  
-    // Safely update HTML elements
-    const weeksEl = document.getElementById('weeks');
-    const daysEl = document.getElementById('days');
-    const hoursEl = document.getElementById('hours');
-    const minutesEl = document.getElementById('minutes');
-    const secondsEl = document.getElementById('seconds');
-  
-    if (weeksEl) weeksEl.textContent = weeks;
-    if (daysEl) daysEl.textContent = days;
-    if (hoursEl) hoursEl.textContent = hours;
-    if (minutesEl) minutesEl.textContent = minutes;
-    if (secondsEl) secondsEl.textContent = seconds;
-  }
-  
-   
-   // Start countdown
-   function startCountdown() {
-     updateCountdownDisplay(countdownSeconds);
-   
-     const countdownInterval = setInterval(() => {
-       countdownSeconds--;
-   
-       if (countdownSeconds < 0) {
-         clearInterval(countdownInterval); // Stop the countdown when it reaches zero
-         console.log("Countdown complete!");
-         return;
-       }
-   
-       updateCountdownDisplay(countdownSeconds);
-     }, 1000); // Update every second
-   }
-   
+    // CountDown
+    let countdownSeconds =
+      90 * 24 * 3600 + // 90 days in seconds
+      50 * 3600 + // 50 hours in seconds
+      35 * 60 + // 35 minutes in seconds
+      10; // 10 seconds
+
+    // Update countdown display
+    function updateCountdownDisplay(totalSeconds) {
+      // Convert seconds to weeks, days, hours, minutes, and seconds
+      const weeks = Math.floor(totalSeconds / (7 * 24 * 3600));
+      totalSeconds %= 7 * 24 * 3600;
+
+      const days = Math.floor(totalSeconds / (24 * 3600));
+      totalSeconds %= 24 * 3600;
+
+      const hours = Math.floor(totalSeconds / 3600);
+      totalSeconds %= 3600;
+
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+
+      // Safely update HTML elements
+      const weeksEl = document.getElementById('weeks');
+      const daysEl = document.getElementById('days');
+      const hoursEl = document.getElementById('hours');
+      const minutesEl = document.getElementById('minutes');
+      const secondsEl = document.getElementById('seconds');
+
+      if (weeksEl) weeksEl.textContent = weeks;
+      if (daysEl) daysEl.textContent = days;
+      if (hoursEl) hoursEl.textContent = hours;
+      if (minutesEl) minutesEl.textContent = minutes;
+      if (secondsEl) secondsEl.textContent = seconds;
+    }
+
+
+    // Start countdown
+    function startCountdown() {
+      updateCountdownDisplay(countdownSeconds);
+
+      const countdownInterval = setInterval(() => {
+        countdownSeconds--;
+
+        if (countdownSeconds < 0) {
+          clearInterval(countdownInterval); // Stop the countdown when it reaches zero
+          console.log("Countdown complete!");
+          return;
+        }
+
+        updateCountdownDisplay(countdownSeconds);
+      }, 1000); // Update every second
+    }
+
     startCountdown();
-  /*=======================
-        Responsive Dropdown Toggle Active
-        =========================*/
+    /*=======================
+          Responsive Dropdown Toggle Active
+          =========================*/
     function toggleList(listNumber) {
       var $allLists = $('.hidden-list');
       var $targetList = $('#dropdown-toggle-menu-' + listNumber);
@@ -403,8 +403,12 @@
     $(window).on('scroll', function () {
       if ($(window).scrollTop() > 50) {
         $('.fixed-menu').addClass('scrolled');
+        $('.standard-logo').hide();
+        $('.sticky-logo').show();
       } else {
         $('.fixed-menu').removeClass('scrolled');
+        $('.standard-logo').show();
+        $('.sticky-logo').hide();
       }
     });
 
