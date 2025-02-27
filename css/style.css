@@ -20928,6 +20928,9 @@ ul.main-menu li.menu-item a {
 }
 /* Navbar more css - ended */
 
+.sticky-logo {
+  display: none;
+}
 
 .blog-area.style-1 {
   border-top: 1px solid #ffffff;
