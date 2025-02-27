@@ -403,14 +403,21 @@
     $(window).on('scroll', function () {
       if ($(window).scrollTop() > 50) {
         $('.fixed-menu').addClass('scrolled');
-        $('.standard-logo').hide();
-        $('.sticky-logo').show();
+        /*     $('.standard-logo').hide();
+            $('.sticky-logo').show(); */
       } else {
         $('.fixed-menu').removeClass('scrolled');
-        $('.standard-logo').show();
-        $('.sticky-logo').hide();
+        /*     $('.standard-logo').show();
+            $('.sticky-logo').hide(); */
       }
     });
+
+    $(window).on("scroll", function () {
+      let scrolled = $(window).scrollTop() > 50;
+      $(".standard-logo").toggle(!scrolled);
+      $(".sticky-logo").toggle(scrolled);
+    });
+
 
 
     $(".menu-item").each(function () {
