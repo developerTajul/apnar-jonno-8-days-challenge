@@ -23698,11 +23698,11 @@ ul.main-menu li.menu-item a {
   position: relative;
 }
 
-.breadcrumb-list li:last-child {
+.breadcrumb-list li a {
   position: relative;
 }
 
-.breadcrumb-list li:last-child::before {
+.breadcrumb-list li a::before {
   content: '/';
   position: absolute;
   left: -13px;
@@ -23710,7 +23710,7 @@ ul.main-menu li.menu-item a {
   color: #fff;
 }
 
-.crebiz-member-template .breadcrumb-list li:last-child {
+/* .crebiz-member-template .breadcrumb-list li:last-child {
   position: relative;
 }
 
@@ -23720,7 +23720,7 @@ ul.main-menu li.menu-item a {
   right: -13px;
   top: 0;
   color: #fff;
-}
+} */
 
 .page-title {
   text-align: center;
