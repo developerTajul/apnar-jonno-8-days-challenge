@@ -1,0 +1,76 @@
+
+
+section.breadcrumb-area {
+    padding-bottom: 140px;
+    background-color: #131313;
+	@include breakpoint(max-xl){
+		padding-bottom: 100px;
+	}
+	@include breakpoint(max-lg){
+		padding-bottom: 80px;
+	}
+}
+.breadcrumb-style-1{
+	padding-top: 266px;
+	padding-bottom: 266px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	max-width: 100%;
+
+	@include breakpoint(max-xxl){
+		padding-top: 250px;
+		padding-bottom: 250px;
+	}
+	@include breakpoint(max-xl){
+		padding-top: 210px;
+        padding-bottom: 210px;
+	}
+	@include breakpoint(max-lg){
+        padding-top: 170px;
+        padding-bottom: 170px;
+	}
+	@include breakpoint(max-md){
+        padding-top: 150px;
+        padding-bottom: 155px;
+	}
+	@include breakpoint(max-sm){
+        padding-top: 120px;
+        padding-bottom: 120px;
+	}
+	.content{
+		text-align: center;
+		.title{
+            color: #fff;
+			font-size: 70px;
+			font-weight: 600;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+			@include breakpoint(max-lg){
+				font-size: 65px;
+			}
+			@include breakpoint(max-sm){
+				font-size: 45px;
+			}
+		}
+		ul{
+			li{
+				display: inline-flex;
+    			gap: 4px;
+				a{
+					color: #fff;
+					font-size: 16px;
+					font-weight: 400;
+					&:hover{
+						color: #edbc5a;
+					}
+				}
+				span{
+                    color: #fff;
+					font-size: 16px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}

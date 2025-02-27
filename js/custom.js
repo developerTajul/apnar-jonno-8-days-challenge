@@ -225,6 +225,12 @@
       ],
     });
 
+
+      // data bg img 
+      $("[data-background]").each(function () {
+        $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
+      })
+
     /*============================
         Service Details Accordion
         ============================*/

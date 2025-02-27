@@ -1,0 +1,1 @@
+sass --watch C:\Users\SOHAN\Dropbox\crebiz-runniung\CreBiz\sass\style.scss:C:\Users\SOHAN\Dropbox\crebiz-runniung\CreBiz\css\style.css

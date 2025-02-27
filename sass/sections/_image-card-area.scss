@@ -1,10 +1,13 @@
 .image-card-area {
   &.style-2 {
-    @include sm {
-      padding-top: 80px;
+    @include breakpoint(max-xxxl){
+      padding-top: 140px ;
     }
-    @include md {
-      padding-top: 100px;
+    @include breakpoint(max-xl){
+      padding-top: 100px ;
+    }
+    @include breakpoint(max-lg){
+      padding-top: 80px ;
     }
     .image-card-wrapper {
       gap: 30px;
