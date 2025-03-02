@@ -23780,7 +23780,7 @@ ul.main-menu li.menu-item a {
 
 .blog-post-nav .divider {
   width: 1px;
-  height: 100vh;
+  height: 200px;
   background: #ccc;
 }
 
@@ -23789,45 +23789,65 @@ ul.main-menu li.menu-item a {
 
 
 /* Blog post author section - started */
-/* .author-info {
-  padding: 21px 34px;
-  background: #1a1717;
-  margin-bottom: 60px;
+.author-info {
+  background-color: #ddd;
+  padding: 90px 55px 60px 55px;
   display: flex;
-  gap: 15px;
+  gap: 30px;
+  border-radius: 14px;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 70px;
 }
 
-.author-info .author-text {
-  text-align: left !important;
+.author-info .author-thumb {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .author-info .author-text h3 {
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 29px;
-  margin-bottom: -4px;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 28px;
+  text-transform: capitalize;
 }
 
-.author-info .author-text h3 a {
-  background-color: #ffffff;
-  padding: 0 10px;
-  color: #141414;
-  line-height: inherit;
+.author-info .author-text .designation {
+  font-size: 16px;
+  font-style: italic;
+  color: #616670;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
 }
 
-.author-info .author-text span.designation {
+.author-info .author-text p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #616670;
+  font-size: 18px;
   font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 29px;
-  background-color: #ffffff;
-  padding: 0 10px;
-  color: #141414;
 }
- */
+
+.author-info .author-post a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Rajdhani", sans-serif;
+  color: #26262c;
+  border-bottom: 2px solid #D9A14C;
+  margin-top: 30px;
+  display: inline-block;
+}
 /* Blog post author section - ended */
 
 
