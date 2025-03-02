@@ -23717,6 +23717,7 @@ ul.main-menu li.menu-item a {
   top: -3px;
   color: #fff;
 }
+
 /* Single page's breadcrumb - ended */
 
 
@@ -23724,7 +23725,7 @@ ul.main-menu li.menu-item a {
 /* Page title give on center */
 .page-title {
   text-align: center;
-} 
+}
 
 
 
@@ -23739,6 +23740,51 @@ ul.main-menu li.menu-item a {
 .contact-form form .contract-group.full-row textarea {
   max-height: 105px;
 }
+
+
+
+/* Blog post navigation - started */
+.blog-post-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.blog-post-nav .post-navigation {
+  width: 49%;
+  padding: 1rem;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.blog-post-nav .post-navigation .post-img {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.blog-post-nav .post-navigation .text span i {
+  color: #fff;
+}
+
+.blog-post-nav .post-navigation .text h4 {
+  font-size: 22px;
+}
+
+.blog-post-nav .divider {
+  width: 1px;
+  height: 100vh;
+  background: #ccc;
+}
+
+/* Blog post navigation - ended */
 
 
 
@@ -23843,7 +23889,8 @@ ul.main-menu li.menu-item a {
   margin: 2rem 0;
 }
 
-.sidebar__tag, .sidebar__info {
+.sidebar__tag,
+.sidebar__info {
   padding: 2rem;
   background: #1a1717;
   margin-bottom: 30px;
@@ -23858,6 +23905,7 @@ ul.main-menu li.menu-item a {
   color: #141414;
   padding: 1.5rem;
 }
+
 /* Project Details page - ended */
 
 
