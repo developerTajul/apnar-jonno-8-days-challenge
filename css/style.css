@@ -23646,7 +23646,7 @@ ul.main-menu li.menu-item ul.submenu li {
 }
 
 ul.main-menu li.menu-item ul.submenu li:not(:first-child) {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #383838;
 }
 
 ul.main-menu li.menu-item ul.submenu li a {
@@ -23679,6 +23679,45 @@ ul.main-menu li.menu-item a {
   line-height: normal;
   display: inline-block;
   padding: 45px 24px;
+}
+
+
+@media (max-width: 767px) {
+  ul.main-menu li.menu-item a {
+    padding: 12px 0;
+    width: 100%;
+    position: relative;
+  }
+
+  ul.main-menu li.menu-item a.plus-icon::after {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  ul.main-menu li.menu-item>a.plus-icon::before {
+    content: '';
+    height: 100%;
+    width: 1px;
+    background: #383838;
+    position: absolute;
+    top: 0;
+    right: 50px
+  }
+
+  ul.main-menu li.menu-item ul.submenu {
+    padding: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    position: relative;
+    border-top: 0;
+    width: 100%;
+  }
+
+  ul.main-menu li.menu-item ul.submenu li a {
+    color: #fff
+  }
 }
 
 /* Navbar more css - ended */
@@ -23848,6 +23887,7 @@ ul.main-menu li.menu-item a {
   margin-top: 30px;
   display: inline-block;
 }
+
 /* Blog post author section - ended */
 
 
