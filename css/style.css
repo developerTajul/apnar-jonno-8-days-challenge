@@ -23709,7 +23709,7 @@ ul.main-menu li.menu-item a {
     padding: 0;
     left: 0;
     right: 0;
-    background: transparent;
+    background: #fff;
     /* position: relative; */
     border-top: 0;
     width: 100%;
