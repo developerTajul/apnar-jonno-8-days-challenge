@@ -23702,7 +23702,7 @@ ul.main-menu li.menu-item a {
   position: relative;
 }
 
-.breadcrumb-list li a::before {
+.breadcrumb-list li:first-child a::before {
   content: '/';
   position: absolute;
   right: -13px;
@@ -23710,11 +23710,21 @@ ul.main-menu li.menu-item a {
   color: #fff;
 }
 
+.single .breadcrumb-list li a::before {
+  content: '/';
+  position: absolute;
+  right: -13px;
+  top: -3px;
+  color: #fff;
+}
+/* Single page's breadcrumb - ended */
+
+
+
+/* Page title give on center */
 .page-title {
   text-align: center;
-}
-
-/* Single page's breadcrumb - started */
+} 
 
 
 
@@ -23826,6 +23836,29 @@ ul.main-menu li.menu-item a {
 }
 
 /* Blog post comment section - ended */
+
+
+/* Project Details page - started */
+.project-title {
+  margin: 2rem 0;
+}
+
+.sidebar__tag, .sidebar__info {
+  padding: 2rem;
+  background: #1a1717;
+  margin-bottom: 30px;
+}
+
+.sidebar__tag ul li {
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.sidebar__tag ul li a {
+  color: #141414;
+  padding: 1.5rem;
+}
+/* Project Details page - ended */
 
 
 
