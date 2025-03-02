@@ -23682,7 +23682,7 @@ ul.main-menu li.menu-item a {
 }
 
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
   ul.main-menu li.menu-item a {
     padding: 12px 0;
     width: 100%;
@@ -23710,7 +23710,7 @@ ul.main-menu li.menu-item a {
     left: 0;
     right: 0;
     background: transparent;
-    position: relative;
+    /* position: relative; */
     border-top: 0;
     width: 100%;
   }
@@ -23719,7 +23719,7 @@ ul.main-menu li.menu-item a {
     color: #fff
   }
 }
- */
+
 /* Navbar more css - ended */
 
 
