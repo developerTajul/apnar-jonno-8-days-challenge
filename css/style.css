@@ -23682,12 +23682,12 @@ ul.main-menu li.menu-item a {
 }
 
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   ul.main-menu li.menu-item a {
     padding: 12px 0;
     width: 100%;
     position: relative;
-  }
+  }  
 
   ul.main-menu li.menu-item a.plus-icon::after {
     position: absolute;
@@ -23719,7 +23719,7 @@ ul.main-menu li.menu-item a {
     color: #fff
   }
 }
-
+ */
 /* Navbar more css - ended */
 
 
