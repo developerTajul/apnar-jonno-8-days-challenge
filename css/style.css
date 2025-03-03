@@ -23618,6 +23618,23 @@ section.breadcrumb-area {
 
 /* ============= implemening CSS on the WP theme - start ============= */
 
+/* Home page 1's hero - started */
+.hero-area-title-one {
+  margin-top: 185px;
+}
+
+.hero-area .hero-area-bg-five {
+  top: 150px;
+}
+
+.hero-area .hero-area-bg-block-shape {
+  top: 300px;
+}
+
+/* Home page 1's hero - ended */
+
+
+
 /* Navbar more css - started */
 ul.main-menu li.menu-item ul.submenu {
   position: absolute;
