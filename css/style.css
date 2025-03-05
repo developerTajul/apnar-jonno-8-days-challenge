@@ -24000,7 +24000,19 @@ ul.main-menu li.menu-item a {
 
 
 
+/* Home 1's portfolio section - started */
+.wuc-accordion {
+  padding-bottom: 0;
+}
+/* Home 1's portfolio section - ended */
+
+
+
 /* Footer's contact form - started */
+.footer-area-quick-menu {
+  padding-bottom: 0;
+}
+
 footer .mc-field-group input {
   width: 300px;
   border: none;
