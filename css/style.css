@@ -19981,6 +19981,10 @@ html {
   transform: rotate(-25deg);
 }
 
+.faq-area-heading-part a:hover i {
+  color: #fff;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .faq-area-heading-part a {
     width: 60px;
