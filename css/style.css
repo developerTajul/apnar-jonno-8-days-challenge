@@ -23653,6 +23653,7 @@ section.breadcrumb-area {
 .hero-area-title-two {
   line-height: 107.143%;
 }
+
 /* Home page 2's hero - ended */
 
 
@@ -23668,7 +23669,21 @@ section.breadcrumb-area {
 .pricing-area-card-wrapper:HOVER .pricing-area-cards-btn a {
   background-color: #edbc5a !important;
 }
+
+.page-btn a {
+  text-transform: uppercase;
+}
+
 /* Home page 2's pricing section - ended */
+
+
+
+/* Home page 2's sevice sec - started */
+.services-area .wuc-accordion-pra.active .icon {
+  display: none
+}
+
+/* Home page 2's sevice sec - ended */
 
 
 
@@ -24006,6 +24021,7 @@ ul.main-menu li.menu-item a {
   font-family: "Rubik", sans-serif;
   text-align: center
 }
+
 /* Blog post author section - ended */
 
 
@@ -24101,6 +24117,7 @@ ul.main-menu li.menu-item a {
   color: #141414;
   padding: 1.5rem;
 }
+
 /* Project Details page - ended */
 
 
