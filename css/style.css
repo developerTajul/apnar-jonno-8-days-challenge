@@ -23639,6 +23639,15 @@ section.breadcrumb-area {
 
 
 
+/* Home page 2's hero - started */
+.hero-area-two .circle-shape {
+  top: 120px;
+  right: -95px;
+}
+/* Home page 2's hero - ended */
+
+
+
 /* Navbar more css - started */
 ul.main-menu li.menu-item ul.submenu {
   position: absolute;
