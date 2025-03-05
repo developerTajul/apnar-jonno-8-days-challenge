@@ -23970,8 +23970,15 @@ ul.main-menu li.menu-item a {
   color: #ffffff;
   font-size: 18px;
 }
-
 /* Blog post comment section - ended */
+
+
+/* Blog post image - started */
+.single-post-item .post-thumbnail img, .single-post-item .post-video img {
+  object-fit: cover;
+}
+/* Blog post image - ended */
+
 
 
 /* Project Details page - started */
