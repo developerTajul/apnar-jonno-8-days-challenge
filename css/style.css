@@ -23849,6 +23849,7 @@ ul.main-menu li.menu-item a {
 
 
 /* Blog post author section - started */
+/* for the WP */
 .author-info {
   background-color: #ddd;
   padding: 90px 55px 60px 55px;
@@ -23911,6 +23912,67 @@ ul.main-menu li.menu-item a {
   display: inline-block;
 }
 
+
+/* for the HTML */
+.blog-details-author {
+  background-color: #ddd;
+  padding: 90px 55px 60px 55px;
+  border-radius: 14px;
+  position: relative;
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
+
+.blog-details-author .image-wrapper {
+  flex-direction: column;
+  align-items: center !important;
+  margin-top: -25px
+}
+
+.blog-details-author .image-wrapper img {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blog-details-author .content {
+  align-items: center !important;
+}
+
+.blog-details-author .content h5.user-name {
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  margin-bottom: 10px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #000 !important;
+  font-family: "Rubik", sans-serif;
+  background-color: transparent !important;
+}
+
+.blog-details-author .content h5.user-designation {
+  font-size: 16px !important;
+  font-style: italic !important;
+  color: #616670 !important;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  background-color: transparent !important;
+}
+
+.blog-details-author .content p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #616670;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  text-align: center
+}
 /* Blog post author section - ended */
 
 
@@ -23971,13 +24033,16 @@ ul.main-menu li.menu-item a {
   color: #ffffff;
   font-size: 18px;
 }
+
 /* Blog post comment section - ended */
 
 
 /* Blog post image - started */
-.single-post-item .post-thumbnail img, .single-post-item .post-video img {
+.single-post-item .post-thumbnail img,
+.single-post-item .post-video img {
   object-fit: cover;
 }
+
 /* Blog post image - ended */
 
 
@@ -24012,6 +24077,7 @@ ul.main-menu li.menu-item a {
 .wuc-accordion {
   padding-bottom: 0;
 }
+
 /* Home 1's portfolio section - ended */
 
 
