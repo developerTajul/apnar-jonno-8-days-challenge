@@ -23656,6 +23656,21 @@ section.breadcrumb-area {
 /* Home page 2's hero - ended */
 
 
+/* Home page 2's pricing section - started */
+.elementor-widget-crebiz-pricing .pricing-area-cards-btn a {
+  padding: 5px 20px !important;
+  border-radius: 50px !important;
+  background-color: #b0b0b0 !important;
+  font-size: 16px;
+  color: #141414 !important;
+}
+
+.pricing-area-card-wrapper:HOVER .pricing-area-cards-btn a {
+  background-color: #edbc5a !important;
+}
+/* Home page 2's pricing section - ended */
+
+
 
 /* Navbar more css - started */
 ul.main-menu li.menu-item ul.submenu {
