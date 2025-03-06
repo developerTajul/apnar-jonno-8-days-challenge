@@ -23698,7 +23698,7 @@ ul.main-menu li.menu-item ul.submenu {
   left: -30px;
   top: 100%;
   width: 210px;
-  visibility: hidden;
+  /* visibility: hidden; */
   transition: all 0.3s ease 0s;
   z-index: 1;
   opacity: 0;
@@ -23708,12 +23708,12 @@ ul.main-menu li.menu-item ul.submenu {
   border-top: 2px solid #edbc5a;
 }
 
-ul.main-menu li.menu-item:hover ul.submenu {
+/* ul.main-menu li.menu-item:hover ul.submenu {
   visibility: visible;
   top: 100%;
   opacity: 1;
   transform: scaleY(1);
-}
+} */
 
 ul.main-menu li.menu-item ul.submenu li {
   margin: 0
