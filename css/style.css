@@ -23904,6 +23904,16 @@ ul.main-menu li.menu-item a {
 
 
 
+/* Blog page's author image */
+span.author-img {
+  width: 41px;
+  height: 47px;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+
+
 /* Blog post author section - started */
 /* for the WP */
 .author-info {
