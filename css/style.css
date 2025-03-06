@@ -23701,7 +23701,7 @@ ul.main-menu li.menu-item ul.submenu {
   /* visibility: hidden; */
   transition: all 0.3s ease 0s;
   z-index: 1;
-  opacity: 0;
+  /* opacity: 0; */
   transform: scaleY(0);
   transform-origin: top center;
   background-color: #fff;
