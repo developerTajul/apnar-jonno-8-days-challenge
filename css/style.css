@@ -23646,8 +23646,13 @@ section.breadcrumb-area {
 }
 
 .hero-area-two .ornament {
-  top: -176px;
-  left: 14px;
+  top: 109px;
+  left: 148px;
+  transform: translate(0);
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
 }
 
 .hero-area-title-two {
