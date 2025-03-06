@@ -23850,6 +23850,14 @@ ul.main-menu li.menu-item a {
 }
 
 
+/* Contact page's Contact card */
+@media (max-width: 1050px) {
+  .contact-card-wrapper {
+    margin-left: 25px
+  }
+}
+
+
 
 /* Blog post navigation - started */
 .blog-post-nav {
