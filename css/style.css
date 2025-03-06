@@ -23698,18 +23698,18 @@ ul.main-menu li.menu-item ul.submenu {
   left: -30px;
   top: 100%;
   width: 210px;
-  /*visibility: hidden;
-  */transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   z-index: 1;
-  /*opacity: 0; */
+  visibility: hidden;
+  opacity: 0;
   transform-origin: top center;
   background-color: #fff;
   border-top: 2px solid #edbc5a;
-/*   transform: scaleY(0);
+  transform: scaleY(0);
   -webkit-transform: scaleY(0);
   -moz-transform: scaleY(0);
   -ms-transform: scaleY(0);
-  -o-transform: scaleY(0); */
+  -o-transform: scaleY(0);
 }
 
 /* ul.main-menu li.menu-item:hover ul.submenu {
@@ -23788,9 +23788,12 @@ ul.main-menu li.menu-item a {
     left: 0;
     right: 0;
     background: #fff;
-    /* position: relative; */
     border-top: 0;
     width: 100%;
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+    transform: scaleY(1);
   }
 
   ul.main-menu li.menu-item ul.submenu li a {
