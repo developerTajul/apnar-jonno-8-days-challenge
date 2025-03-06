@@ -378,12 +378,14 @@
               visibility: 'hidden',
               opacity: 0,
               height: '0px',
+              position: 'relative',
             });
           } else {
             $list.css({
               visibility: 'visible',
               opacity: 1,
               height: $list[0].scrollHeight + 'px',
+              position: 'unset',
             });
           }
         } else {

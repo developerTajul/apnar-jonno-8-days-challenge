@@ -23751,7 +23751,7 @@ ul.main-menu li.menu-item a {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   ul.main-menu li.menu-item a {
     padding: 12px 0;
     width: 100%;
