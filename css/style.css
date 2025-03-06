@@ -23784,12 +23784,9 @@ ul.main-menu li.menu-item a {
     width: 100%;
   }
 
-  .toggle-menus ul li {
-    background-color: transparent;
-  }
-
   ul.main-menu li.menu-item ul.submenu li a {
-    color: #fff
+    color: #fff;
+    background-color: #222;
   }
 }
 
