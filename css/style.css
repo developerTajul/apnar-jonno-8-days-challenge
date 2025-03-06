@@ -23641,13 +23641,14 @@ section.breadcrumb-area {
 
 /* Home page 2's hero - started */
 .hero-area-two .circle-shape {
-  top: 120px;
-  right: -95px;
+  top: 2px;
+  right: -50px;
 }
 
 .hero-area-two .ornament {
   top: 90px;
   left: 70px;
+  transform: translate(0);
 }
 
 .hero-area-title-two {
