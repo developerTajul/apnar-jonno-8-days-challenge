@@ -366,7 +366,7 @@
           Responsive Dropdown Toggle Active
           =========================*/
     function toggleList(listNumber) {
-      var $allLists = $('.hidden-list');
+      var $allLists = $('.sub-menu');
       var $targetList = $('#dropdown-toggle-menu-' + listNumber);
 
       $allLists.each(function () {
@@ -378,7 +378,6 @@
               visibility: 'hidden',
               opacity: 0,
               height: '0px',
-              position: 'relative',
             });
           } else {
             $list.css({
@@ -398,6 +397,14 @@
       });
     }
     window.toggleList = toggleList;
+    
+
+    $(".menu-item").each(function () {
+      if ($(this).find(".submenu").length) {
+        $(this).find("> a").addClass("plus-icon");
+      }
+    });
+
 
     /*
         Window nev scrolled fixed
@@ -420,13 +427,6 @@
       $(".sticky-logo").toggle(scrolled);
     });
 
-
-
-    $(".menu-item").each(function () {
-      if ($(this).find(".submenu").length) {
-        $(this).find("> a").addClass("plus-icon");
-      }
-    });
 
     /*
         Window Load Offcanvas
