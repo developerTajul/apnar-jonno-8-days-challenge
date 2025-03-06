@@ -366,7 +366,7 @@
           Responsive Dropdown Toggle Active
           =========================*/
     function toggleList(listNumber) {
-      var $allLists = $('.sub-menu');
+      var $allLists = $('.hidden-list');
       var $targetList = $('#dropdown-toggle-menu-' + listNumber);
 
       $allLists.each(function () {
@@ -384,7 +384,6 @@
               visibility: 'visible',
               opacity: 1,
               height: $list[0].scrollHeight + 'px',
-              position: 'unset',
             });
           }
         } else {
