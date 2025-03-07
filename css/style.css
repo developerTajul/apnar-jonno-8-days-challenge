@@ -23760,7 +23760,7 @@ ul.main-menu li.menu-item a {
 }
 
 
-/* @media (max-width: 991px) {
+@media (max-width: 991px) {
   ul.main-menu li.menu-item a {
     padding: 12px 0;
     width: 100%;
@@ -23783,7 +23783,7 @@ ul.main-menu li.menu-item a {
     right: 50px
   }
 
-  ul.main-menu li.menu-item ul.submenu {
+/*   ul.main-menu li.menu-item ul.submenu {
     padding: 0;
     left: 0;
     right: 0;
@@ -23795,12 +23795,12 @@ ul.main-menu li.menu-item a {
     opacity: 1;
     transform: scaleY(1);
   }
-
+ */
   ul.main-menu li.menu-item ul.submenu li a {
     color: #fff;
     background-color: #222;
   }
-} */
+}
 
 /* Navbar more css - ended */
 
