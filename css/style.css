@@ -23657,7 +23657,7 @@ section.breadcrumb-area {
 
 .hero-area-title-two {
   line-height: 107.143%;
-  margin-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 /* Home page 2's hero - ended */
@@ -23689,6 +23689,19 @@ section.breadcrumb-area {
   display: none
 }
 
+
+.contact-form input.wpcf7-submit {
+  background-color: #FFFFFF;
+  font-family: "Roboto", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  fill: #000000;
+  color: #000000;
+  border-radius: 250px 250px 250px 250px;
+  padding: 13px 25px;
+}
+
 /* Home page 2's sevice sec - ended */
 
 
@@ -23701,6 +23714,7 @@ section.breadcrumb-area {
   color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
+
 /* Accordion box - ended */
 
 
@@ -23891,6 +23905,7 @@ ul.main-menu li.menu-item a {
 .contact-form form .contract-group.full-row textarea {
   max-height: 105px;
 }
+
 
 
 /* Contact page's Contact card */
