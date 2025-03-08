@@ -24099,9 +24099,8 @@ span.author-img {
   border-radius: 0;
   font-size: 14px;
   transition: border-color 0.3s ease;
-  /* background-color: transparent; */
   box-sizing: border-box;
-  color: #ffffff;
+  color: #000;
   font-size: 18px;
 }
 
@@ -24122,7 +24121,7 @@ span.author-img {
   max-height: 145px;
   /* background-color: transparent; */
   box-sizing: border-box;
-  color: #ffffff;
+  color: #000;
   font-size: 18px;
 }
 
