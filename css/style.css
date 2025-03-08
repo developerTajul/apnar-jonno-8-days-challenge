@@ -23806,7 +23806,7 @@ ul.main-menu li.menu-item a {
     opacity: 0;
     background-color: #fff;
     border-top: 0;
-}
+  }
 
   ul.main-menu li.menu-item ul.submenu li a {
     color: #fff;
@@ -23826,6 +23826,11 @@ ul.main-menu li.menu-item a {
 
 
 /* Single page's breadcrumb - started */
+.breadcrumb-list ul {
+  gap: 0 20px;
+  flex-wrap: wrap;
+}
+
 .breadcrumb-list li.active {
   color: #fff;
   position: relative;
