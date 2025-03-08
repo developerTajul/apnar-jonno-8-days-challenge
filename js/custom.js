@@ -3,7 +3,7 @@
   $(document).ready(function () {
 
 
-      // Hide all submenus initially
+/*       // Hide all submenus initially
       $("ul.submenu").css({ 
         visibility: "hidden", 
         opacity: 0, 
@@ -39,7 +39,7 @@
             $(this).addClass("active");
           }
         }
-      });
+      }); 
     
       // Click anywhere outside to close all submenus and reset position
       $(document).on("click", function () {
@@ -50,7 +50,7 @@
           position: "absolute" // Reset position to absolute
         });
         $("li.nav-item").removeClass("active");
-      });
+      }); */
     
 
     /*=======================
