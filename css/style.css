@@ -23787,7 +23787,7 @@ ul.main-menu li.menu-item a {
     right: 50px
   }
 
-/*   ul.main-menu li.menu-item ul.submenu {
+  /*   ul.main-menu li.menu-item ul.submenu {
     padding: 0;
     left: 0;
     right: 0;
@@ -23798,14 +23798,14 @@ ul.main-menu li.menu-item a {
     top: 100%;
     opacity: 1;
     transform: scaleY(1);
-  }
+}
  */
 
- li.nav-item.active > ul.submenu {
-  visibility: visible;
-  opacity: 1;
-  transform: scaleY(1);
-}
+  li.nav-item.active>ul.submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+  }
 
   ul.main-menu li.menu-item ul.submenu li a {
     color: #fff;
