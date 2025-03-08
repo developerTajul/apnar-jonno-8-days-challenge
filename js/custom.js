@@ -8,40 +8,53 @@
     // Hide all submenus initially
     function handleMenuToggle() {
       if ($(window).width() <= 991) {
-        // Hide all submenus initially
-        $("ul.submenu").css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
+        $("ul.submenu").css({
+          visibility: "hidden",
+          opacity: 0,
+          transform: "scaleY(0)",
+          position: "absolute" // Ensure default state is absolute
+        });
 
-        $("li.nav-item").off("click").on("click", function (event) {
+        $("li.nav-item").on("click", function (event) {
           event.stopPropagation(); // Prevent bubbling
 
           let submenu = $(this).children("ul.submenu");
 
           if (submenu.length) {
-            // Toggle the clicked submenu
-            if ($(this).hasClass("toggle-menu-active")) {
-              $(this).removeClass("toggle-menu-active");
-              submenu.css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
-            } else {
-              // Close all other submenus first
-              $("li.nav-item").removeClass("toggle-menu-active");
-              $("ul.submenu").css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
+            let isVisible = submenu.css("visibility") === "visible";
 
-              // Open the clicked submenu
-              $(this).addClass("toggle-menu-active");
-              submenu.css({ visibility: "visible", opacity: 1, transform: "scaleY(1)", position: "unset" });
+            // Hide all other submenus and reset position
+            $("ul.submenu").css({
+              visibility: "hidden",
+              opacity: 0,
+              transform: "scaleY(0)",
+              position: "absolute" // Reset position to absolute
+            });
+            $("li.nav-item").removeClass("active");
+
+            // Toggle submenu visibility
+            if (!isVisible) {
+              submenu.css({
+                visibility: "visible",
+                opacity: 1,
+                transform: "scaleY(1)",
+                position: "unset" // Remove absolute positioning when visible
+              });
+              $(this).addClass("active");
             }
           }
         });
 
-        // Click anywhere outside to close all submenus
-        $(document).off("click").on("click", function () {
-          $("li.nav-item").removeClass("toggle-menu-active");
-          $("ul.submenu").css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
+        // Click anywhere outside to close all submenus and reset position
+        $(document).on("click", function () {
+          $("ul.submenu").css({
+            visibility: "hidden",
+            opacity: 0,
+            transform: "scaleY(0)",
+            position: "absolute" // Reset position to absolute
+          });
+          $("li.nav-item").removeClass("active");
         });
-      } else {
-        // Reset submenu styles for larger screens
-        $("ul.submenu").css({ visibility: "", opacity: "", transform: "", position: "" });
-        $("li.nav-item").removeClass("toggle-menu-active");
       }
     }
 
