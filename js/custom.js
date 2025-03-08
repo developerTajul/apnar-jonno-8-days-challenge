@@ -1,6 +1,58 @@
 (function ($) {
   'use strict';
   $(document).ready(function () {
+
+
+      // Hide all submenus initially
+      $("ul.submenu").css({ 
+        visibility: "hidden", 
+        opacity: 0, 
+        transform: "scaleY(0)", 
+        position: "absolute" // Ensure default state is absolute
+      });
+    
+      $("li.nav-item").on("click", function (event) {
+        event.stopPropagation(); // Prevent bubbling
+    
+        let submenu = $(this).children("ul.submenu");
+    
+        if (submenu.length) {
+          let isVisible = submenu.css("visibility") === "visible";
+    
+          // Hide all other submenus and reset position
+          $("ul.submenu").css({ 
+            visibility: "hidden", 
+            opacity: 0, 
+            transform: "scaleY(0)", 
+            position: "absolute" // Reset position to absolute
+          });
+          $("li.nav-item").removeClass("active");
+    
+          // Toggle submenu visibility
+          if (!isVisible) {
+            submenu.css({ 
+              visibility: "visible", 
+              opacity: 1, 
+              transform: "scaleY(1)", 
+              position: "unset" // Remove absolute positioning when visible
+            });
+            $(this).addClass("active");
+          }
+        }
+      });
+    
+      // Click anywhere outside to close all submenus and reset position
+      $(document).on("click", function () {
+        $("ul.submenu").css({ 
+          visibility: "hidden", 
+          opacity: 0, 
+          transform: "scaleY(0)", 
+          position: "absolute" // Reset position to absolute
+        });
+        $("li.nav-item").removeClass("active");
+      });
+    
+
     /*=======================
         navbar toggle active
         =========================*/

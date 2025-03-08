@@ -23761,6 +23761,7 @@ ul.main-menu li.menu-item a {
     opacity: 1;
     transform: scaleY(1);
   }
+
 }
 
 
@@ -23787,25 +23788,25 @@ ul.main-menu li.menu-item a {
     right: 50px
   }
 
-  /*   ul.main-menu li.menu-item ul.submenu {
-    padding: 0;
-    left: 0;
-    right: 0;
-    background: #fff;
-    border-top: 0;
-    width: 100%;
-    visibility: visible;
-    top: 100%;
-    opacity: 1;
-    transform: scaleY(1);
-}
- */
-
   li.nav-item.active>ul.submenu {
     visibility: visible;
     opacity: 1;
     transform: scaleY(1);
+    background-color: red;
   }
+
+  ul.main-menu li.menu-item ul.submenu {
+    position: unset;
+    padding: 0;
+    margin-left: 25px;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #fff;
+    border-top: 0;
+}
 
   ul.main-menu li.menu-item ul.submenu li a {
     color: #fff;
