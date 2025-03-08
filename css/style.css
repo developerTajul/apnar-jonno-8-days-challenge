@@ -23692,6 +23692,18 @@ section.breadcrumb-area {
 
 
 
+/* Accordion box - started */
+.wuc-accordion-title h4 span {
+  display: inline-block;
+  margin: 5px 25px 0 0;
+  font-size: 21px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+/* Accordion box - ended */
+
+
+
 /* Navbar more css - started */
 ul.main-menu li.menu-item ul.submenu {
   position: absolute;
