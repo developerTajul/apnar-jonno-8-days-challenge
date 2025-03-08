@@ -98,7 +98,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   color: #ffffff;
   font-style: normal;
   transition: all 0.5s ease-out;
@@ -320,7 +320,7 @@ input.theme-btn {
   padding: 14px 24px;
   text-align: center;
   font-weight: 700;
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   text-transform: uppercase;
   position: relative;
   transition: all 0.5s ease-out;
@@ -522,7 +522,7 @@ input.theme-btn {
 }
 
 .circle-rotate-text span {
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -13196,7 +13196,7 @@ blockquote p a {
 }
 
 blockquote footer {
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: capitalize;
@@ -13400,7 +13400,7 @@ nav.wp-calendar-nav a:hover {
   font-weight: 500;
   margin-bottom: 30px;
   color: #b0b0b0;
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
 }
 
 .wp-block-search input,
@@ -13989,7 +13989,7 @@ html {
 }
 
 .section-title.style-1 h2 {
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 75px;
   font-weight: 400;
   line-height: 92.85px;
@@ -14129,7 +14129,7 @@ html {
 
 .section-title-btn a {
   color: #141414;
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 34.66px;
@@ -14841,7 +14841,7 @@ html {
 
 .counter-area .counter-area-wrapper p {
   color: #ffffff;
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -16604,7 +16604,7 @@ html {
 .single-post-item .social-share .social-share-title {
   font-size: 18px;
   font-weight: 700;
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   color: #b0b0b0;
   margin-right: 5px;
   white-space: nowrap;
@@ -16619,7 +16619,7 @@ html {
 }
 
 .single-post-item .blog-post-tag span {
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -17169,7 +17169,7 @@ html {
 
 .hero-area-title-two {
   color: #fff;
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 180px;
   font-style: normal;
   font-weight: 400;
@@ -19720,7 +19720,7 @@ html {
 }
 
 .pricing-area-card-text .price {
-  font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 400;
