@@ -6,35 +6,50 @@
         WP site navbar toggle started
         =========================*/
     // Hide all submenus initially
-    $("ul.submenu").css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
+    function handleMenuToggle() {
+      if ($(window).width() <= 991) {
+        // Hide all submenus initially
+        $("ul.submenu").css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
 
-    $("li.nav-item").click(function (event) {
-      event.stopPropagation(); // Prevent bubbling
+        $("li.nav-item").off("click").on("click", function (event) {
+          event.stopPropagation(); // Prevent bubbling
 
-      let submenu = $(this).children("ul.submenu");
+          let submenu = $(this).children("ul.submenu");
 
-      if (submenu.length) {
-        // Toggle the clicked submenu
-        if ($(this).hasClass("toggle-menu-active")) {
-          $(this).removeClass("toggle-menu-active");
-          submenu.css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
-        } else {
-          // Close all other submenus first
+          if (submenu.length) {
+            // Toggle the clicked submenu
+            if ($(this).hasClass("toggle-menu-active")) {
+              $(this).removeClass("toggle-menu-active");
+              submenu.css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
+            } else {
+              // Close all other submenus first
+              $("li.nav-item").removeClass("toggle-menu-active");
+              $("ul.submenu").css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
+
+              // Open the clicked submenu
+              $(this).addClass("toggle-menu-active");
+              submenu.css({ visibility: "visible", opacity: 1, transform: "scaleY(1)", position: "unset" });
+            }
+          }
+        });
+
+        // Click anywhere outside to close all submenus
+        $(document).off("click").on("click", function () {
           $("li.nav-item").removeClass("toggle-menu-active");
           $("ul.submenu").css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
-
-          // Open the clicked submenu
-          $(this).addClass("toggle-menu-active");
-          submenu.css({ visibility: "visible", opacity: 1, transform: "scaleY(1)", position: "unset" });
-        }
+        });
+      } else {
+        // Reset submenu styles for larger screens
+        $("ul.submenu").css({ visibility: "", opacity: "", transform: "", position: "" });
+        $("li.nav-item").removeClass("toggle-menu-active");
       }
-    });
+    }
 
-    // Click anywhere outside to close all submenus
-    $(document).click(function () {
-      $("li.nav-item").removeClass("toggle-menu-active");
-      $("ul.submenu").css({ visibility: "hidden", opacity: 0, transform: "scaleY(0)", position: "absolute" });
-    });
+    // Run the function on page load
+    handleMenuToggle();
+
+    // Run the function again when resizing the window
+    $(window).resize(handleMenuToggle);
     /*=======================
     WP site navbar toggle ended
     =========================*/
