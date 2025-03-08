@@ -23712,12 +23712,7 @@ ul.main-menu li.menu-item ul.submenu {
   -o-transform: scaleY(0);
 }
 
-/* ul.main-menu li.menu-item:hover ul.submenu {
-  visibility: visible;
-  top: 100%;
-  opacity: 1;
-  transform: scaleY(1);
-} */
+
 
 ul.main-menu li.menu-item ul.submenu li {
   margin: 0
@@ -23759,6 +23754,15 @@ ul.main-menu li.menu-item a {
   padding: 45px 24px;
 }
 
+@media (max-width: 990.99px) {
+  ul.main-menu li.menu-item:hover ul.submenu {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
 
 @media (max-width: 991px) {
   ul.main-menu li.menu-item a {
@@ -23796,6 +23800,13 @@ ul.main-menu li.menu-item a {
     transform: scaleY(1);
   }
  */
+
+ li.nav-item.active > ul.submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: scaleY(1);
+}
+
   ul.main-menu li.menu-item ul.submenu li a {
     color: #fff;
     background-color: #222;
