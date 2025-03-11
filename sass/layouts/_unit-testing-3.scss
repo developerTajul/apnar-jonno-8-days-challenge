@@ -117,3 +117,25 @@ nav.wp-calendar-nav {
 .widget_rss>* {
     color: #fff
 }
+
+
+.tagcloud a {
+    font-size: 17px !important;
+}
+
+#menu-testing-menu ul li {
+    position: relative;
+}
+
+#menu-testing-menu ul li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    left: 0;
+    float: none;
+    position: absolute;
+    top: 13px;
+    left: -11px;
+}
