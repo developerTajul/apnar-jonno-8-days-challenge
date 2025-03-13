@@ -22511,17 +22511,18 @@ footer #mc_embed_signup_scroll div:last-child::before {
 /* ============= implemening CSS on the WP theme - end ============= */
 .page-breadcrumb-area.page-bg {
   padding: 215px 0 125px;
+  background-color: #131313;
 }
 
-.single-post-item {
-  box-shadow: 0 2px 6.4px -1px rgba(255, 255, 255, 0.03), 0px 4.4px 12px -1px rgba(255, 255, 255, 0.06);
-}
 .single-post-item .post-content-wrapper {
   padding: 40px;
 }
+.single-post-item .post-meta .author-img {
+  border: none;
+}
 .single-post-item .post-meta .author-img img {
-  width: 100%;
-  height: 100%;
+  width: 37px;
+  height: 37px;
   -o-object-fit: cover;
      object-fit: cover;
   position: unset;
@@ -22562,10 +22563,10 @@ footer #mc_embed_signup_scroll div:last-child::before {
   margin-left: 20px;
 }
 .widget .wp-block-latest-comments .wp-block-latest-comments__comment-meta {
-  color: #fff;
+  color: #fff !important;
 }
 .widget .wp-block-latest-comments .wp-block-latest-posts li a {
-  color: #fff;
+  color: #fff !important;
 }
 
 .widget_archive ul {
