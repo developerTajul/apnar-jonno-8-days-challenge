@@ -60,19 +60,23 @@
     }
 }
 
-.widget .wp-block-latest-comments {
-    margin-left: 20px;
+.widget {
+    .wp-block-latest-comments {
+        margin-left: 20px;
 
-    .wp-block-latest-comments__comment-meta {
-        color: #fff !important;
+        li a {
+            color: #fff !important;
+        }
     }
 
     // .widget .wp-block-latest-comments li a
-    .wp-block-latest-posts li a {
-        color: #fff !important;
+    .wp-block-latest-posts {
+        li a {
+            color: #fff !important;
+        }
     }
-
 }
+
 
 .widget_archive {
     ul {
