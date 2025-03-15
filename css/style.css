@@ -22666,3 +22666,7 @@ h6 {
   line-height: normal;
   margin-bottom: 20px;
 }
+
+.post-comments-form form .contacts-message {
+  display: unset;
+}
