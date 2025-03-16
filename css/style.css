@@ -22680,3 +22680,12 @@ h6 {
   margin: 0 !important;
   border: none;
 }
+
+.wp-block-navigation__responsive-container-content ul {
+  padding: 0;
+  margin-bottom : 1rem;
+}
+
+.wp-block-post-template {
+  padding-left: 0px !important;
+}
