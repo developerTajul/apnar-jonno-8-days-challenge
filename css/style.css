@@ -24213,3 +24213,12 @@ ul.wp-block-rss a {
 .has-background {
   padding: 1rem 0 !important;
 }
+
+p.has-large-font-size  {
+  line-height: 40px !important;
+}
+
+p.has-large-font-size  + p{
+  line-height: 45px !important;
+  margin-top: 1rem;
+}
