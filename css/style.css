@@ -24183,7 +24183,6 @@ footer.wp-block-latest-comments__comment-meta a {
 
 .wp-block-latest-posts__list a {
   color: #b0b0b0 !important;
-  ;
 }
 
 ul.wp-block-rss a {
@@ -24205,4 +24204,12 @@ ul.wp-block-rss a {
 .wp-block-tag-cloud a {
   font-size: 1rem !important;
   margin: 0 0.5rem;
+}
+
+.has-pale-cyan-blue-background-color {
+  background-color: transparent !important;
+}
+
+.has-background {
+  padding: 1rem 0 !important;
 }
