@@ -24223,3 +24223,11 @@ p.has-large-font-size  + p{
   line-height: 45px !important;
   margin-top: 1rem;
 }
+
+.comments-box h1 {
+  font-size: 28px !important;
+}
+
+.latest-comments ul {
+  padding-left: 0 !important;
+}
