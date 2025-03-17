@@ -13,9 +13,82 @@ h6 {
 
 
 .post-comments-form form .contacts-message {
-     display: unset; 
+    display: unset;
 }
 
-.has-pale-pink-background-color, .has-light-green-cyan-background-color {
+.has-pale-pink-background-color,
+.has-light-green-cyan-background-color {
     background-color: transparent !important;
+}
+
+
+
+.wp-block-group {
+    padding: 0.44rem !important;
+    margin: 0 !important;
+    border: none;
+    background-color: transparent !important;
+}
+
+.wp-block-navigation__responsive-container-content ul {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.wp-block-post-template {
+    padding-left: 0px !important;
+}
+
+footer.wp-block-latest-comments__comment-meta a {
+    color: #b0b0b0;
+}
+
+.wp-block-latest-posts__list a {
+    color: #b0b0b0 !important;
+}
+
+ul.wp-block-rss a {
+    color: #b0b0b0 !important;
+}
+
+.wp-block-search__inside-wrapper {
+    height: 45px;
+}
+
+.wp-block-social-links {
+    margin-bottom: 1rem;
+}
+
+.wp-block-search__inside-wrapper input {
+    height: inherit;
+}
+
+.wp-block-tag-cloud a {
+    font-size: 1rem !important;
+    margin: 0 0.5rem;
+}
+
+.has-pale-cyan-blue-background-color {
+    background-color: transparent !important;
+}
+
+.has-background {
+    padding: 1rem 0 !important;
+}
+
+p.has-large-font-size {
+    line-height: 40px !important;
+}
+
+p.has-large-font-size+p {
+    line-height: 45px !important;
+    margin-top: 1rem;
+}
+
+.comments-box h1 {
+    font-size: 28px !important;
+}
+
+.latest-comments ul {
+    padding-left: 0 !important;
 }
