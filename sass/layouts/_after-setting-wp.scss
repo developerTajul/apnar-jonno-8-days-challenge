@@ -296,6 +296,10 @@
 
 
   /* Blog post navigation - started */
+  section.blog-area {
+      padding-top: 175px;
+  }
+
   .blog-post-nav {
       display: flex;
       align-items: center;
@@ -334,6 +338,15 @@
       width: 1px;
       height: 200px;
       background: #ccc;
+  }
+
+  .widget_latest_post>ul li {
+      display: flex;
+      align-items: center;
+  }
+
+  .widget_latest_post>ul li .latest-post-desc .latest-post-title {
+      margin-bottom: 0 !important;
   }
 
   /* Blog post navigation - ended */
