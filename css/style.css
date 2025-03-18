@@ -22767,6 +22767,10 @@ h1.page-title {
   text-align: left;
 }
 
+.header-area-menu {
+  justify-content: center !important;
+}
+
 .header-area-menu ul.main-menu {
   margin-left: 0;
 }
