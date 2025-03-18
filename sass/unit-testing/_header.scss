@@ -24,6 +24,10 @@ ul.main-menu li.menu-item a {
     background-color: transparent;
 }
 
+ul.main-menu li.menu-item ul.submenu li:hover a {
+    background-color: transparent;
+}
+
 ul.main-menu li.menu-item ul.submenu li a:hover {
     background: #edbc5a !important;
     color: #fff !important;
