@@ -19,13 +19,13 @@ ul.main-menu li.menu-item a {
     font-size: 16px;
 }
 
-
 #menu-testing-menu ul li::before {
     background-color: transparent;
 }
 
 ul.main-menu li.menu-item ul.submenu li:hover a {
-    background-color: transparent;
+    background-color: inherit;
+    color: inherit;
 }
 
 ul.main-menu li.menu-item ul.submenu li a:hover {
