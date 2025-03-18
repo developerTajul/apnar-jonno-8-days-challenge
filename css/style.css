@@ -22769,6 +22769,11 @@ h1.page-title {
 
 .header-area-menu {
   justify-content: center !important;
+  gap: 35px;
+}
+
+.header-area-menu-icon {
+  margin: 0 !important;
 }
 
 .header-area-menu ul.main-menu {
