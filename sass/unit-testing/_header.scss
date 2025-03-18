@@ -15,10 +15,22 @@
     margin: 0;
 }
 
+ul.main-menu li.menu-item a {
+    font-size: 16px;
+}
+
 @media (min-width: 990.99px) {
     ul.main-menu li.menu-item:hover>ul.submenu {
         visibility: visible;
         top: 100%;
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+    ul.main-menu li.menu-item ul.submenu li ul.submenu {
+        visibility: visible;
+        top: 0;
+        left: 100%;
         opacity: 1;
         transform: scaleY(1);
     }
