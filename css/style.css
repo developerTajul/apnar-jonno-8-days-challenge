@@ -22792,6 +22792,11 @@ ul.main-menu li.menu-item a {
   background-color: transparent;
 }
 
+ul.main-menu li.menu-item ul.submenu li a:hover {
+  background: #edbc5a !important;
+  color: #fff !important;
+}
+
 @media (min-width: 990.99px) {
   ul.main-menu li.menu-item:hover > ul.submenu {
     visibility: visible;
