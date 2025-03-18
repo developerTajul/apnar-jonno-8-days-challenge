@@ -22796,10 +22796,10 @@ ul.main-menu li.menu-item a {
     transform: scaleY(1);
   }
   ul.main-menu li.menu-item ul.submenu li ul.submenu {
-    visibility: visible;
+    visibility: hidden;
     top: 0;
     left: 100%;
-    opacity: 1;
+    opacity: 0;
     transform: scaleY(1);
   }
   ul.main-menu li.menu-item ul.submenu li:hover > ul.submenu {
