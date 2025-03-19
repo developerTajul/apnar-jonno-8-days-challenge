@@ -22882,14 +22882,16 @@ ul.main-menu li.menu-item ul.submenu li a:hover {
 
 .off-convas-wrapper .off-canvas-content .off-canvas-item {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 11px;
 }
 
 .off-convas-wrapper .off-canvas-content .off-canvas-item .section-title {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 22px;
   color: #b0b0b0;
+  margin-bottom: 0;
 }
 
 .off-convas-wrapper .off-canvas-content .off-canvas-item svg {
@@ -23028,9 +23030,6 @@ a.theme--btn {
 }
 @media (max-width: 1199px) {
   .off-convas-wrapper .section-heading .section-title {
-    margin: 0;
-  }
-  .off-convas-wrapper .off-canvas-content .off-canvas-item .section-title {
     margin: 0;
   }
 }
