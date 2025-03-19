@@ -68,6 +68,19 @@
     =========================*/
 
 
+    /*========= Off Canvas open Btn==========*/
+    var barBtn = $('.header-area-menu-icon');
+    barBtn.on('click', function () {
+      $('.off-canvas-contact').toggleClass('active')
+    });
+    
+    /*========= CloseBtn ==========*/
+    var barBtn = $('.off-canvas-close, .body-overlay');
+    barBtn.on('click', function () {
+      $('.off-canvas-contact').removeClass('active')
+    });
+
+
     /*=======================
         navbar toggle active
         =========================*/
