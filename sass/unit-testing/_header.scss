@@ -1,5 +1,5 @@
 .header-area-menu {
-    justify-content: center !important;
+    justify-content: end !important;
     gap: 35px;
 }
 
@@ -285,12 +285,6 @@ a.theme--btn {
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-}
-
-@media (max-width: 991px) {
-    .header-area-menu {
-        justify-content: end !important;
-    }
 }
 
 @media (max-width: 1199px) {

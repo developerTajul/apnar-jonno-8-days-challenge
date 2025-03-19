@@ -22768,7 +22768,7 @@ h1.page-title {
 }
 
 .header-area-menu {
-  justify-content: center !important;
+  justify-content: end !important;
   gap: 35px;
 }
 
@@ -23015,11 +23015,6 @@ a.theme--btn {
   -o-transform: rotate(360deg);
 }
 
-@media (max-width: 991px) {
-  .header-area-menu {
-    justify-content: end !important;
-  }
-}
 @media (max-width: 1199px) {
   .off-convas-wrapper .section-heading .section-title {
     margin: 0;
