@@ -22770,6 +22770,7 @@ h1.page-title {
 .header-area-menu {
   justify-content: end !important;
   gap: 35px;
+  margin-right: 100px;
 }
 
 .header-area-menu-icon {
@@ -23015,6 +23016,16 @@ a.theme--btn {
   -o-transform: rotate(360deg);
 }
 
+@media (max-width: 767px) {
+  .header-area-menu {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .header-area-menu {
+    margin-right: 50px;
+  }
+}
 @media (max-width: 1199px) {
   .off-convas-wrapper .section-heading .section-title {
     margin: 0;

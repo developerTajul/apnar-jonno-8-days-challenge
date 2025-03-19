@@ -1,6 +1,7 @@
 .header-area-menu {
     justify-content: end !important;
     gap: 35px;
+    margin-right: 100px;
 }
 
 .header-area-menu-icon {
@@ -285,6 +286,18 @@ a.theme--btn {
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
+}
+
+@media (max-width: 767px) {
+    .header-area-menu {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-area-menu {
+        margin-right: 50px;
+    }
 }
 
 @media (max-width: 1199px) {
