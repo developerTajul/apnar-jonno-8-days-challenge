@@ -540,16 +540,27 @@
       width: 100%;
       border-bottom: 1px solid rgba(255, 255, 255, 0.15);
       border-radius: 0;
-      font-size: 14px;
       transition: border-color 0.3s ease;
       max-height: 145px;
-      /* background-color: transparent; */
       box-sizing: border-box;
       color: #000;
       font-size: 18px;
+      background: #ddd;
+      padding: 1rem;
   }
 
   /* Blog post comment section - ended */
+
+
+
+  /* Blog page sidebar - started */
+  .widget_crebiz-latest-posts li {
+      display: flex;
+      align-items: center;
+  }
+
+  /* Blog page sidebar - ended */
+
 
 
   /* Blog post image - started */
