@@ -22438,7 +22438,7 @@ span.author-img {
 
 /* Blog post comment section - ended */
 /* Blog page sidebar - started */
-.widget_latest_post ul li {
+.widget_latest_post > ul li {
   display: flex !important;
   align-items: center;
 }
