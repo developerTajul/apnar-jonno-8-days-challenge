@@ -84,8 +84,8 @@
 
 
   /* Home page 2's marque sec  */
-  .text-marque-area {
-      display: none;
+  .text-marque-area h2.text-marque-title-one {
+      margin-bottom: 0;
   }
 
 
@@ -559,7 +559,7 @@
 
 
   /* Blog page sidebar - started */
-  .widget_latest_post > ul li {
+  .widget_latest_post ul li {
       display: flex !important;
       align-items: center;
   }

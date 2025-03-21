@@ -22005,8 +22005,8 @@ section.breadcrumb-area {
 
 /* Home page 2's sevice sec - ended */
 /* Home page 2's marque sec  */
-.text-marque-area {
-  display: none;
+.text-marque-area h2.text-marque-title-one {
+  margin-bottom: 0;
 }
 
 /* Accordion box - started */
@@ -22438,7 +22438,7 @@ span.author-img {
 
 /* Blog post comment section - ended */
 /* Blog page sidebar - started */
-.widget_latest_post > ul li {
+.widget_latest_post ul li {
   display: flex !important;
   align-items: center;
 }
