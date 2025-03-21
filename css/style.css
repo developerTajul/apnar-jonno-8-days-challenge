@@ -22434,7 +22434,7 @@ span.author-img {
 /* Blog post comment section - ended */
 /* Blog page sidebar - started */
 .widget_crebiz-latest-posts li {
-  display: flex;
+  display: flex !important;
   align-items: center;
 }
 

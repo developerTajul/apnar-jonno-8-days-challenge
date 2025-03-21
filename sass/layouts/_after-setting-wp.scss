@@ -83,6 +83,11 @@
   /* Home page 2's sevice sec - ended */
 
 
+  /* Home page 2's marque sec  */
+  .text-marque-area {
+      display: none;
+  }
+
 
   /* Accordion box - started */
   .wuc-accordion-title h4 span {
@@ -124,7 +129,7 @@
   }
 
   ul.main-menu li.menu-item ul.submenu li:not(:first-child) {
-      border-top: 1px solid #383838;
+      border-top: 1px solid #E3E3E3;
   }
 
   ul.main-menu li.menu-item ul.submenu li a {
@@ -554,8 +559,8 @@
 
 
   /* Blog page sidebar - started */
-  .widget_crebiz-latest-posts li {
-      display: flex;
+  .widget_latest_post ul li {
+      display: flex !important;
       align-items: center;
   }
 
