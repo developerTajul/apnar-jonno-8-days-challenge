@@ -667,4 +667,34 @@
 
   /* Footer's contact form - ended */
 
+
+
+
+  /* ------ Adding animation - started ------- */
+  .portfolio-area-image-wrapper>div,
+  .art-gallery-image,
+  .gallery-area div,
+  .blog-area-card .card-image,
+  .image-card-area .image-card {
+      overflow: hidden;
+  }
+
+  .portfolio-area-image-wrapper img,
+  .art-gallery-image img,
+  .gallery-area img,
+  .blog-area-card .card-image img,
+  .image-card-area .image-card img {
+      transition: all linear 0.3s;
+  }
+
+  .portfolio-area-image-wrapper>div:hover img,
+  .art-gallery-image:hover img,
+  .gallery-area div:hover img,
+  .blog-area-card .card-image:hover img,
+  .image-card-area .image-card:hover img {
+      transform: scale(1.05)
+  }
+  /* ------ Adding animation - ended ------- */
+
+
   /* ============= implemening CSS on the WP theme - end ============= */
