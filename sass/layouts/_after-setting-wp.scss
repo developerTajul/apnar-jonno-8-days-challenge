@@ -687,7 +687,7 @@
       transition: all linear 0.3s;
   }
 
-  .portfolio-area-image-wrapper>div:hover img,
+  .portfolio-area-image-wrapper>div+div:hover img,
   .art-gallery-image:hover img,
   .gallery-area div:hover img,
   .blog-area-card .card-image:hover img,
