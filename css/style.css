@@ -22612,7 +22612,7 @@ ul.main-menu li.menu-item a {
 
 ul.main-menu li.menu-item ul.submenu li:hover a {
   background-color: unset;
-  color: unset;
+  color: #000 !important;
 }
 
 ul.main-menu li.menu-item ul.submenu li a:hover {
