@@ -22610,7 +22610,7 @@ ul.main-menu li.menu-item a {
   background-color: transparent !important;
 }
 
-ul.main-menu li.menu-item ul.submenu li:hover > a {
+ul.main-menu li.menu-item ul.submenu li:hover a {
   background-color: unset;
   color: unset;
 }
