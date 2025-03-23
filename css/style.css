@@ -22607,7 +22607,7 @@ ul.main-menu li.menu-item a {
 }
 
 #menu-testing-menu ul li::before {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 ul.main-menu li.menu-item ul.submenu li:hover a {
@@ -22995,8 +22995,20 @@ select#archives-dropdown--1 {
   background-size: contain;
 }
 
+.single-post-item.sticky {
+  border: 1px solid #edbc5a;
+}
+
 .single-post-item .post-meta span a {
   color: #b0b0b0;
+}
+
+.footer-area, .footer-area-down {
+  padding-top: 2rem;
+}
+
+.single-post-item .post-content-wrapper {
+  border: none;
 }
 
 .post-content h1,
@@ -23089,6 +23101,10 @@ p.has-large-font-size + p {
 
 .latest-comments ul {
   padding-left: 0 !important;
+}
+
+.widget_latest_post ul li {
+  display: block;
 }
 
 body.archive .blog-area {

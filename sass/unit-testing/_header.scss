@@ -21,7 +21,7 @@ ul.main-menu li.menu-item a {
 }
 
 #menu-testing-menu ul li::before {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 ul.main-menu li.menu-item ul.submenu li:hover a {

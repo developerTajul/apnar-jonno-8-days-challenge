@@ -1,3 +1,20 @@
+.single-post-item.sticky {
+    border: 1px solid #edbc5a;
+}
+
 .single-post-item .post-meta span a {
     color: #b0b0b0;
+}
+
+
+.footer-area,.footer-area-down {
+    padding-top: 2rem
+}
+
+
+
+
+// unit testing 5 started
+.single-post-item .post-content-wrapper {
+    border: none;
 }
