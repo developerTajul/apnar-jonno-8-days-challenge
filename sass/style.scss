@@ -113,7 +113,8 @@ Footer
 @import './layouts/after-setting-wp';
 
 // UNIT TESTING
+@import './unit-testing/header';
 @import './unit-testing/home';
+@import './unit-testing/blog';
 @import './unit-testing/single-blog';
 @import './unit-testing/cat-arc';
-@import './unit-testing/header';
