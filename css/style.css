@@ -21932,10 +21932,6 @@ section.breadcrumb-area {
 }
 
 /* ============= implemening CSS on the WP theme - start ============= */
-html {
-  scroll-behavior: smooth;
-}
-
 /* Home page 1's hero - started */
 .hero-area-title-one {
   margin-top: 185px;

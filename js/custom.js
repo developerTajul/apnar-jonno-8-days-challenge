@@ -3,13 +3,13 @@
   $(document).ready(function () {
     /*======================= Smooth scroller */
         // Smooth scrolling for the entire page
-        $('html').css({
+/*         $('html').css({
           'scroll-behavior': 'smooth'
-        });
+        }); */
         
         // For browsers that don't support CSS scroll-behavior
         // This applies to mouse wheel scrolling and keyboard navigation
-        var scrolling = false;
+/*         var scrolling = false;
         
         $(window).on('mousewheel DOMMouseScroll', function(e) {
           if (!scrolling) {
@@ -27,7 +27,7 @@
             
             return false;
           }
-        });
+        }); */
 
 
     // Initializing Wow JS
