@@ -1,7 +1,7 @@
   /* ============= implemening CSS on the WP theme - start ============= */
-//   html {
-//       scroll-behavior: smooth;
-//   }
+  //   html {
+  //       scroll-behavior: smooth;
+  //   }
 
 
   /* Home page 1's hero - started */
@@ -721,6 +721,11 @@
       -moz-transform: scale(1.05);
       -ms-transform: scale(1.05);
       -o-transform: scale(1.05);
+  }
+
+
+  .image-card-area .image-card.style-5 .square-1 {
+      z-index: 999;
   }
 
   /* ------ Adding animation - ended ------- */
