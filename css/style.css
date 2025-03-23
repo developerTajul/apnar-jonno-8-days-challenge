@@ -21932,6 +21932,10 @@ section.breadcrumb-area {
 }
 
 /* ============= implemening CSS on the WP theme - start ============= */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Home page 1's hero - started */
 .hero-area-title-one {
   margin-top: 185px;
@@ -21977,7 +21981,7 @@ section.breadcrumb-area {
   color: #141414 !important;
 }
 
-.pricing-area-card-wrapper:HOVER .pricing-area-cards-btn a {
+.pricing-area-card-wrapper:hover .pricing-area-cards-btn a {
   background-color: #edbc5a !important;
 }
 
@@ -22010,12 +22014,28 @@ section.breadcrumb-area {
 }
 
 /* Accordion box - started */
+.faq-area-heading h2 {
+  font-family: Gilroy-Bold;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.wuc-accordion-title h4 {
+  font-size: 28px;
+}
+
 .wuc-accordion-title h4 span {
   display: inline-block;
   margin: 5px 25px 0 0;
-  font-size: 21px;
+  font-size: 28px;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
+}
+
+.faq-area-heading-part a:hover {
+  color: #fff;
 }
 
 /* Accordion box - ended */
@@ -22480,6 +22500,10 @@ span.author-img {
   padding-bottom: 0;
 }
 
+.portfolio-area-image-four {
+  margin-top: 0;
+}
+
 /* Home 1's portfolio section - ended */
 /* Footer's contact form - started */
 .footer-area-quick-menu {
@@ -22534,7 +22558,7 @@ footer #mc_embed_signup_scroll div:last-child::before {
 }
 /* Footer's contact form - ended */
 /* ------ Adding animation - started ------- */
-.portfolio-area-image-wrapper > div,
+.portfolio-area-image-wrapper .portfolio-area-image,
 .art-gallery-image,
 .gallery-area div,
 .blog-area-card .card-image,
@@ -22550,7 +22574,7 @@ footer #mc_embed_signup_scroll div:last-child::before {
   transition: all linear 0.3s;
 }
 
-.portfolio-area-image-wrapper > div + div:hover img,
+.portfolio-area-image-wrapper .portfolio-area-image:hover img,
 .art-gallery-image:hover img,
 .gallery-area div:hover img,
 .blog-area-card .card-image:hover img,

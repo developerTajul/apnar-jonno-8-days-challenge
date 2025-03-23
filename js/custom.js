@@ -1,6 +1,36 @@
 (function ($) {
   'use strict';
   $(document).ready(function () {
+    /*======================= Smooth scroller */
+        // Smooth scrolling for the entire page
+        $('html').css({
+          'scroll-behavior': 'smooth'
+        });
+        
+        // For browsers that don't support CSS scroll-behavior
+        // This applies to mouse wheel scrolling and keyboard navigation
+        var scrolling = false;
+        
+        $(window).on('mousewheel DOMMouseScroll', function(e) {
+          if (!scrolling) {
+            scrolling = true;
+            
+            var delta = e.originalEvent.wheelDelta || -e.originalEvent.detail;
+            var scrollTop = $(window).scrollTop();
+            var finalScroll = scrollTop - parseInt(delta * 1.5);
+            
+            $('html, body').animate({
+              scrollTop: finalScroll
+            }, 500, function() {
+              scrolling = false;
+            });
+            
+            return false;
+          }
+        });
+
+
+    // Initializing Wow JS
     new WOW().init();
 
     /*=======================
