@@ -126,3 +126,44 @@ p.has-large-font-size+p {
 .single-post-item#post-587 .post-title {
     margin-bottom: 20px;
 }
+
+
+.single.single-post .single-post-item {
+    border: 0;
+}
+
+.single.single-post .single-post-item .post-content-wrapper {
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+.single.single-post ul li:first-child .comments-box {
+    display: flex;
+    gap: 2rem;
+}
+
+.single.single-post .comments-box .avatar-name {
+    position: relative
+}
+
+.single.single-post .comments-box .avatar-name a.comment-reply-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 5px 24px;
+    gap: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.single.single-post .comments-box .avatar-name a.comment-reply-link:hover {
+    background: #edbc5a;
+}
+
+.post-comments-form form label {
+    color: #fff;
+}
