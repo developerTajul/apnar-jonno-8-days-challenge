@@ -98,3 +98,6 @@ p.has-large-font-size+p {
     display: block;
 }
 
+.post-content ol > li {
+    list-style: unset;
+}
