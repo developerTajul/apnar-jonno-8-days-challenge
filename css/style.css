@@ -22493,10 +22493,6 @@ span.author-img {
   padding-bottom: 0;
 }
 
-.portfolio-area-image-four {
-  margin-top: 0;
-}
-
 /* Home 1's portfolio section - ended */
 /* Footer's contact form - started */
 .footer-area-quick-menu {
@@ -23194,6 +23190,7 @@ p.has-large-font-size + p {
 
 body.archive .blog-area {
   background: #131313;
+  padding-top: 0;
 }
 
 h1.page-title {
