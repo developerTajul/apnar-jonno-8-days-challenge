@@ -23139,6 +23139,10 @@ p.has-large-font-size + p {
   list-style: unset;
 }
 
+.post-content h3 {
+  margin-top: 15px;
+}
+
 body.archive .blog-area {
   background: #131313;
 }
