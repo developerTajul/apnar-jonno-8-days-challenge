@@ -54,3 +54,20 @@
     margin-right: 0;
     width: auto;
 }
+
+.post-cat-list a {
+    font-size: 18px;
+    color: #b0b0b0;
+    border: 1px solid #efe1e1;
+    padding: 5px;
+    margin-right: 5px;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
+.post-cat-list a:hover {
+    color: #ffc107
+}
