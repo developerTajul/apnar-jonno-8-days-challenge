@@ -23084,11 +23084,10 @@ h6 {
   display: unset;
 }
 
-.has-pale-pink-background-color,
+/* .has-pale-pink-background-color,
 .has-light-green-cyan-background-color {
-  background-color: transparent !important;
-}
-
+    background-color: transparent !important;
+} */
 .wp-block-group {
   padding: 0.44rem !important;
   margin: 0 !important;
