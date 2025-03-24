@@ -23027,6 +23027,7 @@ select#archives-dropdown--1 {
 
 .single-post-item .single-post-meta {
   gap: 32px;
+  margin-top: 20px;
 }
 
 .single-post-item .single-post-meta.default {
@@ -23042,7 +23043,7 @@ select#archives-dropdown--1 {
 
 .single-post-item .blog-post-tag span {
   margin-right: 0;
-  width: 243px;
+  width: auto;
 }
 
 .single-post-item .single-post-meta.default .blog-post-tag span {
@@ -23164,6 +23165,14 @@ p.has-large-font-size + p {
 
 .single-post-item .post-content {
   margin-top: 20px;
+}
+
+.single-post-item#post-1158 .post-content, #post-1163 .post-content, #post-568 .post-content, #post-555 .post-content {
+  margin-top: 0;
+}
+
+.single-post-item#post-587 .post-title {
+  margin-bottom: 20px;
 }
 
 body.archive .blog-area {
