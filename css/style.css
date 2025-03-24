@@ -23300,6 +23300,22 @@ p.has-large-font-size + p {
   margin: 1rem 0;
 }
 
+.single-post-item .wp-block-calendar {
+  padding: 2rem 0;
+}
+
+.single-post-item ul.wp-block-categories-list {
+  padding-bottom: 2rem;
+}
+
+.single-post-item ol.wp-block-latest-comments {
+  padding: 2rem 0;
+}
+
+.single-post-item #respond form .col-xl-6 {
+  margin-bottom: 1rem;
+}
+
 body.archive .blog-area {
   background: #131313;
   padding-top: 0;
