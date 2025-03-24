@@ -38,3 +38,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+.single-post-item .blog-post-cat, .single-post-item .blog-post-tag {
+    display:flex;
+    gap: 1.5rem;
+    align-items: start
+}
+
+.single-post-item .blog-post-tag span {
+    margin-right: 0;
+    width: 243px;
+    background: red
+}
