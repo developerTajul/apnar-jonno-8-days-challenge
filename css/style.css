@@ -22469,6 +22469,10 @@ span.author-img {
 }
 
 /* Blog post image - ended */
+.single-post-item#post-1158 .post-content {
+  display: none !important;
+}
+
 /* Project Details page - started */
 .project-title {
   margin: 2rem 0;
