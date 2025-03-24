@@ -48,5 +48,9 @@
 .single-post-item .blog-post-tag span {
     margin-right: 0;
     width: 243px;
-    background: red
+}
+
+.single-post-item .single-post-meta.default .blog-post-tag span {
+    margin-right: 0;
+    width: auto;
 }
