@@ -23250,8 +23250,54 @@ p.has-large-font-size + p {
   color: #fff;
 }
 
-.single-post-item .wp-block-query-pagination {
+.single.single-post h2.wp-block-post-title {
+  margin-top: 1rem;
+}
+
+.single.single-post .wp-block-query-pagination {
   margin: 2rem 0;
+}
+
+.single.single-post .wp-block-post-featured-image {
+  margin: 1rem 0 2rem;
+}
+
+.single.single-post .wp-block-comment-template {
+  border: 1px solid #fff;
+  padding: 2rem !important;
+}
+
+.single.single-post .wp-block-group-is-layout-flex {
+  padding: 0 !important;
+}
+
+.single.single-post .wp-block-columns-is-layout-flex {
+  gap: 1rem;
+}
+
+.post-comments-title {
+  padding-top: 2rem;
+}
+
+.single.single-post .contacts-message {
+  margin: 1rem 0;
+}
+
+.single.single-post form label {
+  color: #fff;
+}
+
+.single.single-post form textarea,
+.single.single-post form input {
+  background: #ddd;
+}
+
+.single.single-post #respond {
+  margin-bottom: 2rem;
+}
+
+.wp-block-loginout {
+  margin: 1rem 0;
 }
 
 body.archive .blog-area {
