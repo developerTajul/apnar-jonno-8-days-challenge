@@ -23132,8 +23132,9 @@ ul.wp-block-rss a {
   margin: 0 0.5rem;
 }
 
-.has-pale-cyan-blue-background-color {
-  background-color: transparent !important;
+.has-background p {
+  color: #000 !important;
+  padding: 1rem;
 }
 
 .has-background {
