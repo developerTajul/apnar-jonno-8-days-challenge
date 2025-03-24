@@ -103,7 +103,7 @@ p.has-large-font-size+p {
     display: block;
 }
 
-.post-content ol > li {
+.post-content ol>li {
     list-style: unset;
 }
 
@@ -120,8 +120,16 @@ p.has-large-font-size+p {
     font-size: 38px;
 }
 
+.single-post-item .post-content h2{
+    margin-top: 20px;
+}
+
 .single-post-item h1.wp-block-site-title {
     font-size: 34px
+}
+
+.single-post-item  .wp-block-query-pagination {
+    margin: 2rem 0;
 }
 
 .single-post-item .post-content {
@@ -129,7 +137,10 @@ p.has-large-font-size+p {
 }
 
 
-.single-post-item#post-1158 .post-content, #post-1163 .post-content, #post-568 .post-content, #post-555 .post-content {
+.single-post-item#post-1158 .post-content,
+#post-1163 .post-content,
+#post-568 .post-content,
+#post-555 .post-content {
     margin-top: 0;
 }
 
@@ -176,4 +187,9 @@ p.has-large-font-size+p {
 
 .post-comments-form form label {
     color: #fff;
+}
+
+
+.single-post-item  .wp-block-query-pagination {
+    margin: 2rem 0;
 }
