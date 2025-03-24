@@ -23180,6 +23180,11 @@ p.has-large-font-size + p {
 
 .single-post-item .post-title {
   margin-bottom: 0;
+  font-size: 38px;
+}
+
+.single-post-item h1.wp-block-site-title {
+  font-size: 34px;
 }
 
 .single-post-item .post-content {
