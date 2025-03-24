@@ -22859,6 +22859,9 @@ a.theme--btn {
   background-color: #131313;
 }
 
+.single-post-item {
+  border: 1px solid #444;
+}
 .single-post-item .post-content-wrapper {
   padding: 40px;
 }
