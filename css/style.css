@@ -23158,6 +23158,14 @@ p.has-large-font-size + p {
   display: none !important;
 }
 
+.single-post-item .post-title {
+  margin-bottom: 0;
+}
+
+.single-post-item .post-content {
+  margin-top: 20px;
+}
+
 body.archive .blog-area {
   background: #131313;
 }
