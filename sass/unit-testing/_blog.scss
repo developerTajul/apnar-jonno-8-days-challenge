@@ -21,7 +21,7 @@
 }
 
 .single-post-item .blog-post-tag .post-tag-list a {
-    padding: 5px;
+    padding: 5px 11px;
     color: #b0b0b0;
 }
 
@@ -56,13 +56,18 @@
     width: auto;
 }
 
+.post-cat-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px 13px
+}
+
 .post-cat-list a {
     font-size: 18px;
     color: #000;
     border: 1px solid #efe1e1;
     background: #fff;
     padding: 5px 11px;
-    margin-right: 5px;
     transition: all 0.5s ease-out;
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
