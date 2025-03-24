@@ -22465,10 +22465,6 @@ span.author-img {
 }
 
 /* Blog post image - ended */
-.single-post-item#post-1158 .post-content {
-  display: none !important;
-}
-
 /* Project Details page - started */
 .project-title {
   margin: 2rem 0;
@@ -23021,8 +23017,7 @@ select#archives-dropdown--1 {
 }
 
 .single-post-item .blog-post-tag .post-tag-list a {
-  border: 0;
-  padding: 0;
+  padding: 5px;
   color: #b0b0b0;
 }
 
@@ -23157,6 +23152,10 @@ p.has-large-font-size + p {
 
 .post-content h3 {
   margin-top: 15px;
+}
+
+.single-post-item#post-1158 .post-content p {
+  display: none !important;
 }
 
 body.archive .blog-area {
