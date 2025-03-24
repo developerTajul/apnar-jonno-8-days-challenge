@@ -99,6 +99,32 @@ p.has-large-font-size+p {
     padding-left: 0 !important;
 }
 
+.post-content h1 {
+    font-size: 40px;
+}
+
+.post-content h2 {
+    font-size: 35px;
+}
+
+.post-content h3 {
+    font-size: 32px;
+}
+
+.post-content h4 {
+    font-size: 24px;
+}
+
+
+.post-content h5 {
+    font-size: 20px;
+}
+
+
+.post-content h6 {
+    font-size: 18px;
+}
+
 
 .widget_latest_post ul li {
     display: block;
@@ -258,4 +284,19 @@ p.has-large-font-size+p {
 
 .single-post-item #respond form .col-xl-6 {
     margin-bottom: 1rem;
+}
+
+.post-navigation a {
+    word-break: break-all !important;
+}
+
+
+.single-post-item .blog-post-cat span {
+    font-family: "Gilroy-Bold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #b0b0b0;
+    margin-bottom: 0;
+    line-height: 24px;
 }
