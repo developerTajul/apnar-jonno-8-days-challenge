@@ -21927,10 +21927,6 @@ section.breadcrumb-area {
   margin-bottom: 32px;
 }
 
-.single-post-item .single-post-meta {
-  gap: 32px;
-}
-
 /* ============= implemening CSS on the WP theme - start ============= */
 /* Home page 1's hero - started */
 .hero-area-title-one {
@@ -23035,6 +23031,10 @@ select#archives-dropdown--1 {
 }
 
 .single-post-item .single-post-meta {
+  gap: 32px;
+}
+
+.single-post-item .single-post-meta.default {
   display: flex;
   justify-content: space-between;
 }

@@ -31,6 +31,10 @@
 }
 
 .single-post-item .single-post-meta {
+    gap: 32px;
+}
+
+.single-post-item .single-post-meta.default {
     display: flex;
     justify-content: space-between;
 }
