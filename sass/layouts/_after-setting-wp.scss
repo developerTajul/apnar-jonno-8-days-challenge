@@ -592,6 +592,7 @@
   .single-post-item .post-thumbnail img,
   .single-post-item .post-video img {
       object-fit: cover;
+      width: auto;
   }
 
   /* Blog post image - ended */

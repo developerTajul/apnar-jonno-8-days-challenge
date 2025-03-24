@@ -22465,6 +22465,7 @@ span.author-img {
 .single-post-item .post-video img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: auto;
 }
 
 /* Blog post image - ended */
