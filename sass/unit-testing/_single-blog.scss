@@ -313,3 +313,17 @@ p.has-large-font-size+p {
 form.comment-form .col-xl-6 {
     margin-bottom: 1rem
 }
+
+
+.blog-post-nav .post-navigation {
+    padding: 1rem 0 ;
+}
+
+.blog-post-nav .post-navigation:nth-child(3) {
+    justify-content: end;
+}
+
+.blog-post-nav .post-navigation:nth-child(3) .text span {
+    display: block;
+    text-align: right;
+}
