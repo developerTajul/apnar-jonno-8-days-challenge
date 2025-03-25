@@ -23464,6 +23464,10 @@ form.comment-form .col-xl-6 {
   font-family: "Rajdhani", sans-serif;
 }
 
+ul.wp-block-rss.wp-block-rss {
+  padding-bottom: 20px;
+}
+
 body.archive .blog-area {
   background: #131313;
   padding-top: 0;
