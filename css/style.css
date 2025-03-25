@@ -22207,7 +22207,7 @@ section.blog-area {
 }
 
 .blog-post-nav {
-  margin-top: 1rem;
+  margin: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23327,10 +23327,6 @@ p.has-large-font-size + p {
 
 .single.single-post .wp-block-columns-is-layout-flex {
   gap: 1rem;
-}
-
-.post-comments-title {
-  padding-top: 2rem;
 }
 
 .single.single-post .contacts-message {
