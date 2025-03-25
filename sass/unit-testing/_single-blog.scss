@@ -325,6 +325,7 @@ form.comment-form .col-xl-6 {
 
 .blog-post-nav .post-navigation:nth-child(3) {
     justify-content: end;
+    flex-direction: row-reverse;
 }
 
 .blog-post-nav .post-navigation:nth-child(3) .text span {

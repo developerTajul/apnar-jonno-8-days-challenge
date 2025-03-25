@@ -22242,6 +22242,7 @@ section.blog-area {
 
 .blog-post-nav .post-navigation .text h4 {
   font-size: 22px;
+  margin-bottom: 0;
 }
 
 .blog-post-nav .divider {
@@ -23406,6 +23407,7 @@ form.comment-form .col-xl-6 {
 
 .blog-post-nav .post-navigation:nth-child(3) {
   justify-content: end;
+  flex-direction: row-reverse;
 }
 
 .blog-post-nav .post-navigation:nth-child(3) .text span {
