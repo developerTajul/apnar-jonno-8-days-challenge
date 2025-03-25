@@ -23408,6 +23408,10 @@ form.comment-form .col-xl-6 {
   text-align: right;
 }
 
+.single-post-item {
+  margin-bottom: 0;
+}
+
 body.archive .blog-area {
   background: #131313;
   padding-top: 0;

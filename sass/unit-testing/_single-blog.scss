@@ -175,7 +175,6 @@ p.has-large-font-size+p {
     margin-bottom: 20px;
 }
 
-
 .single.single-post .single-post-item {
     border: 0;
 }
@@ -319,7 +318,6 @@ form.comment-form .col-xl-6 {
     margin-bottom: 1rem
 }
 
-
 .blog-post-nav .post-navigation {
     padding: 1rem 0;
 }
@@ -331,4 +329,8 @@ form.comment-form .col-xl-6 {
 .blog-post-nav .post-navigation:nth-child(3) .text span {
     display: block;
     text-align: right;
+}
+
+.single-post-item {
+    margin-bottom: 0;
 }
