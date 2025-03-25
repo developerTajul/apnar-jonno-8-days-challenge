@@ -23482,7 +23482,8 @@ ul.wp-block-rss.wp-block-rss {
   padding-bottom: 20px;
 }
 
-.single-post-item.post-1786 .post-meta {
+.post-1786.single-post-item .post-meta,
+.postid-1016.single-post-item .post-meta {
   padding-top: 20px;
 }
 
@@ -23496,6 +23497,10 @@ ul.wp-block-rss.wp-block-rss {
 
 .post-1779 .has-background {
   padding: 1.25em 2.375em !important;
+}
+
+#post-1177 figure#attachment_907 {
+  margin: 60px 0;
 }
 
 body.archive .blog-area {
