@@ -286,7 +286,7 @@ p.has-large-font-size+p {
     padding-bottom: 2rem;
 }
 
-.single-post-item ol.wp-block-latest-comments {
+.post-1781.single-post-item ol.wp-block-latest-comments {
     padding: 2rem 0;
 }
 
@@ -405,5 +405,12 @@ ul.wp-block-rss.wp-block-rss {
 }
 
 .postid-1777 p.has-background {
+    padding: 1.25em 2.375em !important;
+}
+.postid-1777 p.has-background + p{
+    color : #b0b0b0  !important
+}
+
+.post-1779 .has-background {
     padding: 1.25em 2.375em !important;
 }
