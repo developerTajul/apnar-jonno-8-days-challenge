@@ -22207,6 +22207,7 @@ section.blog-area {
 }
 
 .blog-post-nav {
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23410,6 +23411,14 @@ form.comment-form .col-xl-6 {
 
 .single-post-item {
   margin-bottom: 0;
+}
+
+.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figure {
+  display: block;
+}
+
+.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figure img {
+  width: 100%;
 }
 
 body.archive .blog-area {
