@@ -23369,6 +23369,10 @@ p.has-large-font-size + p {
   padding: 0 0 25px 0;
 }
 
+form.comment-form .col-xl-6 {
+  margin-bottom: 1rem;
+}
+
 body.archive .blog-area {
   background: #131313;
   padding-top: 0;
