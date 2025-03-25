@@ -23041,7 +23041,7 @@ select#archives-dropdown--1 {
 
 .single-post-item .single-post-meta {
   gap: 32px;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .single-post-item .single-post-meta.default {
@@ -23483,7 +23483,8 @@ ul.wp-block-rss.wp-block-rss {
 }
 
 .post-1786.single-post-item .post-meta,
-.postid-1016.single-post-item .post-meta {
+.post-1016.single-post-item .post-meta,
+.post-1011.single-post-item .post-meta {
   padding-top: 20px;
 }
 
