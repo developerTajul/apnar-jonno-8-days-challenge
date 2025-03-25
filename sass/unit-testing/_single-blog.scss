@@ -349,7 +349,7 @@ form.comment-form .col-xl-6 {
     font-size: 48px;
 }
 
-.single-post-item h1  a {
+.single-post-item h1 a {
     font-size: 68px;
     line-height: 78px;
     font-weight: 700;
@@ -359,4 +359,30 @@ form.comment-form .col-xl-6 {
     font-size: 48px;
     line-height: 60px;
     font-weight: 700;
+}
+
+.blog-details-wrapper .single-post-item .post-content p {
+    margin: 20px 0;
+}
+
+.wp-block-comment-reply-link a {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 24px;
+    margin-top: 9px
+}
+
+.wp-block-comment-reply-link a:hover {
+    background: #edbc5a;
+}
+
+.wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-author-name a {
+    font-size: 21px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: "Rajdhani", sans-serif;
 }
