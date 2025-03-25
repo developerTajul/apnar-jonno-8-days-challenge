@@ -23409,6 +23409,10 @@ form.comment-form .col-xl-6 {
   text-align: right;
 }
 
+.single-post .single-post-item {
+  margin-bottom: 0;
+}
+
 .wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figure {
   display: block;
 }
