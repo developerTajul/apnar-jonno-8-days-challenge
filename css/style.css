@@ -23245,6 +23245,10 @@ p.has-large-font-size + p {
   font-size: 35px;
 }
 
+.postid-1777 .post-content h2 {
+  font-size: 35px;
+}
+
 .single-post-item h1.wp-block-site-title {
   font-size: 34px;
 }
@@ -23480,6 +23484,10 @@ ul.wp-block-rss.wp-block-rss {
 
 .single-post-item.post-1786 .post-meta {
   padding-top: 20px;
+}
+
+.postid-1777 p.has-background {
+  padding: 1.25em 2.375em !important;
 }
 
 body.archive .blog-area {
