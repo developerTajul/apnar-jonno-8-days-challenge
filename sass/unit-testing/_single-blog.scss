@@ -184,10 +184,14 @@ p.has-large-font-size+p {
     padding: 0;
     padding-bottom: 1rem;
 }
-
-.single.single-post ul li:first-child .comments-box {
+.single.single-post ul li .comments-box {
     display: flex;
     gap: 2rem;
+    margin-top: 1rem
+}
+
+.single.single-post ul li .comments-box .comments-text {
+    width: 100%
 }
 
 .single.single-post .comments-box .avatar-name {
@@ -292,8 +296,8 @@ p.has-large-font-size+p {
 
 
 .single-post-item .blog-post-cat span {
-    font-family: "Gilroy-Bold";
-    font-size: 20px;
+    // font-family: "Gilroy-Bold";
+    font-size: unset;
     font-style: normal;
     font-weight: 400;
     color: #b0b0b0;

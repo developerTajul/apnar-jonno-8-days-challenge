@@ -23040,6 +23040,7 @@ select#archives-dropdown--1 {
 .single-post-item .blog-post-tag span {
   margin-right: 0;
   width: auto;
+  font-size: unset;
 }
 
 .single-post-item .single-post-meta.default .blog-post-tag span {
@@ -23069,6 +23070,10 @@ select#archives-dropdown--1 {
 .post-cat-list a:hover {
   color: #ffc107;
   background: transparent;
+}
+
+section.blog-area .row > div:first-child {
+  padding-right: 3rem;
 }
 
 .post-content h1,
@@ -23248,9 +23253,14 @@ p.has-large-font-size + p {
   padding-bottom: 1rem;
 }
 
-.single.single-post ul li:first-child .comments-box {
+.single.single-post ul li .comments-box {
   display: flex;
   gap: 2rem;
+  margin-top: 1rem;
+}
+
+.single.single-post ul li .comments-box .comments-text {
+  width: 100%;
 }
 
 .single.single-post .comments-box .avatar-name {
@@ -23350,8 +23360,7 @@ p.has-large-font-size + p {
 }
 
 .single-post-item .blog-post-cat span {
-  font-family: "Gilroy-Bold";
-  font-size: 20px;
+  font-size: unset;
   font-style: normal;
   font-weight: 400;
   color: #b0b0b0;
