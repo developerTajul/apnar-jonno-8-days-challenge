@@ -17,9 +17,11 @@
       top: 300px;
   }
 
+  /* Home page 1's hero - ended */
+
 
   .page-id-32 .portfolio-area-image-one {
-      width: 42% !important;
+      width: 44% !important;
   }
 
   .page-id-32 .portfolio-area-image-two {
@@ -30,7 +32,15 @@
       margin-top: 30px
   }
 
-  /* Home page 1's hero - ended */
+
+  .blog-area-card-wrapper .card-image {
+      max-width: unset;
+      max-height: 450px;
+  }
+
+  .page-id-32 .image-card-area.style-2 .image-card-wrapper {
+      gap: 0;
+  }
 
 
 
