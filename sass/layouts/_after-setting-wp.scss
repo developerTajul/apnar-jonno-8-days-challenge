@@ -420,9 +420,17 @@
       padding-left: 0
   }
 
+
   /* Blog post navigation - ended */
 
+  /* blog page's social icons */
+  .social-share i {
+      color: #fff
+  }
 
+  .social-share i:hover {
+      color: #edbc5a
+  }
 
   /* Blog page's author image */
   span.author-img {
