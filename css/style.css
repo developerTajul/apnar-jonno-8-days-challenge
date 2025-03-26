@@ -22208,7 +22208,12 @@ ul.main-menu li.menu-item a {
 
 /* Giving a gap between the title text and button */
 .faq-area-heading-part {
-  gap: 38px;
+  gap: 109px;
+}
+
+/* Team page's css */
+.page-id-420 .section-title {
+  gap: 109px;
 }
 
 /* Contact page's contact form */
@@ -22606,6 +22611,13 @@ footer #mc_embed_signup_scroll div:last-child::before {
 }
 
 /* ------ Adding animation - ended ------- */
+.contact-form input.wpcf7-submit {
+  background: #fff url("https://wp.softcrafty.com/crebiz/wp-content/uploads/2025/02/paper-plan.png") no-repeat left center;
+  background-size: 15px;
+  background-position: 11px;
+  padding: 13px 25px 13px 35px;
+}
+
 /* ============= implemening CSS on the WP theme - end ============= */
 .header-area-menu {
   justify-content: end !important;
