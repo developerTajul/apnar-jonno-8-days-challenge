@@ -104,7 +104,14 @@
       fill: #000000;
       color: #000000;
       border-radius: 250px 250px 250px 250px;
-      padding: 13px 25px;
+      padding: 13px 25px 13px 35px
+  }
+
+
+  .contact-form input.wpcf7-submit {
+      background: #fff url("https://wp.softcrafty.com/crebiz/wp-content/uploads/2025/02/paper-plan.png") no-repeat left center;
+      background-size: 15px;
+      background-position: 11px;
   }
 
   /* Home page 2's sevice sec - ended */
@@ -406,6 +413,11 @@
 
   .widget_latest_post>ul li .latest-post-desc .latest-post-title {
       margin-bottom: 0 !important;
+  }
+
+
+  .basic-pagination ul {
+      padding-left: 0
   }
 
   /* Blog post navigation - ended */
@@ -762,13 +774,6 @@
 
   /* ------ Adding animation - ended ------- */
 
-
-  .contact-form input.wpcf7-submit {
-      background: #fff url("https://wp.softcrafty.com/crebiz/wp-content/uploads/2025/02/paper-plan.png") no-repeat left center;
-      background-size: 15px;
-      background-position: 11px;
-      padding: 13px 25px 13px 35px
-  }
 
 
 
