@@ -22315,6 +22315,10 @@ span.author-img {
   border: 3px solid #fff;
 }
 
+.widget_crebiz-latest-posts ul li {
+  display: flex;
+}
+
 /* Blog post author section - started */
 /* for the WP */
 .author-info {
