@@ -475,3 +475,42 @@ article#post-1783 .wp-block-cover.has-background-dim {
 article#post-51 .post-thumbnail {
     margin-bottom: 1.5rem;
 }
+
+article#post-1178 ul li ul li {
+    position: relative
+}
+
+article#post-1178 ul li ul li:before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    left: 0;
+    float: left;
+    position: absolute; 
+    left: -1rem;
+    top: 1.2rem
+}
+
+
+.postid-1148 ol li ol li {
+    position: relative
+}
+
+.postid-1148 ol li ol li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    left: 0;
+    float: left;
+    position: absolute; 
+    left: -1rem;
+    top: 1.2rem
+}
+
+.postid-1148 .comments-text > ol {
+    padding-left: 0
+}
