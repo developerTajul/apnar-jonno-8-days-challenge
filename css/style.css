@@ -23594,7 +23594,7 @@ article#post-51 li.wp-block-pages-list__item {
 
 article#post-51 .wp-block-query-pagination-numbers {
   display: flex;
-  gap: 12px;
+  gap: 1rem;
 }
 
 article#post-24 .wp-block-columns.has-pale-pink-background-color {
@@ -23603,6 +23603,10 @@ article#post-24 .wp-block-columns.has-pale-pink-background-color {
 
 article#post-1783 .wp-block-cover.has-background-dim {
   margin-top: 1rem;
+}
+
+article#post-51 .post-thumbnail {
+  margin-bottom: 1.5rem;
 }
 
 body.archive .blog-area {
