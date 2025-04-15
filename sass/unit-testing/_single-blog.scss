@@ -316,7 +316,14 @@ p.has-large-font-size+p {
 
 .widget .wp-block-search__label {
     height: auto;
-    padding: 0 0 25px 0;
+    cursor: auto;
+    font-size: 24px;
+    display: inline;
+    line-height: 30px;
+    font-weight: 700;
+    color: #141414 !important;
+    padding: 10px 30px;
+    background-color: #ffffff;
 }
 
 form.comment-form .col-xl-6 {
@@ -437,4 +444,8 @@ article#post-21 .wp-block-cover.has-custom-content-position{
 
 .wp-block-media-text.alignwide {
     margin-bottom: 1rem;
+}
+
+.postid-1 .contacts-message textarea {
+    margin-bottom: 0.5rem;
 }
