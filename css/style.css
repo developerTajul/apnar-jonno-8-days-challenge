@@ -23664,6 +23664,18 @@ article#post-21 .wp-block-cover {
   margin-bottom: 20px;
 }
 
+.postid-1783 .wp-block-cover.has-pale-pink-background-color {
+  margin-top: 8rem !important;
+}
+
+.postid-34 ul.wp-block-latest-posts__list li a:hover {
+  color: #edbc5a !important;
+}
+
+article#post-34 form input.wp-block-search__input {
+  padding: 0 1rem;
+}
+
 body.archive .blog-area {
   background: #131313;
   padding-top: 0;
