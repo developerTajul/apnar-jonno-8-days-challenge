@@ -23601,6 +23601,10 @@ article#post-24 .wp-block-columns.has-pale-pink-background-color {
   margin-top: 2rem;
 }
 
+article#post-1783 .wp-block-cover.has-background-dim {
+  margin-top: 1rem;
+}
+
 body.archive .blog-area {
   background: #131313;
   padding-top: 0;
@@ -23614,6 +23618,14 @@ h1.page-title {
   margin-top: 1.8rem;
 }
 
-.wp-block-search__inside-wrapper input {
-  color: #131313;
+.basic-pagination.basic-pagination-2 {
+  padding-left: 2.9rem;
+}
+
+.post-comments-form form .contacts-name input, .post-comments-form form .contacts-email input {
+  padding: 0 1rem;
+}
+
+.post-comments-form form textarea {
+  margin-bottom: 0.5rem;
 }
