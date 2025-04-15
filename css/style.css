@@ -23446,7 +23446,7 @@ p.has-large-font-size + p {
 }
 
 .wp-block-search {
-  margin-top: -5px;
+  padding-top: 0.5rem;
 }
 
 .widget .wp-block-search__label {
