@@ -23584,6 +23584,23 @@ article#post-21 .wp-block-cover.has-custom-content-position {
   margin-bottom: 0.5rem;
 }
 
+article#post-51 li.wp-block-pages-list__item {
+  padding-top: 0;
+}
+
+.wp-block-navigation ul.wp-block-navigation__submenu-container a:hover {
+  background: #edbc5a;
+}
+
+article#post-51 .wp-block-query-pagination-numbers {
+  display: flex;
+  gap: 12px;
+}
+
+article#post-24 .wp-block-columns.has-pale-pink-background-color {
+  margin-top: 2rem;
+}
+
 body.archive .blog-area {
   background: #131313;
   padding-top: 0;
@@ -23594,5 +23611,9 @@ h1.page-title {
 }
 
 .wp-block-search .wp-block-search__inside-wrapper {
-  margin-top: 1.7rem;
+  margin-top: 1.8rem;
+}
+
+.wp-block-search__inside-wrapper input {
+  color: #131313;
 }

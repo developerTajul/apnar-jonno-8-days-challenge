@@ -458,3 +458,12 @@ article#post-51 li.wp-block-pages-list__item
 .wp-block-navigation ul.wp-block-navigation__submenu-container a:hover {
     background: #edbc5a;
 }
+
+article#post-51 .wp-block-query-pagination-numbers {
+    display: flex;
+    gap: 12px
+}
+
+article#post-24 .wp-block-columns.has-pale-pink-background-color {
+    margin-top: 2rem
+}
