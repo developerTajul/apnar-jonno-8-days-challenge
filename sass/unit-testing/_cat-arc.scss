@@ -4,9 +4,13 @@ body.archive .blog-area {
 }
 
 h1.page-title {
-    text-align: left; 
+    text-align: left;
 }
 
 .wp-block-search .wp-block-search__inside-wrapper {
-    margin-top: 1.7rem
+    margin-top: 1.8rem
+}
+
+.wp-block-search__inside-wrapper input {
+    color: #131313;
 }
