@@ -23648,6 +23648,10 @@ article#post-1178 ul li ul li:before {
   padding-top: 5rem;
 }
 
+.search .page-area {
+  padding-top: 5rem;
+}
+
 .single.single-post .wp-block-search input, .search-form input {
   background: transparent;
 }
