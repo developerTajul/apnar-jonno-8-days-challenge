@@ -438,10 +438,6 @@ article#post-51 .single-post-item .post-thumbnail {
     color: #edbc5a !important;
 }
 
-article#post-21 .wp-block-cover.has-custom-content-position{
-    margin-top: 1rem 
-}
-
 .wp-block-media-text.alignwide {
     margin-bottom: 1rem;
 }
@@ -513,4 +509,17 @@ article#post-1178 ul li ul li:before {
 
 .postid-1148 .comments-text > ol {
     padding-left: 0
+}
+
+.page-id-1133, .page-id-1134, .search  {
+    background: #131313;
+    padding-top: 5rem;
+}
+
+.single.single-post .wp-block-search input, .search-form input {
+    background: transparent;
+}
+
+article#post-21 .wp-block-cover {
+    margin-bottom: 1rem;
 }
