@@ -23354,7 +23354,7 @@ p.has-large-font-size + p {
   font-size: 16px;
   font-weight: 500;
   color: #fff;
-  border: 1px solid transparent;
+  border: 1px solid #edbc5a;
   padding: 5px 24px;
   gap: 8px;
   position: absolute;
@@ -23555,6 +23555,22 @@ ul.wp-block-rss.wp-block-rss {
 
 #post-1177 figure#attachment_907 {
   margin: 60px 0;
+}
+
+article#post-51 .single-post-item .post-thumbnail {
+  margin-bottom: 1rem;
+}
+
+.wp-block-group li a:hover {
+  color: #edbc5a !important;
+}
+
+article#post-21 .wp-block-cover.has-custom-content-position {
+  margin-top: 1rem;
+}
+
+.wp-block-media-text.alignwide {
+  margin-bottom: 1rem;
 }
 
 body.archive .blog-area {
