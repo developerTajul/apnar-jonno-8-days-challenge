@@ -713,8 +713,12 @@
   }
 
   footer input#mc-embedded-subscribe {
-      background: #fff;
-      color: #fff;
+    background: #fff;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -6px;
+    margin-top: 21px;
   }
 
   footer #mc_embed_signup_scroll div:last-child {
@@ -725,17 +729,6 @@
       padding: 35px 25px;
       position: relative;
       margin: 45px 0 0 45px;
-  }
-
-  footer #mc_embed_signup_scroll div:last-child::before {
-      content: "Send";
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%);
-      color: #141414;
-      font-weight: 500;
-      font-size: 20px;
   }
 
   @media (max-width: 767.99px) {
